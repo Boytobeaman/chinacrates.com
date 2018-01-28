@@ -1,0 +1,21 @@
+body{
+    background-color: aliceblue;
+}
+h1{
+    text-align: center;
+    color: red;
+}
+h4{
+    text-align: right;
+    padding-right:30px;
+}
+p{
+    text-align: center;
+    
+}
+div{
+
+    background-color: red;
+    padding-right: 100px;
+    margin-right: 100px;
+}

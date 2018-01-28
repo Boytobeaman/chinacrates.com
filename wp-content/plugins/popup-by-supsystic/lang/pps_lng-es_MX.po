@@ -1,0 +1,1788 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PopUp by Supsystic v1.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-08-20 17:29-0500\n"
+"Last-Translator: admin <admin@localhost.local>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"Language: es_ES\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ pps_lng
+#: classes/controller.php:198 classes/controller.php:206
+#: modules/mail/controller.php:23 modules/options/controller.php:6
+#: modules/pages/views/tpl/deactivatePage.php:37 modules/popup/controller.php:6
+#: modules/popup/controller.php:56 modules/popup/controller.php:64
+#: modules/popup/controller.php:82 modules/popup/controller.php:124
+#: modules/statistics/controller.php:20 modules/statistics/controller.php:29
+msgid "Done"
+msgstr "Hecho"
+
+# @ pps_lng
+#: classes/field.php:131 modules/popup/views/tpl/popupAddNewAdmin.php:36
+msgid "Select"
+msgstr "Seleccionar"
+
+# @ pps_lng
+#: classes/field.php:170 classes/field.php:179 classes/field.php:184
+msgid "N/A"
+msgstr "N/D"
+
+# @ pps_lng
+#: classes/field.php:277
+msgid "Add Checkbox"
+msgstr "Añadir Checkbox"
+
+# @ pps_lng
+#: classes/field.php:282 classes/field.php:287
+msgid "Add Item"
+msgstr "Agregar Item"
+
+# @ pps_lng
+#: classes/field.php:293
+msgid "Add Radio Button"
+msgstr "Añadir Radio Button"
+
+# @ pps_lng
+#: classes/field.php:311
+msgid "Dimensions"
+msgstr "Dimensiones"
+
+# @ pps_lng
+#: classes/field.php:314
+msgid "width"
+msgstr "ancho"
+
+# @ pps_lng
+#: classes/field.php:316
+msgid "height"
+msgstr "altura"
+
+# @ pps_lng
+#: classes/field.php:323
+msgid "Click to set field \"id\" and \"class\""
+msgstr "Click para seleccionar campos \"id\" y \"class\""
+
+# @ pps_lng
+#: classes/field.php:324
+msgid "Attributes"
+msgstr "Atributos"
+
+# @ pps_lng
+#: classes/field.php:402
+msgid "There are no configuration options for this module"
+msgstr "No hay opciones de configuración para este módulo"
+
+# @ default
+#: classes/field.php:478 classes/html.php:419
+msgid "label"
+msgstr "etiqueta"
+
+# @ default
+#: classes/field.php:480
+msgid "description"
+msgstr "descripción"
+
+# @ pps_lng
+#: classes/fieldAdapter.php:93
+msgid "Apply To"
+msgstr "Aplicar a"
+
+# @ pps_lng
+#: classes/fieldAdapter.php:95
+msgid "Address"
+msgstr "Dirección"
+
+# @ pps_lng
+#: classes/fieldAdapter.php:96
+msgid "Destination"
+msgstr "Destino"
+
+# @ pps_lng
+#: classes/fieldAdapter.php:97
+msgid "Country"
+msgstr "País"
+
+# @ pps_lng
+#: classes/fieldAdapter.php:100
+msgid "Categories"
+msgstr "Categorías"
+
+# @ pps_lng
+#: classes/fieldAdapter.php:101
+msgid "You have no categories"
+msgstr "No tiene categorías"
+
+# @ pps_lng
+#: classes/fieldAdapter.php:102
+msgid "Brands"
+msgstr "Marcas"
+
+# @ pps_lng
+#: classes/fieldAdapter.php:103
+msgid "You have no brands"
+msgstr "Usted no tiene marcas"
+
+# @ pps_lng
+#: classes/fieldAdapter.php:105
+msgid "Tax Rate"
+msgstr "Tasa de Impuesto"
+
+# @ pps_lng
+#: classes/fieldAdapter.php:106
+msgid "Absolute"
+msgstr "Absoluto"
+
+# @ pps_lng
+#: classes/fieldAdapter.php:134
+msgid "Not selected"
+msgstr "No seleccionado"
+
+# @ pps_lng
+#: classes/fieldAdapter.php:184
+msgid "class"
+msgstr "clase"
+
+# @ pps_lng
+#: classes/fieldAdapter.php:186 classes/tables/usage_stat.php:7
+msgid "id"
+msgstr "id"
+
+# @ pps_lng
+#: classes/frame.php:135
+msgid "You have no permissions to view this page"
+msgstr "No tiene permisos para ver esta página"
+
+# @ default
+#: classes/html.php:200
+msgid "buttonNameUploadbuttonName"
+msgstr "buttonNameUploadbuttonName"
+
+# @ default
+#: classes/html.php:604
+msgid "ON"
+msgstr "ENCENDIDO"
+
+# @ default
+#: classes/html.php:605
+msgid "OFF"
+msgstr "APAGADO"
+
+# @ pps_lng
+#: classes/html.php:629
+#, php-format
+msgid "Select %s"
+msgstr "Seleccione %s"
+
+# @ default
+#: classes/modInstaller.php:34
+#, php-format
+msgid "Move files for %s failed"
+msgstr "Mover archivos para %s falló"
+
+# @ default
+#: classes/modInstaller.php:37
+#, php-format
+msgid "%s is not plugin module"
+msgstr "%s no es un módulo del plugin"
+
+# @ pps_lng
+#: classes/modInstaller.php:103
+msgid "No modules were found in XML file"
+msgstr "No hay módulos en el archivo XML"
+
+# @ pps_lng
+#: classes/modInstaller.php:107
+msgid "Invalid XML file"
+msgstr "Archivo XML no válido"
+
+# @ pps_lng
+#: classes/modInstaller.php:109
+msgid "No XML file were found"
+msgstr "No se encuentra ningún archivo XML"
+
+# @ default
+#: classes/modInstaller.php:128
+#, php-format
+msgid "Install %s failed"
+msgstr "Instalación de %s falló"
+
+# @ pps_lng
+#: classes/modInstaller.php:134
+msgid "Error Activate module"
+msgstr "Error en módulo Activar"
+
+# @ pps_lng
+#: classes/modInstaller.php:164
+msgid "Error Deactivation module"
+msgstr "Error al Desactivar el módulo"
+
+# @ pps_lng
+#: classes/modInstaller.php:185
+msgid "Error Activating module"
+msgstr "Error al Activar el módulo"
+
+# @ pps_lng
+#: classes/model.php:174 classes/model.php:186
+#: modules/popup/models/popup.php:113 modules/popup/models/popup.php:125
+msgid "Database error detected"
+msgstr "Se detectó un error de base de datos"
+
+# @ pps_lng
+#: classes/model.php:176 modules/popup/models/popup.php:115
+#: modules/popup/models/popup.php:413 modules/popup/models/popup.php:429
+#: modules/statistics/models/statistics.php:96
+#: modules/statistics/models/statistics.php:127
+msgid "Invalid ID"
+msgstr "ID inválido"
+
+# @ pps_lng
+#: classes/model.php:209 modules/subscribe/models/subscribe.php:25
+#: modules/subscribe/models/subscribe.php:27
+msgid "Empty or invalid ID"
+msgstr "ID vacío o no válido"
+
+# @ pps_lng
+#: classes/table.php:277
+msgid "Nothig to update"
+msgstr "Nada para actualizar"
+
+# @ pps_lng
+#: classes/table.php:293
+msgid "Database error. Please contact your developer."
+msgstr "Error de base de datos. Por favor, póngase en contacto con su desarrollador."
+
+# @ pps_lng
+#: classes/tables/modules.php:7 classes/tables/modules_type.php:8
+msgid "Label"
+msgstr "Etiqueta"
+
+# @ pps_lng
+#: classes/tables/modules.php:8
+msgid "Type"
+msgstr "Tipo"
+
+# @ pps_lng
+#: classes/tables/modules.php:9
+msgid "Active"
+msgstr "Activo"
+
+# @ pps_lng
+#: classes/tables/modules.php:10
+msgid "Params"
+msgstr "Parámetros"
+
+# @ pps_lng
+#: classes/tables/modules.php:13 modules/popup/views/popup.php:188
+msgid "Code"
+msgstr "Código"
+
+# @ pps_lng
+#: classes/tables/modules.php:14
+msgid "External plugin directory"
+msgstr "Directorio externo del plugin"
+
+# @ pps_lng
+#: classes/tables/modules_type.php:7
+msgid "ID"
+msgstr "ID"
+
+# @ pps_lng
+#: classes/tables/usage_stat.php:8
+msgid "code"
+msgstr "código"
+
+# @ pps_lng
+#: classes/tables/usage_stat.php:9
+msgid "visits"
+msgstr "visitas"
+
+# @ pps_lng
+#: classes/tables/usage_stat.php:10
+msgid "spent_time"
+msgstr "spent_time"
+
+# @ pps_lng
+#: classes/tables/usage_stat.php:11
+msgid "modify_timestamp"
+msgstr "modify_timestamp"
+
+# @ default
+#: classes/validator.php:30
+#, php-format
+msgid "Invalid length for %s, max length is %s"
+msgstr "Longitud no válida para %s, la longitud máxima es de %s"
+
+# @ default
+#: classes/validator.php:43
+#, php-format
+msgid "Invalid numeric value for %s"
+msgstr "Valor númerico no válido para %s"
+
+# @ default
+#: classes/validator.php:71
+#, php-format
+msgid "Please enter %s"
+msgstr "Por favor ingrese %s"
+
+# @ default
+#: classes/validator.php:78
+#, php-format
+msgid "Please select %s"
+msgstr "Por favor Seleccione %s"
+
+# @ default
+#: classes/validator.php:85 classes/validator.php:101
+#, php-format
+msgid "Invalid %s"
+msgstr "%s inválido"
+
+# @ default
+#: classes/validator.php:88
+#, php-format
+msgid "%s is already registered"
+msgstr "%s ya está registrado"
+
+# @ pps_lng
+#: modules/adminmenu/mod.php:12
+msgid "Settings"
+msgstr "Ajustes"
+
+# @ default
+#: modules/mail/controller.php:7
+msgid "Now check your email inbox / spam folders for test mail."
+msgstr "Ahora compruebe la bandeja de entrada / spam de su correo electrónico para buscar el correo de prueba"
+
+# @ default
+#: modules/mail/mod.php:37
+msgid "Cannot send email - problem with send server"
+msgstr "No se puede enviar correo electrónico - problema con el servidor de envío"
+
+# @ pps_lng
+#: modules/mail/mod.php:50
+msgid "Mail"
+msgstr "Correo"
+
+# @ pps_lng
+#: modules/mail/mod.php:52
+msgid "Mail function tested and work"
+msgstr "Función de correo probado y funcionando"
+
+# @ pps_lng
+#: modules/mail/mod.php:53
+msgid "Notify Email"
+msgstr "Notificación de Email"
+
+# @ pps_lng
+#: modules/mail/mod.php:53
+msgid "Email address used for all email notifications from plugin"
+msgstr "Dirección de Email utilizada para todas las notificaciones del plugin"
+
+# @ pps_lng
+#: modules/mail/models/mail.php:7
+msgid "Test email functionslity"
+msgstr "Prueba de funcionamiento de email"
+
+# @ pps_lng
+#: modules/mail/models/mail.php:8
+#, php-format
+msgid "This is a test email for testing email functionality on your site, %s."
+msgstr "Este es el correo electrónico de prueba para probar la funcionalidad los emails en su sitio,%s."
+
+# @ pps_lng
+#: modules/mail/models/mail.php:15
+msgid "Empty email address"
+msgstr "Dirección de correo electrónico vacía"
+
+# @ default
+#: modules/mail/views/tpl/mailAdmin.php:3
+msgid "Send test email to"
+msgstr "Enviar correo electrónico de prueba a"
+
+# @ pps_lng
+#: modules/mail/views/tpl/mailAdmin.php:10
+msgid "Send test"
+msgstr "Enviar prueba"
+
+# @ pps_lng
+#: modules/mail/views/tpl/mailAdmin.php:12
+msgid "This option allows you to check your server mail functionality"
+msgstr "Esta opción le permite comprobar la funcionalidad de su servidor de correo"
+
+# @ pps_lng
+#: modules/mail/views/tpl/mailAdmin.php:15
+msgid "Did you receive test email?"
+msgstr "¿Recibió usted el mensaje de prueba?"
+
+# @ pps_lng
+#: modules/mail/views/tpl/mailAdmin.php:18
+msgid "Yes! It works!"
+msgstr "¡Sí funciona!"
+
+# @ pps_lng
+#: modules/mail/views/tpl/mailAdmin.php:22
+msgid "No, I need to contact my hosting provider with mail function issue."
+msgstr "No, tengo que llamar a mi proveedor de hosting para el error en la función de email."
+
+# @ pps_lng
+#: modules/mail/views/tpl/mailAdmin.php:26
+msgid "Great! Mail function was tested and is working fine."
+msgstr "¡Genial! La función de correo ha sido probada y funciona bien."
+
+# @ pps_lng
+#: modules/mail/views/tpl/mailAdmin.php:29
+msgid "Bad, please contact your hosting provider and ask them to setup mail functionality on your server."
+msgstr "Malo, por favor póngase en contacto con su proveedor de hosting y pídales que configuren la funcionalidad de correo electrónico en su servidor."
+
+# @ pps_lng
+#: modules/mail/views/tpl/mailAdmin.php:47
+#, php-format
+msgid "Turned On %s"
+msgstr "Encendido %s"
+
+# @ pps_lng
+#: modules/mail/views/tpl/mailAdmin.php:48
+#, php-format
+msgid "Turned Off %s"
+msgstr "Apagado %s"
+
+# @ pps_lng
+#: modules/mail/views/tpl/mailAdmin.php:69
+#: modules/popup/views/tpl/popupAddNewAdmin.php:20
+#: modules/popup/views/tpl/popupEditFormControls.php:5
+msgid "Save"
+msgstr "Guardar"
+
+# @ pps_lng
+#: modules/options/mod.php:84
+msgid "General"
+msgstr "General"
+
+# @ pps_lng
+#: modules/options/mod.php:86
+msgid "Send usage statistics"
+msgstr "Enviar estadísticas de uso"
+
+# @ pps_lng
+#: modules/options/models/modules.php:32
+msgid "Module Updated"
+msgstr "Módulo Actualización"
+
+# @ pps_lng
+#: modules/options/models/modules.php:47
+msgid "Module Update Failed"
+msgstr "Módulo Error de Actualización"
+
+# @ pps_lng
+#: modules/options/models/modules.php:50
+msgid "Error module ID"
+msgstr "ID error de módulo"
+
+# @ pps_lng
+#: modules/options/models/options.php:63
+msgid "Empty data to save option"
+msgstr "Datos vacíos para guardar la opción"
+
+# @ pps_lng
+#: modules/options/views/tpl/optionsAdminMain.php:18
+msgid "Main page Go here!!!!"
+msgstr "La página principal Va aquí !!!!"
+
+# @ pps_lng
+#: modules/pages/views/tpl/deactivatePage.php:33
+msgid "Delete Plugin Data (options, setup data, database tables, etc.)"
+msgstr "Eliminar datos del Plugin (opciones, datos de configuración, las tablas en la bases de datos, etc.)"
+
+# @ pps_lng
+#: modules/popup/controller.php:21
+msgid "Yes"
+msgstr "Si"
+
+# @ pps_lng
+#: modules/popup/controller.php:21
+msgid "No"
+msgstr "No"
+
+# @ pps_lng
+#: modules/popup/controller.php:115
+msgid "Done, redirecting to new PopUp..."
+msgstr "Hecho, redirigiendo al nuevo PopUp ..."
+
+# @ pps_lng
+#: modules/popup/mod.php:13
+msgid "Add New PopUp"
+msgstr "Agregar nuevo PopUp"
+
+# @ pps_lng
+#: modules/popup/mod.php:16
+msgid "Edit"
+msgstr "Editar"
+
+# @ pps_lng
+#: modules/popup/mod.php:19
+msgid "Show All PopUps"
+msgstr "Mostrar todos los PopUps"
+
+# @ pps_lng
+#: modules/popup/models/popup.php:98
+msgid "Please select PopUp template from list below"
+msgstr "Por favor, seleccione la plantilla PopUp de la siguiente lista"
+
+# @ pps_lng
+#: modules/popup/models/popup.php:100 modules/popup/models/popup.php:415
+msgid "Please enter Name"
+msgstr "Por favor ingrese Nombre"
+
+# @ pps_lng
+#: modules/popup/models/popup.php:133
+msgid "Enter your Facebook page URL"
+msgstr "Introduce la URL de  tu página de Facebook"
+
+# @ pps_lng
+#: modules/popup/models/popup.php:140
+msgid "Enter your video URL"
+msgstr "Ingresa la URL del vídeo"
+
+# @ pps_lng
+#: modules/popup/models/popup.php:234
+msgid "Common"
+msgstr "Común"
+
+# @ pps_lng
+#: modules/popup/models/popup.php:235
+msgid "Facebook Like"
+msgstr "Facebook Like"
+
+# @ pps_lng
+#: modules/popup/models/popup.php:236
+msgid "Video"
+msgstr "Vídeo"
+
+# @ pps_lng
+#: modules/popup/models/popup.php:276
+msgid "Provided data was corrupted"
+msgstr "Datos proporcionados corrompidos"
+
+# @ pps_lng
+#: modules/popup/views/popup.php:39
+msgid "Modify PopUp Template"
+msgstr "Modificar plantilla de PopUp"
+
+# @ pps_lng
+#: modules/popup/views/popup.php:49
+msgid "Cannot find required PopUp"
+msgstr "No se puede encontrar el PopUp requerido"
+
+# @ pps_lng
+#: modules/popup/views/popup.php:93 modules/popup/views/popup.php:280
+#: modules/popup/views/popup.php:506
+msgid "None"
+msgstr "Ninguno"
+
+# @ pps_lng
+#: modules/popup/views/popup.php:94
+msgid "Image"
+msgstr "Imagen"
+
+# @ pps_lng
+#: modules/popup/views/popup.php:95
+msgid "Color"
+msgstr "Color"
+
+# @ pps_lng
+#: modules/popup/views/popup.php:99
+msgid "Mobile"
+msgstr "Móvil"
+
+# @ pps_lng
+#: modules/popup/views/popup.php:100
+msgid "Tablet"
+msgstr "Tablet"
+
+# @ pps_lng
+#: modules/popup/views/popup.php:101
+msgid "Desktop PC"
+msgstr "PC de sobremesa"
+
+# @ pps_lng
+#: modules/popup/views/popup.php:150
+msgid "Appearance"
+msgstr "Apariencia"
+
+# @ pps_lng
+#: modules/popup/views/popup.php:155
+msgid "Animation"
+msgstr "Animación"
+
+# @ pps_lng
+#: modules/popup/views/popup.php:162
+msgid "Subscribe"
+msgstr "Suscribir"
+
+# @ pps_lng
+#: modules/popup/views/popup.php:167
+msgid "Social"
+msgstr "Social"
+
+# @ pps_lng
+#: modules/popup/views/popup.php:178
+msgid "Main"
+msgstr "Principal"
+
+# @ pps_lng
+#: modules/popup/views/popup.php:183
+msgid "Design"
+msgstr "Diseño"
+
+# @ pps_lng
+#: modules/popup/views/popup.php:195
+msgid "Texts"
+msgstr "Textos"
+
+# @ pps_lng
+#: modules/popup/views/popup.php:219
+msgid "Facebook page URL"
+msgstr "URL de página de Facebook"
+
+# @ pps_lng
+#: modules/popup/views/popup.php:221
+msgid "The absolute URL of the Facebook Page that will be liked. This is a required setting."
+msgstr "La URL absoluta de la página de Facebook sobre la que se hará Like. Se trata de un ajuste requerido."
+
+# @ pps_lng
+#: modules/popup/views/popup.php:223
+msgid "Color scheme"
+msgstr "Esquema de colores"
+
+# @ pps_lng
+#: modules/popup/views/popup.php:225
+msgid "Light"
+msgstr "Claro"
+
+# @ pps_lng
+#: modules/popup/views/popup.php:225
+msgid "Dark"
+msgstr "Oscuro"
+
+# @ pps_lng
+#: modules/popup/views/popup.php:226
+msgid "The color scheme used by the plugin. Can be \"light\" or \"dark\"."
+msgstr "El esquema de colores utilizado por el plugin. Puede ser  \"claro\" u \"oscuro\"."
+
+# @ pps_lng
+#: modules/popup/views/popup.php:228
+msgid "Force wall"
+msgstr "Pared de fuerza"
+
+# @ pps_lng
+#: modules/popup/views/popup.php:230
+msgid "For \"place\" Pages (Pages that have a physical location that can be used with check-ins), this specifies whether the stream contains posts by the Page or just check-ins from friends."
+msgstr "Para páginas de \"lugar\" (páginas que tienen un lugar físico que se puede utilizar con los check-ins), esto especifica si el stream contiene los mensajes de la página o sólo check-ins de amigos."
+
+# @ pps_lng
+#: modules/popup/views/popup.php:232
+msgid "Header"
+msgstr "Cabecera"
+
+# @ pps_lng
+#: modules/popup/views/popup.php:234
+msgid "Specifies whether to display the Facebook header at the top of the plugin."
+msgstr "Especifica si se debe mostrar el encabezado de Facebook en la parte superior del plugin"
+
+# @ pps_lng
+#: modules/popup/views/popup.php:236
+msgid "Show border"
+msgstr "Mostrar bordes"
+
+# @ pps_lng
+#: modules/popup/views/popup.php:238
+msgid "Specifies whether or not to show a border around the plugin."
+msgstr "Especifica si se muestra o no un borde alrededor del plugin."
+
+# @ pps_lng
+#: modules/popup/views/popup.php:240
+msgid "Show faces"
+msgstr "Mostrar caras"
+
+# @ pps_lng
+#: modules/popup/views/popup.php:242
+msgid "Specifies whether to display profile photos of people who like the page."
+msgstr "Especifica si se deben mostrar las fotos de perfil de las personas a quienes les gusta la página."
+
+# @ pps_lng
+#: modules/popup/views/popup.php:244
+msgid "Stream"
+msgstr "Stream"
+
+# @ pps_lng
+#: modules/popup/views/popup.php:246
+msgid "Specifies whether to display a stream of the latest posts by the Page."
+msgstr "Especifica si se debe mostrar el stream de los últimos mensajes por la página."
+
+# @ pps_lng
+#: modules/popup/views/popup.php:281
+msgid "Puff"
+msgstr "Puff"
+
+# @ pps_lng
+#: modules/popup/views/popup.php:282
+msgid "Vanish"
+msgstr "Desvanecer"
+
+# @ pps_lng
+#: modules/popup/views/popup.php:284
+msgid "Open down left"
+msgstr "Abre abajo a la izquierda"
+
+# @ pps_lng
+#: modules/popup/views/popup.php:285
+msgid "Open down right"
+msgstr "Abre abajo a la derecha"
+
+# @ pps_lng
+#: modules/popup/views/popup.php:287
+msgid "Perspective down"
+msgstr "Perspectiva abajo"
+
+# @ pps_lng
+#: modules/popup/views/popup.php:288
+msgid "Perspective up"
+msgstr "Perspectiva arriba"
+
+# @ pps_lng
+#: modules/popup/views/popup.php:290
+msgid "Slide down"
+msgstr "Slide abajo"
+
+# @ pps_lng
+#: modules/popup/views/popup.php:291
+msgid "Slide up"
+msgstr "Slide arriba"
+
+# @ pps_lng
+#: modules/popup/views/popup.php:293
+msgid "Swash"
+msgstr "Swash"
+
+# @ pps_lng
+#: modules/popup/views/popup.php:294
+msgid "Foolis"
+msgstr "Foolis"
+
+# @ pps_lng
+#: modules/popup/views/popup.php:296
+msgid "Tin right"
+msgstr "Tin derecha"
+
+# @ pps_lng
+#: modules/popup/views/popup.php:297
+msgid "Tin left"
+msgstr "Tin izquierda"
+
+# @ pps_lng
+#: modules/popup/views/popup.php:298
+msgid "Tin up"
+msgstr "Tin arriba"
+
+# @ pps_lng
+#: modules/popup/views/popup.php:299
+msgid "Tin down"
+msgstr "Tin abajo"
+
+# @ pps_lng
+#: modules/popup/views/popup.php:301
+msgid "Boing"
+msgstr "Boing"
+
+# @ pps_lng
+#: modules/popup/views/popup.php:303
+msgid "Space right"
+msgstr "Space derecha"
+
+# @ pps_lng
+#: modules/popup/views/popup.php:304
+msgid "Space left"
+msgstr "Space izquierda"
+
+# @ pps_lng
+#: modules/popup/views/popup.php:305
+msgid "Space up"
+msgstr "Space arriba"
+
+# @ pps_lng
+#: modules/popup/views/popup.php:306
+msgid "Space down"
+msgstr "Space abajo"
+
+# @ pps_lng
+#: modules/popup/views/popup.php:528
+msgid "None (standard)"
+msgstr "Ninguno (estándar)"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupAddNewAdmin.php:5
+#, php-format
+msgid "Change Template to any other from list bellow or <a class=\"button\" href=\"%s\">return to Pop-Up edit</a>"
+msgstr "Cambiar plantilla a cualquier otra de la lista de abajo o  <a class=\"button\" href=\"%s\">volver a editar PopUp</a>"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupAddNewAdmin.php:7
+msgid "Choose Pop-Up Template. You can change it later."
+msgstr "Elegir plantilla Pop-Up. Puede cambiarla más adelante."
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupAddNewAdmin.php:15
+msgid "PopUp Name"
+msgstr "Nombre de PopUp"
+
+# @ default
+#: modules/popup/views/tpl/popupAddNewAdmin.php:38
+msgid "type"
+msgstr "tipo"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupAddNewAdmin.php:48
+msgid "Change Template"
+msgstr "Cambiar Plantilla"
+
+# @ default
+#: modules/popup/views/tpl/popupAddNewAdmin.php:50
+msgid "Are you sure you want to change your current template - to "
+msgstr "Esta seguro que quiere cambiar esta plantilla por"
+
+# @ default
+# @ pps_lng
+#: modules/popup/views/tpl/popupAdmin.php:5
+#: modules/popup/views/tpl/popupAdmin.php:8
+msgid "Delete selected"
+msgstr "Borrar seleccionado"
+
+# @ default
+#: modules/popup/views/tpl/popupAdmin.php:11
+msgid "Clear All"
+msgstr "Borrar todos"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupAdmin.php:13
+msgid "Clear"
+msgstr "Limpiar"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupAdmin.php:16
+#: modules/popup/views/tpl/popupAdmin.php:17
+msgid "Search"
+msgstr "Buscar"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupAdmin.php:26
+#, php-format
+msgid "You have no PopUps for now. <a href=\"%s\" style=\"font-style: italic;\">Create</a> your PopUp!"
+msgstr "No tiene PopUps por ahora. <a href=\"%s\" style=\"font-style: italic;\"> Crear </a> su PopUp!"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdmin.php:87
+msgid "Loading preview..."
+msgstr "Cargando la vista previa ..."
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdmin.php:92
+msgid "Back to top"
+msgstr "Volver arriba"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminAnimationOpts.php:2
+msgid "Choose PopUp animation style"
+msgstr "Elija el estilo de animación del PopUp"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminAnimationOpts.php:3
+msgid "current style"
+msgstr "estilo actual"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminAnimationOpts.php:29
+msgid "Animation Duration"
+msgstr "Duración de Animación"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminAnimationOpts.php:31
+msgid "miliseconds"
+msgstr "milisegundos"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminCodeOpts.php:2
+#, php-format
+msgid "Edit this ONLY if you know basics of HTML, CSS and have been acquainted with the rules of template editing described <a target=\"_blank\" href=\"%s\">here</a>"
+msgstr "Editar esto SOLAMENTE si usted sabe lo básico de HTML, CSS y ha sido capacitado en las reglas de edición de plantillas descritas <a target=\"_blank\" href=\"%s\"> aquí </a>"
+
+# @ default
+#: modules/popup/views/tpl/popupEditAdminCodeOpts.php:5
+msgid "CSS code"
+msgstr "Código CSS"
+
+# @ default
+#: modules/popup/views/tpl/popupEditAdminCodeOpts.php:9
+msgid "HTML code"
+msgstr "Código HTML"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminDesignOpts.php:5
+msgid "Video URL"
+msgstr "Video URL"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminDesignOpts.php:6
+msgid "Copy and paste here URL of your video source"
+msgstr "Copia y pega aquí la URL de la fuente de vídeo"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminDesignOpts.php:15
+msgid "Width"
+msgstr "Ancho"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminDesignOpts.php:22
+msgid "Max width for percentage - is 100"
+msgstr "Ancho máximo de porcentaje - 100"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminDesignOpts.php:24
+msgid "Percents"
+msgstr "Porcentaje"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminDesignOpts.php:28
+msgid "Pixels"
+msgstr "Pixeles"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminDesignOpts.php:38
+msgid "Height"
+msgstr "Altura"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminDesignOpts.php:50
+msgid "Video Autoplay"
+msgstr "Video Autoplay"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminDesignOpts.php:51
+msgid "Play video - right after PopUp show"
+msgstr "Reproducción de vídeo - justo después de que se muestre el  PopUp "
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminDesignOpts.php:61
+msgid "Hide controls"
+msgstr "Ocultar controles"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminDesignOpts.php:62
+msgid "Hide standard video player controls"
+msgstr "Ocultar controles estándar del reproductor de vídeo"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminDesignOpts.php:103
+msgid "Background overlay opacity"
+msgstr "Opacidad de transparencia en Background "
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminDesignOpts.php:112
+msgid "Background"
+msgstr "Background"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminDesignOpts.php:112
+#, php-format
+msgid "Background %d"
+msgstr "Background %d"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminDesignOpts.php:130
+msgid "Close button"
+msgstr "Botón Cerrar"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminDesignOpts.php:150
+msgid "Bullets"
+msgstr "Bullets"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminMainOpts.php:2
+msgid "When to show PopUp"
+msgstr "Cuando mostrar el PopUp"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminMainOpts.php:8
+msgid "When page loads"
+msgstr "Cuando carga la página"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminMainOpts.php:13
+#: modules/popup/views/tpl/popupEditAdminMainOpts.php:52
+msgid "Delay for"
+msgstr "Retraso para"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminMainOpts.php:17
+msgid "Seconds"
+msgstr "Segundos"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminMainOpts.php:17
+msgid "sec"
+msgstr "seg"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminMainOpts.php:24
+msgid "User click on the page"
+msgstr "Usuario hace clic en la página"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminMainOpts.php:30
+msgid "Click on certain link / button / other element"
+msgstr "Haga clic en determinado enlace / botón / otro elemento"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminMainOpts.php:34
+msgid "Copy & paste next code - into required link to open PopUp on Click"
+msgstr "Copia y pega el código siguiente - en enlace requerido para abrir PopUp con Click"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminMainOpts.php:35
+#, php-format
+msgid "Check screenshot with details - <a onclick=\"ppsShowTipScreenPopUp(this); return false;\" href=\"%s\">here</a>."
+msgstr "Compruebe pantalla con detalles - <a onclick=\"ppsShowTipScreenPopUp(this); return false;\" href=\"%s\">aqui</a>."
+
+# @ default
+#: modules/popup/views/tpl/popupEditAdminMainOpts.php:40
+msgid "Or, if you know HTML basics, - you can insert \"onclick\" attribute to any of your element from code below"
+msgstr "O, si usted sabe lo básico de HTML, - puede insertar el atributo \"onclick\" a cualquiera de sus elemento del código de abajo"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminMainOpts.php:47
+msgid "Scroll window"
+msgstr "Se hace Scroll"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminMainOpts.php:56
+msgid "seconds after first scroll"
+msgstr "segundos después del primer scroll"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminMainOpts.php:62
+msgid "Whom to show"
+msgstr "Para quien  mostrar"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminMainOpts.php:68
+msgid "Everyone"
+msgstr "Todos"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminMainOpts.php:74
+msgid "For first-time visitors"
+msgstr "Para visitantes nuevos"
+
+# @ default
+#: modules/popup/views/tpl/popupEditAdminMainOpts.php:76
+msgid "Subscribe, share, like, etc."
+msgstr "Suscribirse, Compartir, Like, etc."
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminMainOpts.php:80
+msgid "Until user will not make an action"
+msgstr "Hasta que el usuario no haga una acción"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminMainOpts.php:83
+msgid "Hide for"
+msgstr "Ocultar para"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminMainOpts.php:87
+msgid "Choose devices"
+msgstr "Elija dispositivos"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminMainOpts.php:98
+msgid "Show on next pages"
+msgstr "Mostrar en páginas siguientes"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminMainOpts.php:104
+msgid "All pages"
+msgstr "Todas las páginas"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminMainOpts.php:110
+msgid "Show on next pages / posts"
+msgstr "Mostrar en siguientes paginas / posts"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminMainOpts.php:113
+#: modules/popup/views/tpl/popupEditAdminMainOpts.php:122
+msgid "Choose Pages"
+msgstr "Elegir páginas"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminMainOpts.php:119
+msgid "Don't show on next pages / posts"
+msgstr "No mostrar en las siguientes paginas / posts"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminSmOpts.php:7
+msgid "Enable Social Buttons"
+msgstr "Activar Botones Sociales"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminSmOpts.php:21
+msgid "Social links design"
+msgstr "Diseño de enlaces sociales"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminSubOpts.php:7
+msgid "Enable Subscription"
+msgstr "Activar suscripción"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminSubOpts.php:13
+msgid "Subscribe to"
+msgstr "Suscribirse a"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminSubOpts.php:21
+msgid "Create user with the chosen role after subscribing"
+msgstr "Crear usuario después de suscribirse con rol"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminSubOpts.php:22
+msgid "Use this only if you really need it. Remember! After you change this option - your new subscriber will have more privileges than usual subscribers, so be careful with this option!"
+msgstr "Utilice esta opción sólo si usted realmente lo necesita. ¡Recuerde! Después de cambiar esta opción - su nuevo suscriptor tiene más privilegios que los suscriptores habituales, así que tenga cuidado con esta opción!"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminSubOpts.php:30
+msgid "Aweber Unique List ID"
+msgstr "Unique List ID de Aweber"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminSubOpts.php:31
+#, php-format
+msgid "Check <a href=\"%s\" target=\"_blank\">this page</a> for more details"
+msgstr "Compruebe <a href=\"%s\" target=\"_blank\">esta pagina</a> para más detalles"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminSubOpts.php:39
+msgid "MailChimp API key"
+msgstr "MailChimp API key"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminSubOpts.php:40
+#, php-format
+msgid "To find your MailChimp API Key login to your mailchimp account at <a href=\"%s\" target=\"_blank\">%s</a> then from the left main menu, click on your Username, then select \"Account\" in the flyout menu. From the account page select \"Extras\", \"API Keys\". Your API Key will be listed in the table labeled \"Your API Keys\". Copy / Paste your API key into the MailChimp Module2 setup."
+msgstr "Para encontrar su MailChimp API Key entre en su cuenta de MailChimp en <a href=\"%s\" target=\"_blank\">%s</a> luego desde el menú principal de la izquierda, haga clic en su nombre de usuario, a continuación, seleccione \"Account\" en el menú desplegable. Desde la página de la cuenta, seleccione \"Extras\", \"API Keys\". Su API Key se lista en la tabla etiquetada \"Your API Keys\". Copiar / Pegar su API key en la configuración MailChimp Module2."
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminSubOpts.php:47
+msgid "Lists for subscribe"
+msgstr "Listas para suscribirse"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminSubOpts.php:48
+msgid "Select lists for subscribe. They are taken from your MailChimp account - so make sure that you entered correct API key before."
+msgstr "Seleccione listas para suscribirse. Ellas se toman de su cuenta de MailChimp - así que asegúrese de que ha introducido antes la  API key correcta."
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminSubOpts.php:52
+msgid "Choose Lists"
+msgstr "Elija Listas"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminSubOpts.php:54
+msgid "Enter API key - and your list will appear here"
+msgstr "Ingrese la API key - y su lista aparecerá aquí"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminSubOpts.php:60
+msgid "Subscription fields"
+msgstr "Campos de suscripción"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminSubOpts.php:63
+msgid "Email"
+msgstr "Email"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminSubOpts.php:67
+msgid "Name"
+msgstr "Nombre"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminSubOpts.php:73
+msgid "\"Confirmation email was sent\" message"
+msgstr "Mensaje \"Correo de confirmación ha sido enviado\""
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminSubOpts.php:74
+msgid "This is the message that the user will see after subscription, when letter with confirmation link was sent."
+msgstr "Este será el mensaje que el usuario verá después de suscribirse, cuando la carta con el enlace de confirmación sea enviada."
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminSubOpts.php:76
+#: modules/subscribe/controller.php:18
+msgid "Confirmation link was sent to your email address. Check your email!"
+msgstr "El enlace de confirmación fue enviado a su dirección de correo electrónico. Revise su correo electrónico!"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminSubOpts.php:80
+msgid "Subscribe success message"
+msgstr "Mensaje de suscripción exitosa"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminSubOpts.php:81
+msgid "Right after subscriber will be created and confirmed - this message will be shown."
+msgstr "Justo después que se cree el suscriptor y se confirme - se mostrará este mensaje."
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminSubOpts.php:83
+#: modules/subscribe/controller.php:22 modules/subscribe/controller.php:39
+msgid "Thank you for subscribing!"
+msgstr "Gracias por suscribirte!"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminSubOpts.php:87
+msgid "Email error message"
+msgstr "Mensaje de error de Email"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminSubOpts.php:88
+msgid "If email that was entered by user is invalid, user will see this message"
+msgstr "Si el correo electrónico introducido por el usuario es inválido, el usuario verá este mensaje"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminSubOpts.php:90
+#: modules/subscribe/models/subscribe.php:81
+msgid "Empty or invalid email"
+msgstr "Email inválido o vacío"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminSubOpts.php:94
+msgid "Redirect after subscription URL"
+msgstr "Redirigir despúes de la suscripción"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminSubOpts.php:95
+msgid "You can enable redirection after subscription, just enter here URL that you want to redirect to after subscribe - and user will be redirected there. If you don't need this feature - just leave this field empty."
+msgstr "Usted puede habilitar la redirección después de la suscripción, introduzca aquí la URL que desea redireccionar después de suscribirse - y el usuario será redirigido allí. Si usted no necesita esta función - sólo dejar este campo vacío."
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminSubOpts.php:103
+msgid "Confirmation email subject"
+msgstr "Asunto del email de confirmación"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminSubOpts.php:104
+msgid "Email with confirmation link subject"
+msgstr "Tema del correo electrónico con enlace de confirmación "
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminSubOpts.php:108
+#: modules/subscribe/models/subscribe.php:126
+msgid "Confirm subscription on [sitename]"
+msgstr "Confirmar suscripción en [sitename]"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminSubOpts.php:112
+msgid "Confirmation email text"
+msgstr "Texto de email de confirmación"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminSubOpts.php:113
+msgid "Email with confirmation link content"
+msgstr "Contenido del email con el enlace de confirmación"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminSubOpts.php:117
+#: modules/subscribe/models/subscribe.php:129
+msgid "You subscribed on site <a href=\"[siteurl]\">[sitename]</a>. Follow <a href=\"[confirm_link]\">this link</a> to complete your subscription. If you did not subscribe here - just ignore this message."
+msgstr "Usted se suscribió en el sitio <a href=\"[siteurl]\">[sitename]</a>. Siga<a href=\"[confirm_link]\">este link</a>para completar la suscripción. Si usted no se suscribió aquí - simplemente ignore este mensaje."
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminSubOpts.php:121
+#, php-format
+msgid "You can use next variables here: %s"
+msgstr "Puede utilizar las variables siguientes aquí: %s"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminSubOpts.php:125
+msgid "Submit button name"
+msgstr "Nombre del botón Submit"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminTextsOpts.php:19
+msgid "Text block"
+msgstr "Text block"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminTextsOpts.php:19
+#, php-format
+msgid "Text block %d"
+msgstr "Text block %d"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminTextsOpts.php:36
+msgid "Foot note"
+msgstr "Nota al pie"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditAdminTplOpts.php:3
+msgid "Change PopUp Template"
+msgstr "Cambiar plantilla PopUp"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditFormControls.php:3
+msgid "Save all changes"
+msgstr "Guardar todos los cambios"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditFormControls.php:7
+msgid "Clone to New PopUp"
+msgstr "Clonar para Nuevo PopUp"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditFormControls.php:9
+msgid "Clone"
+msgstr "Clonar"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditFormControls.php:13
+msgid "Preview"
+msgstr "Vista Previa"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditFormControls.php:15
+msgid "Turn Off"
+msgstr "Apagar"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditFormControls.php:15
+msgid "Turn On"
+msgstr "Encender"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditFormControls.php:21
+msgid "Delete"
+msgstr "Borrar"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditFormControls.php:28
+msgid "New Name"
+msgstr "Nuevo Nombre"
+
+# @ pps_lng
+#: modules/popup/views/tpl/popupEditFormControls.php:29
+msgid "Copy"
+msgstr "Copiar"
+
+# @ pps_lng
+#: modules/sm/mod.php:26
+msgid "Facebook"
+msgstr "Facebook"
+
+# @ pps_lng
+#: modules/sm/mod.php:27
+msgid "Google+"
+msgstr "Google+"
+
+# @ pps_lng
+#: modules/sm/mod.php:28
+msgid "Twitter"
+msgstr "Twitter"
+
+# @ pps_lng
+#: modules/sm/mod.php:52
+msgid "Simple"
+msgstr "Simple"
+
+# @ pps_lng
+#: modules/sm/mod.php:53
+msgid "Boxy"
+msgstr "Boxy"
+
+# @ pps_lng
+#: modules/statistics/controller.php:40
+#, php-format
+msgid "Statistics for \"%s\""
+msgstr "Estadísticas para \"%s\""
+
+# @ pps_lng
+#: modules/statistics/controller.php:42
+msgid "Date"
+msgstr "Fecha"
+
+# @ pps_lng
+#: modules/statistics/controller.php:43
+msgid "Views"
+msgstr "Vistas"
+
+# @ pps_lng
+#: modules/statistics/controller.php:44
+msgid "Unique Views"
+msgstr "Vistas únicas"
+
+# @ pps_lng
+#: modules/statistics/controller.php:45
+msgid "Actions"
+msgstr "Accciones"
+
+# @ pps_lng
+#: modules/statistics/controller.php:46
+msgid "Conversion"
+msgstr "Conversión"
+
+# @ pps_lng
+#: modules/statistics/mod.php:11
+msgid "Displayed"
+msgstr "Desplegado"
+
+# @ pps_lng
+#: modules/statistics/mod.php:12
+msgid "Subscribed"
+msgstr "Suscriptores"
+
+# @ pps_lng
+#: modules/statistics/mod.php:13
+msgid "Shared"
+msgstr "Compartido"
+
+# @ pps_lng
+#: modules/statistics/mod.php:14
+msgid "Facebook Liked"
+msgstr "Facebook Liked"
+
+# @ pps_lng
+#: modules/statistics/mod.php:25
+msgid "Statistics"
+msgstr "Estadisticas"
+
+# @ pps_lng
+#: modules/statistics/models/statistics.php:35
+#: modules/subscribe/models/subscribe.php:178
+msgid "Send me some info, pls"
+msgstr "Enviarme algo de información, por favor"
+
+# @ pps_lng
+#: modules/statistics/models/statistics.php:165
+msgid "No data found"
+msgstr "No se encontraron datos"
+
+# @ pps_lng
+#: modules/statistics/views/tpl/statPopupEditTab.php:3
+msgid "Main PopUp Usage Statistics"
+msgstr "Principales Estadísticas de uso PopUp"
+
+# @ default
+#: modules/statistics/views/tpl/statPopupEditTab.php:5
+msgid "Clear selection"
+msgstr "Borrar selección"
+
+# @ pps_lng
+#: modules/statistics/views/tpl/statPopupEditTab.php:6
+msgid "From"
+msgstr "Desde"
+
+# @ pps_lng
+#: modules/statistics/views/tpl/statPopupEditTab.php:7
+msgid "To"
+msgstr "para"
+
+# @ pps_lng
+#: modules/statistics/views/tpl/statPopupEditTab.php:21
+msgid "Reset Zoom"
+msgstr "Restablecer Zoom"
+
+# @ pps_lng
+#: modules/statistics/views/tpl/statPopupEditTab.php:26
+msgid "Goup by"
+msgstr "Agrupar por"
+
+# @ pps_lng
+#: modules/statistics/views/tpl/statPopupEditTab.php:27
+msgid "Hour"
+msgstr "Hora"
+
+# @ pps_lng
+#: modules/statistics/views/tpl/statPopupEditTab.php:28
+msgid "Day"
+msgstr "Día"
+
+# @ pps_lng
+#: modules/statistics/views/tpl/statPopupEditTab.php:29
+msgid "Week"
+msgstr "Semana"
+
+# @ pps_lng
+#: modules/statistics/views/tpl/statPopupEditTab.php:30
+msgid "Month"
+msgstr "Mes"
+
+# @ pps_lng
+#: modules/statistics/views/tpl/statPopupEditTab.php:32
+msgid "Export to CSV"
+msgstr "Exportar a CSV"
+
+# @ pps_lng
+#: modules/statistics/views/tpl/statPopupEditTab.php:37
+msgid "Clear data"
+msgstr "Borrar datos"
+
+# @ pps_lng
+#: modules/statistics/views/tpl/statPopupEditTab.php:43
+msgid "You can Zoom In by allocating mouse on Graph area."
+msgstr "Puede hacer Zoom colocando el ratón en el área de Gráficos."
+
+# @ pps_lng
+#: modules/statistics/views/tpl/statPopupEditTab.php:46
+msgid "Ratio of All Actions"
+msgstr "Relación de Todas las Acciones"
+
+# @ pps_lng
+#: modules/statistics/views/tpl/statPopupEditTab.php:51
+msgid "Once you will have enought different statistics - like shares, subscribes, likes, - you will be able to see here - what action is used more often, and what - not."
+msgstr "Una vez que se cuenta con suficiente estadísticas diferentes, como compartir, suscriptores, likes, - usted será capaz de ver aquí - la acción que se utiliza más a menudo, y lo que - no."
+
+# @ pps_lng
+#: modules/statistics/views/tpl/statPopupEditTab.php:55
+msgid "Ratio of All Social Share"
+msgstr "Relación de Todos los Social Share"
+
+# @ pps_lng
+#: modules/statistics/views/tpl/statPopupEditTab.php:60
+msgid "Once you will have enought different statistics about share from PopUp on social media - you will be able to see here - what social is is used more often, and what - not."
+msgstr "Una vez que se cuenta con suficientes diferentes estadísticas sobre los share del PopUp en los medios sociales - usted será capaz de ver aquí - cuál medio social es utilizado con mayor frecuencia, y lo que - no."
+
+# @ pps_lng
+#: modules/statistics/views/tpl/statPopupEditTab.php:67
+#, php-format
+msgid "You have no statistics for \"%s\" PopUp for now. Setup its options and wait until users will view it on your site."
+msgstr "No tiene estadísticas para \"%s\"  PopUp por ahora. Configure sus opciones - y espere hasta que los usuarios van a poder verla en su sitio."
+
+# @ pps_lng
+#: modules/subscribe/mod.php:7
+msgid "WordPress"
+msgstr "WordPress"
+
+# @ pps_lng
+#: modules/subscribe/mod.php:8
+msgid "Aweber"
+msgstr "Aweber"
+
+# @ pps_lng
+#: modules/subscribe/mod.php:9
+msgid "MailChimp"
+msgstr "MailChimp"
+
+# @ pps_lng
+#: modules/subscribe/models/subscribe.php:23
+msgid "Something goes wrong"
+msgstr "Algo va mal"
+
+# @ pps_lng
+#: modules/subscribe/models/subscribe.php:41
+msgid "Can't detect your IP, please don't spam"
+msgstr "No se puede detectar su IP, por favor no haga Spam"
+
+# @ pps_lng
+#: modules/subscribe/models/subscribe.php:73
+msgid "You just subscribed from this IP"
+msgstr "Usted se acaba de suscribir desde esta IP"
+
+# @ pps_lng
+#: modules/subscribe/models/subscribe.php:173
+msgid "Can't subscribe for now. Please try again later."
+msgstr "No se puede suscribir por ahora. Por favor, inténtalo de nuevo mas tarde."
+
+# @ pps_lng
+#: modules/subscribe/models/subscribe.php:209
+msgid "MailChimp requires CURL to be setup on your server. Please contact your hosting provider and ask them to setup CURL library for you."
+msgstr "MailChimp requiere configurar la CURL en su servidor. Por favor, póngase en contacto con su proveedor de hosting y pídales que configuren la librería CURL para usted."
+
+# @ pps_lng
+#: modules/subscribe/models/subscribe.php:231
+msgid "There was some problem while trying to get your lists. Make sure that your API key is correct."
+msgstr "Hubo algún problema al tratar de conseguir sus listas. Asegúrese de que su API key es correcta."
+
+# @ pps_lng
+#: modules/subscribe/models/subscribe.php:235
+msgid "Empty API key"
+msgstr "API key vacia"
+
+# @ pps_lng
+#: modules/subscribe/models/subscribe.php:269
+msgid "Something going wrong while trying to send data to MailChimp. Please contact site owner."
+msgstr "Algo va mal al intentar enviar datos a MailChimp. Por favor, póngase en contacto con el propietario del sitio."
+
+# @ pps_lng
+#: modules/subscribe/models/subscribe.php:282
+msgid "No API key entered in admin area - contact site owner to resolve this issue."
+msgstr "No hay API key ingresado en el área de administración  - contacte con el propietario del sitio para resolver este problema."
+
+# @ pps_lng
+#: modules/subscribe/models/subscribe.php:284
+msgid "No lists to add selected in admin area - contact site owner to resolve this issue."
+msgstr "No hay listas seleccionadas en el área de administración - contacte con el propietario del sitio para resolver este problema."
+
+# @ pps_lng
+#: modules/supsystic_promo/controller.php:7
+msgid "Information was saved. Thank you!"
+msgstr "La información se ha guardado. Gracias!"
+
+# @ pps_lng
+#: modules/supsystic_promo/mod.php:35
+msgid "Welcome to Supsystic Secure"
+msgstr "Bienvenido a Supsystic Secure"
+
+# @ pps_lng
+#: modules/supsystic_promo/mod.php:88
+msgid "Testing"
+msgstr "Probando"
+
+# @ pps_lng
+#: modules/supsystic_promo/mod.php:95
+msgid "Layered Style"
+msgstr "Estilo de Capas"
+
+# @ pps_lng
+#: modules/supsystic_promo/views/tpl/additionalmainAdminShowOnOptions.php:1
+#, php-format
+msgid "Show when user tries to exit from your site. <a target=\"_blank\" href=\"%s\">Check example.</a>"
+msgstr "Mostrar cuando el usuario intenta salir de su sitio. <a target=\"_blank\" href=\"%s\">Ver Ejemplo</a>"
+
+# @ pps_lng
+#: modules/supsystic_promo/views/tpl/additionalmainAdminShowOnOptions.php:6
+msgid "On Exit from Site"
+msgstr "Al salir del Sitio"
+
+# @ default
+#: modules/supsystic_promo/views/tpl/additionalmainAdminShowOnOptions.php:7
+msgid "Available in PRO"
+msgstr "Disponible en la versión PRO"
+
+# @ pps_lng
+#: modules/supsystic_promo/views/tpl/adminFooter.php:4
+#: modules/supsystic_promo/views/tpl/welcomePage.php:78
+msgid "Version"
+msgstr "Versión"
+
+# @ pps_lng
+#: modules/supsystic_promo/views/tpl/adminFooter.php:10
+msgid "Go"
+msgstr "Ir"
+
+# @ pps_lng
+#: modules/supsystic_promo/views/tpl/adminFooter.php:10
+msgid "PRO"
+msgstr "PRO"
+
+# @ pps_lng
+#: modules/supsystic_promo/views/tpl/adminFooter.php:15
+msgid "Support"
+msgstr "Soporte"
+
+# @ pps_lng
+#: modules/supsystic_promo/views/tpl/welcomePage.php:76
+msgid "Welcome to"
+msgstr "Bienvenido a"
+
+# @ pps_lng
+#: modules/supsystic_promo/views/tpl/welcomePage.php:84
+#, php-format
+msgid "This is first start up of the %s plugin."
+msgstr "Esto es el primer comienzo de %s plugin."
+
+# @ pps_lng
+#: modules/supsystic_promo/views/tpl/welcomePage.php:85
+msgid "If you are newbie, check all features on that page. If you are guru, please correct us."
+msgstr "Si es novato, revise todas las características en esa página. Si usted es gurú, por favor corríjannos."
+
+# @ pps_lng
+#: modules/supsystic_promo/views/tpl/welcomePage.php:94
+msgid "Please, post url"
+msgstr "Por favor ingrese url "
+
+# @ pps_lng
+#: modules/supsystic_promo/views/tpl/welcomePage.php:102
+msgid "Video tutorial"
+msgstr "Video tutorial"
+
+# @ pps_lng
+#: modules/supsystic_promo/views/tpl/welcomePage.php:108
+msgid "What to do next? Check below section"
+msgstr "Qué hacer a continuación? Revise la sección de abajo"
+
+# @ pps_lng
+#: modules/supsystic_promo/views/tpl/welcomePage.php:112
+msgid "Boost us"
+msgstr "Impúlsenos"
+
+# @ pps_lng
+#: modules/supsystic_promo/views/tpl/welcomePage.php:113
+#, php-format
+msgid "It's amazing when you boost development with your feedback and ratings. So we create special <a target=\"_blank\" href=\"%s\">boost page</a> to help you to help us."
+msgstr "Es increíble cuando impulsa el desarrollo con sus comentarios y calificaciones. Así que creamos una <a target=\"_blank\" href=\"%s\">pagina impulsora</a> especial para ayudarte a ayudarnos."
+
+# @ pps_lng
+#: modules/supsystic_promo/views/tpl/welcomePage.php:117
+msgid "Documentation"
+msgstr "Documentación"
+
+# @ pps_lng
+#: modules/supsystic_promo/views/tpl/welcomePage.php:118
+#, php-format
+msgid "Check <a target=\"_blank\" href=\"%s\">documentation</a> and FAQ section. If you can't solve your problems - <a target=\"_blank\" href=\"%s\">contact us</a>."
+msgstr "Compruebe la <a target=\"_blank\" href=\"%s\">documentación</a> y sección de FAQ. Si no puede solucionar su problema - <a target=\"_blank\" href=\"%s\">contacte con nosotros</a>."
+
+# @ pps_lng
+#: modules/supsystic_promo/views/tpl/welcomePage.php:122
+msgid "Full Features List"
+msgstr "Lista completa de características"
+
+# @ pps_lng
+#: modules/supsystic_promo/views/tpl/welcomePage.php:123
+msgid "There are so many features, so we can't post them here. Like"
+msgstr "Hay tantas características, así que no las podemos publicar aquí. Como "
+
+# @ pps_lng
+#: modules/supsystic_promo/views/tpl/welcomePage.php:125
+msgid "Capcha for admin login"
+msgstr "Capcha para admin login"
+
+# @ pps_lng
+#: modules/supsystic_promo/views/tpl/welcomePage.php:126
+msgid "htaccess admin protect"
+msgstr "proteger htaccess admin"
+
+# @ pps_lng
+#: modules/supsystic_promo/views/tpl/welcomePage.php:127
+msgid "Hide directory files listing"
+msgstr "Ocultar la lista de archivos del directorio "
+
+# @ pps_lng
+#: modules/supsystic_promo/views/tpl/welcomePage.php:128
+msgid "Check files and directories write permissions"
+msgstr "Revise los permisos de escritura  de archivos y directorios"
+
+# @ pps_lng
+#: modules/supsystic_promo/views/tpl/welcomePage.php:130
+#, php-format
+msgid "So check full features list <a target=\"_blank\" href=\"%s\">here</a>."
+msgstr "Comprobar la lista completa de características <a target=\"_blank\" href=\"%s\">aquí</a>."

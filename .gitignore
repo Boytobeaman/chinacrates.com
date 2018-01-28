@@ -1,0 +1,7 @@
+/wp-content/cache/*
+*.cmd
+.idea/
+.vscode/
+node_modules/
+wp-config.php
+documents

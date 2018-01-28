@@ -1,0 +1,68 @@
+/*
+Theme Name: myown name
+Theme URI: http://joinplastic.com
+Author: the WordPress team
+Author URI: https://wordpress.org/
+Description: Our 2015 default theme is clean, blog-focused, and designed for clarity. Twenty Fifteen's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer.
+Version: 1.5
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, blue, gray, pink, purple, white, yellow, dark, light, two-columns, left-sidebar, fixed-layout, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+Text Domain: twentyfifteen
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #F2F2F2;
+	font-family: 'AvantGardeGothic',Verdana,Arial,Helvetica,sans-serif;
+}
+.mainContainer{
+	margin: 0 auto;
+	max-width: 980px;
+	background-color: white;
+	/*box-shadow: 0px 3px 10px rgba(34, 25, 25, 0.4);*/
+	
+
+}
+.headerwrap{
+	width: 100%;
+	background-color: #036;
+	color: white;
+	margin: 0;
+	padding: 0;
+}
+header{
+	height: 83px;
+	width: 980px;
+	
+}
+.headerSeparator{
+	height: 2px;
+	background-color: white;
+}
+nav{
+	height: 30px;
+}
+/*.contentTop{background-color: white;}*/
+.cdiv{margin: 0;padding: 0;}
+.contentBottom{background-color: white;}
+.contentBottom div{padding-right: 15px;}
+footer{background-color: #5d5d5f;margin-top: 20px;}
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+footer ul li{
+    display: inline;
+
+}
+#footerContainer{
+	padding: 20px;
+	color: white;
+}
+

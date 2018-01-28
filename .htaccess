@@ -1,0 +1,18 @@
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+Redirect 301 /product-category/nesting-box/ /product-category/attached-lid-distribution-containers/ 
+Redirect 301 /product-category/stacking-box/ /product-category/plastic-stacking-crates/
+Redirect 301 /product-category/folding-crate/ /product-category/folding-crates/
+Redirect 301 /product-category/pallet-box/ /product-category/plastic-pallet-box/
+Redirect 301 /product/395-nesting-box/ /product/attached-lid-distribution-container-395/
+Redirect 301 /product/700-nesting-box/ /product/plastic-moving-boxes-700/

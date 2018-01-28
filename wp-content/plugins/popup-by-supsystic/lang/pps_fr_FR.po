@@ -1,0 +1,1744 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PopUp by Supsystic\n"
+"POT-Creation-Date: 2015-03-21 10:18+0100\n"
+"PO-Revision-Date: 2015-03-21 11:22+0100\n"
+"Last-Translator: Jean-Jacques Schaeffer <jjschaeffer@aliceadsl.fr>\n"
+"Language-Team: Jean-Jacques Schaeffer <jjschaeffer@aliceadsl.fr>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+"X-Poedit-SearchPath-2: ..\n"
+
+#: ../classes/controller.php:198 ../classes/controller.php:206
+#: ../modules/mail/controller.php:23 ../modules/options/controller.php:6
+#: ../modules/pages/views/tpl/deactivatePage.php:37
+#: ../modules/popup/controller.php:6 ../modules/popup/controller.php:56
+#: ../modules/popup/controller.php:64 ../modules/popup/controller.php:82
+#: ../modules/popup/controller.php:124 ../modules/statistics/controller.php:20
+#: ../modules/statistics/controller.php:29
+msgid "Done"
+msgstr "C'est fait"
+
+#: ../classes/field.php:131 ../modules/popup/views/tpl/popupAddNewAdmin.php:36
+msgid "Select"
+msgstr "Choisir"
+
+#: ../classes/field.php:170 ../classes/field.php:179 ../classes/field.php:184
+msgid "N/A"
+msgstr "N/A"
+
+#: ../classes/field.php:277
+msgid "Add Checkbox"
+msgstr "Ajouter une case à cocher"
+
+#: ../classes/field.php:282 ../classes/field.php:287
+msgid "Add Item"
+msgstr "Ajouter un élément"
+
+#: ../classes/field.php:293
+msgid "Add Radio Button"
+msgstr "Ajouter un bouton radio"
+
+#: ../classes/field.php:311
+msgid "Dimensions"
+msgstr "Dimensions"
+
+#: ../classes/field.php:314
+msgid "width"
+msgstr "largeur"
+
+#: ../classes/field.php:316
+msgid "height"
+msgstr "hauteur"
+
+#: ../classes/field.php:323
+msgid "Click to set field \"id\" and \"class\""
+msgstr "Cliquez pour configurer  \"id\" et \"class\" du champ"
+
+#: ../classes/field.php:324
+msgid "Attributes"
+msgstr "Attributs"
+
+#: ../classes/field.php:402
+msgid "There are no configuration options for this module"
+msgstr "Il n'y a pas d'options de configuration pour ce module"
+
+#: ../classes/fieldAdapter.php:93
+msgid "Apply To"
+msgstr "Appliquer à"
+
+#: ../classes/fieldAdapter.php:95
+msgid "Address"
+msgstr "Adresse"
+
+#: ../classes/fieldAdapter.php:96
+msgid "Destination"
+msgstr "Destination"
+
+#: ../classes/fieldAdapter.php:97
+msgid "Country"
+msgstr "Pays"
+
+#: ../classes/fieldAdapter.php:100
+msgid "Categories"
+msgstr "Catégories"
+
+#: ../classes/fieldAdapter.php:101
+msgid "You have no categories"
+msgstr "Vous n'avez pas de catégories"
+
+#: ../classes/fieldAdapter.php:102
+msgid "Brands"
+msgstr "Marques"
+
+#: ../classes/fieldAdapter.php:103
+msgid "You have no brands"
+msgstr "Vous n'avez pas de marques"
+
+#: ../classes/fieldAdapter.php:105
+msgid "Tax Rate"
+msgstr "Taux de taxe"
+
+#: ../classes/fieldAdapter.php:106
+msgid "Absolute"
+msgstr "Absolu"
+
+#: ../classes/fieldAdapter.php:134
+msgid "Not selected"
+msgstr "Non sélectionné"
+
+#: ../classes/fieldAdapter.php:184
+msgid "class"
+msgstr "classe"
+
+#: ../classes/fieldAdapter.php:186 ../classes/tables/usage_stat.php:7
+msgid "id"
+msgstr "id"
+
+#: ../classes/frame.php:135
+msgid "You have no permissions to view this page"
+msgstr "Vous n'avez pas l'autorisation d'accès à cette page"
+
+#: ../classes/html.php:200
+msgid "Upload"
+msgstr "Charger"
+
+#: ../classes/html.php:604
+msgid "ON"
+msgstr "ON"
+
+#: ../classes/html.php:605
+msgid "OFF"
+msgstr "OFF"
+
+#: ../classes/html.php:629
+#, php-format
+msgid "Select %s"
+msgstr "Sélectionner %s"
+
+#: ../classes/modInstaller.php:34
+#, php-format
+msgid "Move files for %s failed"
+msgstr "Echec pour le déplacement des fichiers %s"
+
+#: ../classes/modInstaller.php:37
+#, php-format
+msgid "%s is not plugin module"
+msgstr "%s n'est pas un module de l'extension"
+
+#: ../classes/modInstaller.php:76
+msgid "Cannot create module directory. Try to set permission to "
+msgstr ""
+"Impossible de créer un répertoire pour le module. Essayez de mettre "
+"l'autorisation à"
+
+#: ../classes/modInstaller.php:103
+msgid "No modules were found in XML file"
+msgstr "Pas de module trouvé dans le fichier XML"
+
+#: ../classes/modInstaller.php:107
+msgid "Invalid XML file"
+msgstr "Fichier XML non valide"
+
+#: ../classes/modInstaller.php:109
+msgid "No XML file were found"
+msgstr "Pas de fichier XML trouvé"
+
+#: ../classes/modInstaller.php:128
+#, php-format
+msgid "Install %s failed"
+msgstr "L'installation de %s a échoué"
+
+#: ../classes/modInstaller.php:134
+msgid "Error Activate module"
+msgstr "Erreur du module d'activation"
+
+#: ../classes/modInstaller.php:164
+msgid "Error Deactivation module"
+msgstr "Erreur dans la désactivation du module"
+
+#: ../classes/modInstaller.php:185
+msgid "Error Activating module"
+msgstr "Erreur lors de l'activation du module"
+
+#: ../classes/model.php:174 ../classes/model.php:186
+#: ../modules/popup/models/popup.php:113 ../modules/popup/models/popup.php:125
+msgid "Database error detected"
+msgstr "Erreur de la base de donnée détectée"
+
+#: ../classes/model.php:176 ../modules/popup/models/popup.php:115
+#: ../modules/popup/models/popup.php:413 ../modules/popup/models/popup.php:429
+#: ../modules/statistics/models/statistics.php:96
+#: ../modules/statistics/models/statistics.php:127
+msgid "Invalid ID"
+msgstr "ID non valide"
+
+#: ../classes/model.php:209 ../modules/subscribe/models/subscribe.php:25
+#: ../modules/subscribe/models/subscribe.php:27
+msgid "Empty or invalid ID"
+msgstr "ID vide ou non valide"
+
+#: ../classes/table.php:277
+msgid "Nothig to update"
+msgstr "Rien à mettre à jour"
+
+#: ../classes/table.php:293
+msgid "Database error. Please contact your developer."
+msgstr "Erreur dans la base données. Veuillez contacter votre développeur."
+
+#: ../classes/tables/modules.php:7 ../classes/tables/modules_type.php:8
+msgid "Label"
+msgstr "Etiquette"
+
+#: ../classes/tables/modules.php:8
+msgid "Type"
+msgstr "Type"
+
+#: ../classes/tables/modules.php:9
+msgid "Active"
+msgstr "Actif"
+
+#: ../classes/tables/modules.php:10
+msgid "Params"
+msgstr "Paramètres"
+
+#: ../classes/tables/modules.php:13 ../modules/popup/views/popup.php:188
+msgid "Code"
+msgstr "Code"
+
+#: ../classes/tables/modules.php:14
+msgid "External plugin directory"
+msgstr "Répertoire de l'extension externe"
+
+#: ../classes/tables/modules_type.php:7
+msgid "ID"
+msgstr "ID"
+
+#: ../classes/tables/usage_stat.php:8
+msgid "code"
+msgstr "code"
+
+#: ../classes/tables/usage_stat.php:9
+msgid "visits"
+msgstr "visites"
+
+#: ../classes/tables/usage_stat.php:10
+msgid "spent_time"
+msgstr "Temps passé"
+
+#: ../classes/tables/usage_stat.php:11
+msgid "modify_timestamp"
+msgstr "modifier le cachet"
+
+#: ../classes/validator.php:30
+#, php-format
+msgid "Invalid length for %s, max length is %s"
+msgstr "Taille invalide pour %s, la taille maximale est de %s"
+
+#: ../classes/validator.php:43
+#, php-format
+msgid "Invalid numeric value for %s"
+msgstr "Valeur numérique non valide pour %s"
+
+#: ../classes/validator.php:71
+#, php-format
+msgid "Please enter %s"
+msgstr "Veuillez entrer %s"
+
+#: ../classes/validator.php:78
+#, php-format
+msgid "Please select %s"
+msgstr "Veuillez sélectionner %s"
+
+#: ../classes/validator.php:85 ../classes/validator.php:101
+#, php-format
+msgid "Invalid %s"
+msgstr "%s non valide"
+
+#: ../classes/validator.php:88
+#, php-format
+msgid "%s is already registered"
+msgstr "%s est désormais enregistré"
+
+#: ../modules/adminmenu/mod.php:12
+msgid "Settings"
+msgstr "Configuration"
+
+#: ../modules/mail/controller.php:7
+msgid "Now check your email inbox / spam folders for test mail."
+msgstr ""
+"Vérifier maintenant votre boite de réception / courrier indésirable pour le "
+"courrier test."
+
+#: ../modules/mail/mod.php:37
+msgid "Cannot send email - problem with send server"
+msgstr "Impossible d'envoyer le courrier. Problème avec le serveur d'envoi"
+
+#: ../modules/mail/mod.php:50
+msgid "Mail"
+msgstr "Courrier"
+
+#: ../modules/mail/mod.php:52
+msgid "Mail function tested and work"
+msgstr "La fonction courrier a été testée et fonctionne bien"
+
+#: ../modules/mail/mod.php:53
+msgid "Notify Email"
+msgstr "Courrier de notification"
+
+#: ../modules/mail/mod.php:53
+msgid "Email address used for all email notifications from plugin"
+msgstr ""
+"Adresse email utilisée pour tous les courriers de notification à partir de "
+"l'extension"
+
+# "Fonctionality" in english ?
+#: ../modules/mail/models/mail.php:7
+msgid "Test email functionslity"
+msgstr "Essai de la fonctionnalité de courrier"
+
+#: ../modules/mail/models/mail.php:8
+#, php-format
+msgid "This is a test email for testing email functionality on your site, %s."
+msgstr ""
+"Ceci est un courrier de test pour tester cette fonctionnalité sur votre "
+"site, %s."
+
+#: ../modules/mail/models/mail.php:15
+msgid "Empty email address"
+msgstr "Adresse email vide"
+
+#: ../modules/mail/views/tpl/mailAdmin.php:3
+msgid "Send test email to"
+msgstr "Envoyer un courrier test à"
+
+#: ../modules/mail/views/tpl/mailAdmin.php:10
+msgid "Send test"
+msgstr "Envoi du test"
+
+#: ../modules/mail/views/tpl/mailAdmin.php:12
+msgid "This option allows you to check your server mail functionality"
+msgstr "Cette option permet d'activer la fonction courrier de votre serveur."
+
+#: ../modules/mail/views/tpl/mailAdmin.php:15
+msgid "Did you receive test email?"
+msgstr "Avez-vous reçu le courrier test ?"
+
+#: ../modules/mail/views/tpl/mailAdmin.php:18
+msgid "Yes! It works!"
+msgstr "Super, ça fonctionne !"
+
+#: ../modules/mail/views/tpl/mailAdmin.php:22
+msgid "No, I need to contact my hosting provider with mail function issue."
+msgstr ""
+"Non, je dois contacter mon hébergeur pour un problème de fonction de "
+"courrier."
+
+#: ../modules/mail/views/tpl/mailAdmin.php:26
+msgid "Great! Mail function was tested and is working fine."
+msgstr "Super : la fonction courrier a été testée et fonctionne parfaitement."
+
+#: ../modules/mail/views/tpl/mailAdmin.php:29
+msgid ""
+"Bad, please contact your hosting provider and ask them to setup mail "
+"functionality on your server."
+msgstr ""
+"Pas bon ! Veuillez contacter votre hébergeur pour lui demander de configurer "
+"la fonction courrier sur votre serveur."
+
+#: ../modules/mail/views/tpl/mailAdmin.php:47
+#, php-format
+msgid "Turned On %s"
+msgstr "Lancé  %s"
+
+#: ../modules/mail/views/tpl/mailAdmin.php:48
+#, php-format
+msgid "Turned Off %s"
+msgstr "Arrêté %s"
+
+#: ../modules/mail/views/tpl/mailAdmin.php:69
+#: ../modules/popup/views/tpl/popupAddNewAdmin.php:20
+#: ../modules/popup/views/tpl/popupEditFormControls.php:5
+msgid "Save"
+msgstr "Sauvegarder"
+
+#: ../modules/options/mod.php:84
+msgid "General"
+msgstr "Général"
+
+#: ../modules/options/mod.php:86
+msgid "Send usage statistics"
+msgstr "Envoyer les stats d'utilisation"
+
+#: ../modules/options/models/modules.php:32
+msgid "Module Updated"
+msgstr "Module mis à jour"
+
+#: ../modules/options/models/modules.php:47
+msgid "Module Update Failed"
+msgstr "Echec de la mise à jour du module"
+
+#: ../modules/options/models/modules.php:50
+msgid "Error module ID"
+msgstr "Erreur d'ID du module"
+
+#: ../modules/options/models/options.php:63
+msgid "Empty data to save option"
+msgstr "Option de sauvegarde de données vierges"
+
+#: ../modules/options/views/tpl/optionsAdminMain.php:18
+msgid "Main page Go here!!!!"
+msgstr "La page principale, c'est ici !!!"
+
+#: ../modules/pages/views/tpl/deactivatePage.php:33
+msgid "Delete Plugin Data (options, setup data, database tables, etc.)"
+msgstr ""
+"Effacer les données de l'extension (options, configuration, tables de la "
+"base de données...)"
+
+#: ../modules/popup/controller.php:21
+msgid "Yes"
+msgstr "Oui"
+
+#: ../modules/popup/controller.php:21
+msgid "No"
+msgstr "Aucun(e)"
+
+#: ../modules/popup/controller.php:115
+msgid "Done, redirecting to new PopUp..."
+msgstr "C'est fait, en redirection vers un nouveau PopUp..."
+
+#: ../modules/popup/mod.php:13
+msgid "Add New PopUp"
+msgstr "Ajouter un nouveau PopUp"
+
+#: ../modules/popup/mod.php:16
+msgid "Edit"
+msgstr "Modifier"
+
+#: ../modules/popup/mod.php:19
+msgid "Show All PopUps"
+msgstr "Afficher tous les PopUp"
+
+#: ../modules/popup/models/popup.php:69
+msgid "img/preview/"
+msgstr "img/aperçu/"
+
+#: ../modules/popup/models/popup.php:98
+msgid "Please select PopUp template from list below"
+msgstr "Veuillez choisir un modèle dans la liste ci-dessous"
+
+#: ../modules/popup/models/popup.php:100 ../modules/popup/models/popup.php:415
+msgid "Please enter Name"
+msgstr "Veuillez entrer le nom"
+
+#: ../modules/popup/models/popup.php:133
+msgid "Enter your Facebook page URL"
+msgstr "Tapez l'URL de la page Facebook"
+
+#: ../modules/popup/models/popup.php:140
+msgid "Enter your video URL"
+msgstr "URL pour votre vidéo"
+
+#: ../modules/popup/models/popup.php:234
+msgid "Common"
+msgstr "Ordinaire"
+
+#: ../modules/popup/models/popup.php:235
+msgid "Facebook Like"
+msgstr "J'aime sur Facebook"
+
+#: ../modules/popup/models/popup.php:236
+msgid "Video"
+msgstr "Vidéo"
+
+#: ../modules/popup/models/popup.php:276
+msgid "Provided data was corrupted"
+msgstr "Les données fournies sont corrompues"
+
+#: ../modules/popup/views/popup.php:39
+msgid "Modify PopUp Template"
+msgstr "Modifier le modèle du PopUp"
+
+#: ../modules/popup/views/popup.php:49
+msgid "Cannot find required PopUp"
+msgstr "Impossible de trouver le PopUp demandé"
+
+#: ../modules/popup/views/popup.php:93 ../modules/popup/views/popup.php:280
+#: ../modules/popup/views/popup.php:506
+msgid "None"
+msgstr "Aucun(e)"
+
+#: ../modules/popup/views/popup.php:94
+msgid "Image"
+msgstr "Image"
+
+#: ../modules/popup/views/popup.php:95
+msgid "Color"
+msgstr "Couleur"
+
+#: ../modules/popup/views/popup.php:99
+msgid "Mobile"
+msgstr "GSM"
+
+#: ../modules/popup/views/popup.php:100
+msgid "Tablet"
+msgstr "Tablette"
+
+#: ../modules/popup/views/popup.php:101
+msgid "Desktop PC"
+msgstr "PC de bureau"
+
+#: ../modules/popup/views/popup.php:150
+msgid "Appearance"
+msgstr "Apparence"
+
+#: ../modules/popup/views/popup.php:155
+msgid "Animation"
+msgstr "Animation"
+
+#: ../modules/popup/views/popup.php:162
+msgid "Subscribe"
+msgstr "Souscrire"
+
+#: ../modules/popup/views/popup.php:167
+msgid "Social"
+msgstr "Lien social"
+
+#: ../modules/popup/views/popup.php:178
+msgid "Main"
+msgstr "Principal(e)"
+
+#: ../modules/popup/views/popup.php:183
+msgid "Design"
+msgstr "Aspect"
+
+#: ../modules/popup/views/popup.php:195
+msgid "Texts"
+msgstr "Textes"
+
+#: ../modules/popup/views/popup.php:219
+msgid "Facebook page URL"
+msgstr "URL de la page Facebook"
+
+#: ../modules/popup/views/popup.php:221
+msgid ""
+"The absolute URL of the Facebook Page that will be liked. This is a required "
+"setting."
+msgstr ""
+"L'URL aboslue de la page Fecebook qui sera \"likée\". C'est une option "
+"obligatoire."
+
+#: ../modules/popup/views/popup.php:223
+msgid "Color scheme"
+msgstr "Schéma de couleurs"
+
+#: ../modules/popup/views/popup.php:225
+msgid "Light"
+msgstr "Clair"
+
+#: ../modules/popup/views/popup.php:225
+msgid "Dark"
+msgstr "Sombre"
+
+#: ../modules/popup/views/popup.php:226
+msgid "The color scheme used by the plugin. Can be \"light\" or \"dark\"."
+msgstr "Le schéma couleurs de l'extension. Peut être \"clair\" ou \"sombre\"."
+
+#: ../modules/popup/views/popup.php:228
+msgid "Force wall"
+msgstr "Ecran de défense"
+
+# I'll translate it later, after first using your plugin... Sorry !
+#: ../modules/popup/views/popup.php:230
+#, fuzzy
+msgid ""
+"For \"place\" Pages (Pages that have a physical location that can be used "
+"with check-ins), this specifies whether the stream contains posts by the "
+"Page or just check-ins from friends."
+msgstr ""
+"Pour \"place\" des pages (Pages ayant un emplacement physique utilisable "
+"avec check-ins), ceci détermine si le flux comprend des articles par page ou "
+"simplement check-ins des amis."
+
+#: ../modules/popup/views/popup.php:232
+msgid "Header"
+msgstr "En-tête"
+
+#: ../modules/popup/views/popup.php:234
+msgid ""
+"Specifies whether to display the Facebook header at the top of the plugin."
+msgstr ""
+"Définit si l'en-tête Facebook doit être affichée en tête de l'extension."
+
+#: ../modules/popup/views/popup.php:236
+msgid "Show border"
+msgstr "Afficher la bordure"
+
+#: ../modules/popup/views/popup.php:238
+msgid "Specifies whether or not to show a border around the plugin."
+msgstr "Définit s'il faut ou non afficher une bordure autour de l'extension."
+
+#: ../modules/popup/views/popup.php:240
+msgid "Show faces"
+msgstr "Affiche des visages"
+
+#: ../modules/popup/views/popup.php:242
+msgid ""
+"Specifies whether to display profile photos of people who like the page."
+msgstr ""
+"Définit s'il faut afficher la photo du profil des gens qui \"likent\" la "
+"page."
+
+#: ../modules/popup/views/popup.php:244
+msgid "Stream"
+msgstr "Flux"
+
+#: ../modules/popup/views/popup.php:246
+msgid "Specifies whether to display a stream of the latest posts by the Page."
+msgstr ""
+"Définit s'il faut afficher un flux des derniers articles selon la page."
+
+#: ../modules/popup/views/popup.php:281
+msgid "Puff"
+msgstr "Puff"
+
+#: ../modules/popup/views/popup.php:282
+msgid "Vanish"
+msgstr "Vanish"
+
+#: ../modules/popup/views/popup.php:284
+msgid "Open down left"
+msgstr "Ouvre bas gauche"
+
+#: ../modules/popup/views/popup.php:285
+msgid "Open down right"
+msgstr "Ouvre bas droit"
+
+#: ../modules/popup/views/popup.php:287
+msgid "Perspective down"
+msgstr "Perspective bas"
+
+#: ../modules/popup/views/popup.php:288
+msgid "Perspective up"
+msgstr "Perspective haut"
+
+#: ../modules/popup/views/popup.php:290
+msgid "Slide down"
+msgstr "Glisse vers le bas"
+
+#: ../modules/popup/views/popup.php:291
+msgid "Slide up"
+msgstr "Glisse vers le haut"
+
+#: ../modules/popup/views/popup.php:293
+msgid "Swash"
+msgstr "Swash"
+
+#: ../modules/popup/views/popup.php:294
+msgid "Foolis"
+msgstr "Foolis"
+
+#: ../modules/popup/views/popup.php:296
+msgid "Tin right"
+msgstr "Tin right"
+
+#: ../modules/popup/views/popup.php:297
+msgid "Tin left"
+msgstr "Tin left"
+
+#: ../modules/popup/views/popup.php:298
+msgid "Tin up"
+msgstr "Tin up"
+
+#: ../modules/popup/views/popup.php:299
+msgid "Tin down"
+msgstr "Tin down"
+
+#: ../modules/popup/views/popup.php:301
+msgid "Boing"
+msgstr "Boing"
+
+#: ../modules/popup/views/popup.php:303
+msgid "Space right"
+msgstr "Space right"
+
+#: ../modules/popup/views/popup.php:304
+msgid "Space left"
+msgstr "Space left"
+
+#: ../modules/popup/views/popup.php:305
+msgid "Space up"
+msgstr "Space up"
+
+#: ../modules/popup/views/popup.php:306
+msgid "Space down"
+msgstr "Space down"
+
+#: ../modules/popup/views/popup.php:528
+msgid "None (standard)"
+msgstr "Aucun (standard)"
+
+#: ../modules/popup/views/tpl/popupAddNewAdmin.php:5
+#, php-format
+msgid ""
+"Change Template to any other from list bellow or <a class=\"button\" href="
+"\"%s\">return to Pop-Up edit</a>"
+msgstr ""
+"Changer de modèle pour tout autre de la liste ci-dessous ou <a class=\"button"
+"\" href=\"%s\">retour à la modification du Pop-Up</a>"
+
+#: ../modules/popup/views/tpl/popupAddNewAdmin.php:7
+msgid "Choose Pop-Up Template. You can change it later."
+msgstr "Choisissez un modèle de Pop-Up. Vous pourrez toujours le modifier."
+
+#: ../modules/popup/views/tpl/popupAddNewAdmin.php:15
+msgid "PopUp Name"
+msgstr "Nom du PopUp"
+
+#: ../modules/popup/views/tpl/popupAddNewAdmin.php:38
+msgid "type"
+msgstr "type"
+
+#: ../modules/popup/views/tpl/popupAddNewAdmin.php:48
+msgid "Change Template"
+msgstr "Changer de modèle"
+
+#: ../modules/popup/views/tpl/popupAddNewAdmin.php:50
+msgid "Are you sure you want to change your current template - to "
+msgstr "Êtes-vous sûr de vouloir modifier votre modèle actuel pour"
+
+#: ../modules/popup/views/tpl/popupAdmin.php:5
+#: ../modules/popup/views/tpl/popupAdmin.php:8
+msgid "Delete selected"
+msgstr "Effacer la sélection"
+
+#: ../modules/popup/views/tpl/popupAdmin.php:11
+msgid "Clear All"
+msgstr "Supprimer tout"
+
+#: ../modules/popup/views/tpl/popupAdmin.php:13
+msgid "Clear"
+msgstr "Vider"
+
+#: ../modules/popup/views/tpl/popupAdmin.php:16
+#: ../modules/popup/views/tpl/popupAdmin.php:17
+msgid "Search"
+msgstr "Rechercher"
+
+#: ../modules/popup/views/tpl/popupAdmin.php:26
+#, php-format
+msgid ""
+"You have no PopUps for now. <a href=\"%s\" style=\"font-style: italic;"
+"\">Create</a> your PopUp!"
+msgstr ""
+"Vous n'avez actuellement aucun PopUp. <a href=\"%s\" style=\"font-style: "
+"italic;\">Créez</a>votre PopUp !"
+
+#: ../modules/popup/views/tpl/popupEditAdmin.php:87
+msgid "Loading preview..."
+msgstr "Chargement de l'aperçu..."
+
+#: ../modules/popup/views/tpl/popupEditAdmin.php:92
+msgid "Back to top"
+msgstr "Retour en haut"
+
+#: ../modules/popup/views/tpl/popupEditAdminAnimationOpts.php:2
+msgid "Choose PopUp animation style"
+msgstr "Choisir le style d'animation du PopUp"
+
+#: ../modules/popup/views/tpl/popupEditAdminAnimationOpts.php:3
+msgid "current style"
+msgstr "style actuel"
+
+#: ../modules/popup/views/tpl/popupEditAdminAnimationOpts.php:29
+msgid "Animation Duration"
+msgstr "Durée de l'animation"
+
+#: ../modules/popup/views/tpl/popupEditAdminAnimationOpts.php:31
+msgid "miliseconds"
+msgstr "millisecondes"
+
+#: ../modules/popup/views/tpl/popupEditAdminCodeOpts.php:2
+#, php-format
+msgid ""
+"Edit this ONLY if you know basics of HTML, CSS and have been acquainted with "
+"the rules of template editing described <a target=\"_blank\" href=\"%s"
+"\">here</a>"
+msgstr ""
+"Ne modifiez cela QUE si vous maitrisez le HTML, CSS et que vous maitrisez le "
+"règles d'édition des modèles, décrits <a href=\"%s\">ici</a>"
+
+#: ../modules/popup/views/tpl/popupEditAdminCodeOpts.php:5
+msgid "CSS code"
+msgstr "Code CSS"
+
+#: ../modules/popup/views/tpl/popupEditAdminCodeOpts.php:9
+msgid "HTML code"
+msgstr "Code HTML"
+
+#: ../modules/popup/views/tpl/popupEditAdminDesignOpts.php:5
+msgid "Video URL"
+msgstr "URL de la vidéo"
+
+#: ../modules/popup/views/tpl/popupEditAdminDesignOpts.php:6
+msgid "Copy and paste here URL of your video source"
+msgstr "Copier/coller ici l'URL source de votre vidéo"
+
+#: ../modules/popup/views/tpl/popupEditAdminDesignOpts.php:15
+msgid "Width"
+msgstr "Largeur"
+
+#: ../modules/popup/views/tpl/popupEditAdminDesignOpts.php:22
+msgid "Max width for percentage - is 100"
+msgstr "Le pourcentage max pour la largeur est de 100"
+
+#: ../modules/popup/views/tpl/popupEditAdminDesignOpts.php:24
+msgid "Percents"
+msgstr "Pourcentages"
+
+#: ../modules/popup/views/tpl/popupEditAdminDesignOpts.php:28
+msgid "Pixels"
+msgstr "Pixels"
+
+#: ../modules/popup/views/tpl/popupEditAdminDesignOpts.php:38
+msgid "Height"
+msgstr "Hauteur"
+
+#: ../modules/popup/views/tpl/popupEditAdminDesignOpts.php:50
+msgid "Video Autoplay"
+msgstr "Vidéo automatique"
+
+#: ../modules/popup/views/tpl/popupEditAdminDesignOpts.php:51
+msgid "Play video - right after PopUp show"
+msgstr "Lancer la vidéo dès l'apparition du PopUp"
+
+#: ../modules/popup/views/tpl/popupEditAdminDesignOpts.php:61
+msgid "Hide controls"
+msgstr "Masquer les contrôles"
+
+#: ../modules/popup/views/tpl/popupEditAdminDesignOpts.php:62
+msgid "Hide standard video player controls"
+msgstr "Masquer les contrôles standards du lecteur vidéo"
+
+#: ../modules/popup/views/tpl/popupEditAdminDesignOpts.php:103
+msgid "Background overlay opacity"
+msgstr "Opacité de la surcouche de fond"
+
+#: ../modules/popup/views/tpl/popupEditAdminDesignOpts.php:112
+msgid "Background"
+msgstr "Arrière-plan"
+
+#: ../modules/popup/views/tpl/popupEditAdminDesignOpts.php:112
+#, php-format
+msgid "Background %d"
+msgstr "Arrière-plan %d"
+
+#: ../modules/popup/views/tpl/popupEditAdminDesignOpts.php:130
+msgid "Close button"
+msgstr "Bouton de sortie"
+
+#: ../modules/popup/views/tpl/popupEditAdminDesignOpts.php:150
+msgid "Bullets"
+msgstr "Puces"
+
+#: ../modules/popup/views/tpl/popupEditAdminMainOpts.php:2
+msgid "When to show PopUp"
+msgstr "Quand afficher le PopUp"
+
+#: ../modules/popup/views/tpl/popupEditAdminMainOpts.php:8
+msgid "When page loads"
+msgstr "Quand le chargement de la page"
+
+#: ../modules/popup/views/tpl/popupEditAdminMainOpts.php:13
+#: ../modules/popup/views/tpl/popupEditAdminMainOpts.php:52
+msgid "Delay for"
+msgstr "Délai pour"
+
+#: ../modules/popup/views/tpl/popupEditAdminMainOpts.php:17
+msgid "Seconds"
+msgstr "Secondes"
+
+#: ../modules/popup/views/tpl/popupEditAdminMainOpts.php:17
+msgid "sec"
+msgstr "sec"
+
+#: ../modules/popup/views/tpl/popupEditAdminMainOpts.php:24
+msgid "User click on the page"
+msgstr "Clic de l'utilisateur sur la page"
+
+#: ../modules/popup/views/tpl/popupEditAdminMainOpts.php:30
+msgid "Click on certain link / button / other element"
+msgstr "Clic sur un certain lien / bouton / autre élément"
+
+#: ../modules/popup/views/tpl/popupEditAdminMainOpts.php:34
+msgid "Copy & paste next code - into required link to open PopUp on Click"
+msgstr ""
+"Copier/coller le code suivant  dans le lien demandé pour ouvrir le PopUp sur "
+"un clic."
+
+#: ../modules/popup/views/tpl/popupEditAdminMainOpts.php:35
+#, php-format
+msgid ""
+"Check screenshot with details - <a onclick=\"ppsShowTipScreenPopUp(this); "
+"return false;\" href=\"%s\">here</a>."
+msgstr ""
+"Regardez bien la capture d'écran - <a onclick=\"ppsShowTipScreenPopUp(this); "
+"return false;\" href=\"%s\">ici</a>."
+
+#: ../modules/popup/views/tpl/popupEditAdminMainOpts.php:40
+msgid ""
+"Or, if you know HTML basics, - you can insert \"onclick\" attribute to any "
+"of your element from code below"
+msgstr ""
+"Ou si vous maitrisez l'HTML, vous pouvez insérer l'attibut \"onclick\"  à "
+"n'importe quel élément du code ci-dessous"
+
+#: ../modules/popup/views/tpl/popupEditAdminMainOpts.php:47
+msgid "Scroll window"
+msgstr "Faire défiler la fenêtre"
+
+#: ../modules/popup/views/tpl/popupEditAdminMainOpts.php:56
+msgid "seconds after first scroll"
+msgstr "secondes après le 1ier défilement"
+
+#: ../modules/popup/views/tpl/popupEditAdminMainOpts.php:62
+msgid "Whom to show"
+msgstr "Qui afficher"
+
+#: ../modules/popup/views/tpl/popupEditAdminMainOpts.php:68
+msgid "Everyone"
+msgstr "Tout le monde"
+
+#: ../modules/popup/views/tpl/popupEditAdminMainOpts.php:74
+msgid "For first-time visitors"
+msgstr "Pour ceux en première visite"
+
+#: ../modules/popup/views/tpl/popupEditAdminMainOpts.php:76
+msgid "Subscribe, share, like, etc."
+msgstr "Souscrire, partager, \"liker\"...etc"
+
+#: ../modules/popup/views/tpl/popupEditAdminMainOpts.php:80
+msgid "Until user will not make an action"
+msgstr "Tant que l'utilisateur ne fait rien"
+
+#: ../modules/popup/views/tpl/popupEditAdminMainOpts.php:83
+msgid "Hide for"
+msgstr "Cacher pour"
+
+#: ../modules/popup/views/tpl/popupEditAdminMainOpts.php:87
+msgid "Choose devices"
+msgstr "Choix d'écran"
+
+#: ../modules/popup/views/tpl/popupEditAdminMainOpts.php:98
+msgid "Show on next pages"
+msgstr "Afficher sur les pages suivantes"
+
+#: ../modules/popup/views/tpl/popupEditAdminMainOpts.php:104
+msgid "All pages"
+msgstr "Toutes les pages"
+
+#: ../modules/popup/views/tpl/popupEditAdminMainOpts.php:110
+msgid "Show on next pages / posts"
+msgstr "Afficher sur les pages ou articles suivants"
+
+#: ../modules/popup/views/tpl/popupEditAdminMainOpts.php:113
+#: ../modules/popup/views/tpl/popupEditAdminMainOpts.php:122
+msgid "Choose Pages"
+msgstr "Choix des pages"
+
+#: ../modules/popup/views/tpl/popupEditAdminMainOpts.php:119
+msgid "Don't show on next pages / posts"
+msgstr "Ne pas afficher sur les pages ou articles suivants"
+
+#: ../modules/popup/views/tpl/popupEditAdminSmOpts.php:7
+msgid "Enable Social Buttons"
+msgstr "Activer les boutons de liens sociaux"
+
+#: ../modules/popup/views/tpl/popupEditAdminSmOpts.php:21
+msgid "Social links design"
+msgstr "Aspect pour les liens sociaux"
+
+#: ../modules/popup/views/tpl/popupEditAdminSubOpts.php:7
+msgid "Enable Subscription"
+msgstr "Activer la souscription"
+
+#: ../modules/popup/views/tpl/popupEditAdminSubOpts.php:13
+msgid "Subscribe to"
+msgstr "Souscrire à"
+
+#: ../modules/popup/views/tpl/popupEditAdminSubOpts.php:21
+msgid "Create user with the chosen role after subscribing"
+msgstr "Créer un utilisateur avec rôle après souscription"
+
+#: ../modules/popup/views/tpl/popupEditAdminSubOpts.php:22
+msgid ""
+"Use this only if you are really need it. Remember! After you change this "
+"option - your new subscriber will have more privileges than usual "
+"subscribers, so be careful with this option!"
+msgstr ""
+"N'utilisez cela qu'en cas de besoin réel. N'oubliez pas qu'après cette "
+"modification, le nouvel utilisateur aura plus d'autorisations que le "
+"souscripteur habituel. Aussi, soyez prudent pour cette option ! "
+
+#: ../modules/popup/views/tpl/popupEditAdminSubOpts.php:30
+msgid "Aweber Unique List ID"
+msgstr "ID de liste unique Aweber"
+
+#: ../modules/popup/views/tpl/popupEditAdminSubOpts.php:31
+#, php-format
+msgid "Check <a href=\"%s\" target=\"_blank\">this page</a> for more details"
+msgstr ""
+"Voyez <a href=\"%s\" target=\"_blank\">cette page</a> pour plus de détails"
+
+#: ../modules/popup/views/tpl/popupEditAdminSubOpts.php:39
+msgid "MailChimp API key"
+msgstr "Clé API pour MailChimp"
+
+#: ../modules/popup/views/tpl/popupEditAdminSubOpts.php:40
+#, php-format
+msgid ""
+"To find your MailChimp API Key login to your mailchimp account at <a href="
+"\"%s\" target=\"_blank\">%s</a> then from the left main menu, click on your "
+"Username, then select \"Account\" in the flyout menu. From the account page "
+"select \"Extras\", \"API Keys\". Your API Key will be listed in the table "
+"labeled \"Your API Keys\". Copy / Paste your API key into the MailChimp "
+"Module2 setup."
+msgstr ""
+"Pour trouver votre clé API MailChimp, connectez vous à votre compte à <a "
+"href=\"%s\" target=\"_blank\">%s</a> puis dans le menu principal gauche, "
+"cliquez sur votre nom d'utilisateur puis sur  \"Account\" dans le menu "
+"popup. Dans votre page compte allez sur \"extras\", \"API Keys\". Vous y "
+"trouverez votre clé dans la liste \"Your API Keys\". Copier/coller cette clé "
+"dans la config du module2 MailChimp."
+
+#: ../modules/popup/views/tpl/popupEditAdminSubOpts.php:47
+msgid "Lists for subscribe"
+msgstr "Listes de souscription"
+
+#: ../modules/popup/views/tpl/popupEditAdminSubOpts.php:48
+msgid ""
+"Select lists for subscribe. They are taken from your MailChimp account - so "
+"make sure that you entered correct API key before."
+msgstr ""
+"Choisir les listes de souscription. Elles sont récupérées dans votre compte "
+"MailChimp, aussi, assurez-vous, avant, d'avoir insérer la bonne clé API."
+
+#: ../modules/popup/views/tpl/popupEditAdminSubOpts.php:52
+msgid "Choose Lists"
+msgstr "Choix des listes"
+
+#: ../modules/popup/views/tpl/popupEditAdminSubOpts.php:54
+msgid "Enter API key - and your list will appear here"
+msgstr "Insérez la clé API - et vos listes vont apparaître ici"
+
+#: ../modules/popup/views/tpl/popupEditAdminSubOpts.php:60
+msgid "Subscription fields"
+msgstr "Champs pour souscription"
+
+#: ../modules/popup/views/tpl/popupEditAdminSubOpts.php:63
+msgid "Email"
+msgstr "Email"
+
+#: ../modules/popup/views/tpl/popupEditAdminSubOpts.php:67
+msgid "Name"
+msgstr "Nom"
+
+#: ../modules/popup/views/tpl/popupEditAdminSubOpts.php:73
+msgid "\"Confirmation email was sent\" message"
+msgstr "Message pour \"Confirmation d'email a été envoyée\""
+
+#: ../modules/popup/views/tpl/popupEditAdminSubOpts.php:74
+msgid ""
+"This will be message, that user will see after subscribe - that email with "
+"confirmation link sent."
+msgstr ""
+"Ceci est le message que l'utilisateur verra après souscription qui envoie le "
+"message avec lien de confirmaiton."
+
+#: ../modules/popup/views/tpl/popupEditAdminSubOpts.php:76
+#: ../modules/subscribe/controller.php:18
+msgid "Confirmation link was sent to your email address. Check your email!"
+msgstr ""
+"La confirmation du lien a été envoyée à votre adresse email. Vérifiez votre "
+"courrier !"
+
+#: ../modules/popup/views/tpl/popupEditAdminSubOpts.php:80
+msgid "Subscribe success message"
+msgstr "Message à la réussite de la souscription"
+
+#: ../modules/popup/views/tpl/popupEditAdminSubOpts.php:81
+msgid ""
+"Right after subscriber will be created and confirmed - this message will be "
+"shown."
+msgstr ""
+"Juste après la création et la confirmation du souscripteur, ce message "
+"apparaîtra ."
+
+#: ../modules/popup/views/tpl/popupEditAdminSubOpts.php:83
+#: ../modules/subscribe/controller.php:22
+#: ../modules/subscribe/controller.php:39
+msgid "Thank you for subscribing!"
+msgstr "Merci de souscrire !"
+
+#: ../modules/popup/views/tpl/popupEditAdminSubOpts.php:87
+msgid "Email error message"
+msgstr "Message d'erreur email"
+
+#: ../modules/popup/views/tpl/popupEditAdminSubOpts.php:88
+msgid ""
+"If email that was entered by user is invalid, user will see this message"
+msgstr ""
+"Si l'adresse envoyée par l'utilisateur n'est pas valide, il verra ce message"
+
+#: ../modules/popup/views/tpl/popupEditAdminSubOpts.php:90
+#: ../modules/subscribe/models/subscribe.php:81
+msgid "Empty or invalid email"
+msgstr "Email vide ou non valide"
+
+#: ../modules/popup/views/tpl/popupEditAdminSubOpts.php:94
+msgid "Redirect after subscription URL"
+msgstr "Redirection après l'URL de souscription"
+
+#: ../modules/popup/views/tpl/popupEditAdminSubOpts.php:95
+msgid ""
+"You can enable redirection after subscription, just enter here URL that you "
+"want to redirect to after subscribe - and user will be redirected there. If "
+"you don't need this feature - just leave this field empty."
+msgstr ""
+"Vous pouvez activer une redirection, après souscription, juste, en tapant "
+"l'URL de redirection après soucription. L'utilisateur y sera redirigé. Si "
+"vous n'avez pas besoin de cette option, laissez le champ vide."
+
+#: ../modules/popup/views/tpl/popupEditAdminSubOpts.php:103
+msgid "Confirmation email subject"
+msgstr "Confirmation du sujet du courrier"
+
+#: ../modules/popup/views/tpl/popupEditAdminSubOpts.php:104
+msgid "Email with confirmation link subject"
+msgstr "Sujet de l'email du lien de confirmation"
+
+#: ../modules/popup/views/tpl/popupEditAdminSubOpts.php:108
+#: ../modules/subscribe/models/subscribe.php:126
+msgid "Confirm subscription on [sitename]"
+msgstr "Confirmez la souscription sur [sitename]"
+
+#: ../modules/popup/views/tpl/popupEditAdminSubOpts.php:112
+msgid "Confirmation email text"
+msgstr "Confirmation du contenu du courrier"
+
+#: ../modules/popup/views/tpl/popupEditAdminSubOpts.php:113
+msgid "Email with confirmation link content"
+msgstr "Texte de l'email du lien de confirmation"
+
+#: ../modules/popup/views/tpl/popupEditAdminSubOpts.php:117
+#: ../modules/subscribe/models/subscribe.php:129
+msgid ""
+"You subscribed on site <a href=\"[siteurl]\">[sitename]</a>. Follow <a href="
+"\"[confirm_link]\">this link</a> to complete your subscription. If you did "
+"not subscribe here - just ignore this message."
+msgstr ""
+"Vous avez souscrit sur le site <a href=\"[siteurl]\">[sitename]</a>. Suivez "
+"<a href=\"[confirm_link]\">ce lien</a> pour compléter votre souscrription. "
+"Si vous n'avez pas souscrit ici, ignorez simplement ce message."
+
+#: ../modules/popup/views/tpl/popupEditAdminSubOpts.php:121
+#, php-format
+msgid "You can use next variables here: %s"
+msgstr "Vous pouvez utliser les variables suivantes ici : %s"
+
+#: ../modules/popup/views/tpl/popupEditAdminSubOpts.php:125
+msgid "Submit button name"
+msgstr "Nom du bouton d'envoi"
+
+#: ../modules/popup/views/tpl/popupEditAdminTextsOpts.php:19
+msgid "Text block"
+msgstr "Bloc texte"
+
+#: ../modules/popup/views/tpl/popupEditAdminTextsOpts.php:19
+#, php-format
+msgid "Text block %d"
+msgstr "Bloc texte %d"
+
+#: ../modules/popup/views/tpl/popupEditAdminTextsOpts.php:36
+msgid "Foot note"
+msgstr "Note de pied de page"
+
+#: ../modules/popup/views/tpl/popupEditAdminTplOpts.php:3
+msgid "Change PopUp Template"
+msgstr "Modifier le modèle de PopUp"
+
+#: ../modules/popup/views/tpl/popupEditFormControls.php:3
+msgid "Save all changes"
+msgstr "Sauvegarder toutes les modifications"
+
+#: ../modules/popup/views/tpl/popupEditFormControls.php:7
+msgid "Clone to New PopUp"
+msgstr "Cloner vers un nouveau PopUp"
+
+#: ../modules/popup/views/tpl/popupEditFormControls.php:9
+msgid "Clone"
+msgstr "Cloner"
+
+#: ../modules/popup/views/tpl/popupEditFormControls.php:13
+msgid "Preview"
+msgstr "Aperçu"
+
+#: ../modules/popup/views/tpl/popupEditFormControls.php:15
+msgid "Turn Off"
+msgstr "Arrêter"
+
+#: ../modules/popup/views/tpl/popupEditFormControls.php:15
+msgid "Turn On"
+msgstr "Lancer"
+
+#: ../modules/popup/views/tpl/popupEditFormControls.php:21
+msgid "Delete"
+msgstr "Effacer"
+
+#: ../modules/popup/views/tpl/popupEditFormControls.php:28
+msgid "New Name"
+msgstr "Nouveau nom"
+
+#: ../modules/popup/views/tpl/popupEditFormControls.php:29
+msgid "Copy"
+msgstr "Copier"
+
+#: ../modules/sm/mod.php:26
+msgid "Facebook"
+msgstr "Facebook"
+
+#: ../modules/sm/mod.php:27
+msgid "Google+"
+msgstr "Google+"
+
+#: ../modules/sm/mod.php:28
+msgid "Twitter"
+msgstr "Twitter"
+
+#: ../modules/sm/mod.php:52
+msgid "Simple"
+msgstr "Simple"
+
+#: ../modules/sm/mod.php:53
+msgid "Boxy"
+msgstr "En pavé"
+
+#: ../modules/statistics/controller.php:40
+#, php-format
+msgid "Statistics for \"%s\""
+msgstr "Statistiques pour \"%s\""
+
+#: ../modules/statistics/controller.php:42
+msgid "Date"
+msgstr "Date"
+
+#: ../modules/statistics/controller.php:43
+msgid "Views"
+msgstr "Vues"
+
+#: ../modules/statistics/controller.php:44
+msgid "Unique Views"
+msgstr "Affichages uniques"
+
+#: ../modules/statistics/controller.php:45
+msgid "Actions"
+msgstr "Actions"
+
+#: ../modules/statistics/controller.php:46
+msgid "Conversion"
+msgstr "Conversion"
+
+#: ../modules/statistics/mod.php:11
+msgid "Displayed"
+msgstr "Affiché(e)"
+
+#: ../modules/statistics/mod.php:12
+msgid "Subscribed"
+msgstr "Souscrite"
+
+#: ../modules/statistics/mod.php:13
+msgid "Shared"
+msgstr "Partagé(e)"
+
+#: ../modules/statistics/mod.php:14
+msgid "Facebook Liked"
+msgstr "\"Liked\" sur FB"
+
+#: ../modules/statistics/mod.php:25
+msgid "Statistics"
+msgstr "Statistiques"
+
+#: ../modules/statistics/models/statistics.php:35
+#: ../modules/subscribe/models/subscribe.php:178
+msgid "Send me some info, pls"
+msgstr "Envoyez-moi des infos, svp"
+
+#: ../modules/statistics/models/statistics.php:165
+msgid "No data found"
+msgstr "Pas de données trouvées."
+
+#: ../modules/statistics/views/tpl/statPopupEditTab.php:3
+msgid "Main PopUp Usage Statistics"
+msgstr "Statistiques pour l'usage du PopUp principal"
+
+#: ../modules/statistics/views/tpl/statPopupEditTab.php:5
+msgid "Clear selection"
+msgstr "Supprimer la sélection"
+
+#: ../modules/statistics/views/tpl/statPopupEditTab.php:6
+msgid "From"
+msgstr "De"
+
+#: ../modules/statistics/views/tpl/statPopupEditTab.php:7
+msgid "To"
+msgstr "à"
+
+#: ../modules/statistics/views/tpl/statPopupEditTab.php:21
+msgid "Reset Zoom"
+msgstr "Réinitialiser le zoom"
+
+# Goup or group ?
+#: ../modules/statistics/views/tpl/statPopupEditTab.php:26
+msgid "Goup by"
+msgstr "Regrouper par"
+
+#: ../modules/statistics/views/tpl/statPopupEditTab.php:27
+msgid "Hour"
+msgstr "Heure"
+
+#: ../modules/statistics/views/tpl/statPopupEditTab.php:28
+msgid "Day"
+msgstr "Jour"
+
+#: ../modules/statistics/views/tpl/statPopupEditTab.php:29
+msgid "Week"
+msgstr "Semaine"
+
+#: ../modules/statistics/views/tpl/statPopupEditTab.php:30
+msgid "Month"
+msgstr "Mois"
+
+#: ../modules/statistics/views/tpl/statPopupEditTab.php:32
+msgid "Export to CSV"
+msgstr "Exportation en CSV"
+
+#: ../modules/statistics/views/tpl/statPopupEditTab.php:37
+msgid "Clear data"
+msgstr "Effacer les données"
+
+#: ../modules/statistics/views/tpl/statPopupEditTab.php:43
+msgid "You can Zoom In by allocating mouse on Graph area."
+msgstr "Vous pouvez agrandir en associant la souris à la zone graphe."
+
+#: ../modules/statistics/views/tpl/statPopupEditTab.php:46
+msgid "Ratio of All Actions"
+msgstr "Ratio de toutes les actions"
+
+#: ../modules/statistics/views/tpl/statPopupEditTab.php:51
+msgid ""
+"Once you will have enought different statistics - like shares, subscribes, "
+"likes, - you will be able to see here - what action is used more often, and "
+"what - not."
+msgstr ""
+"Une fois suffisamment de stats différentes collectées (dans partages, "
+"souscriptions, like) vous pourrez voir ici quelle action est la plus "
+"utilisée et laquelle, pas."
+
+#: ../modules/statistics/views/tpl/statPopupEditTab.php:55
+msgid "Ratio of All Social Share"
+msgstr "Ration dans tous les liens sociaux"
+
+#: ../modules/statistics/views/tpl/statPopupEditTab.php:60
+msgid ""
+"Once you will have enought different statistics about share from PopUp on "
+"social media - you will be able to see here - what social is is used more "
+"often, and what - not."
+msgstr ""
+"Une fois suffisamment de stats collectées différentes dans les partages "
+"depuis le PopUp en liens sociaux, vous pourrez voir ici quelle action est la "
+"plus utilisée et laquelle, pas."
+
+#: ../modules/statistics/views/tpl/statPopupEditTab.php:67
+#, php-format
+msgid ""
+"You have no statistics for \"%s\" PopUp for now. Setup its options and "
+"wait until users will view it on your site."
+msgstr ""
+"Vous n'avez actuellement pas de stats sur \"%s\". Configurez ses options "
+"puis attendez que lkes utilisateurs l'utilisent."
+
+#: ../modules/subscribe/mod.php:7
+msgid "WordPress"
+msgstr "WordPress"
+
+#: ../modules/subscribe/mod.php:8
+msgid "Aweber"
+msgstr "Aweber"
+
+#: ../modules/subscribe/mod.php:9
+msgid "MailChimp"
+msgstr "MailChimp"
+
+#: ../modules/subscribe/models/subscribe.php:23
+msgid "Something goes wrong"
+msgstr "Quelquechose ne tourne pas rond"
+
+#: ../modules/subscribe/models/subscribe.php:41
+msgid "Can't detect your IP, please don't spam"
+msgstr "Impossible de détecter votre IP, veuillez ne pas spammer"
+
+#: ../modules/subscribe/models/subscribe.php:73
+msgid "You just subscribed from this IP"
+msgstr "Vous venez de souscrire pour cette IP"
+
+# later instead latter ?
+#: ../modules/subscribe/models/subscribe.php:173
+msgid "Can't subscribe for now. Please try again later."
+msgstr "Souscription actuellemet impossible. Ré-essayez plus tard."
+
+#: ../modules/subscribe/models/subscribe.php:209
+msgid ""
+"MailChimp require CURL to be setup on your server. Please contact your "
+"hosting provider and ask them to setup CURL libruary for you."
+msgstr ""
+"MailChimp nécessite une configuration CURL sur votre serveur. Veuillez "
+"contacter votre hébergeur pour qu'il configure la librairie CURL, pour vous."
+
+#: ../modules/subscribe/models/subscribe.php:231
+msgid ""
+"There was some problem while trying to get your lists. Make sure that your "
+"API key is correct."
+msgstr ""
+"Un problème est apparu pour l'obtention de vos listes. Assurez-vous de "
+"l'exactitude de votre clé API."
+
+#: ../modules/subscribe/models/subscribe.php:235
+msgid "Empty API key"
+msgstr "Clé API vide"
+
+#: ../modules/subscribe/models/subscribe.php:269
+msgid ""
+"Something going wrong while trying to send data to MailChimp. Please contact "
+"site owner."
+msgstr ""
+"Un dysfonctionnement est apparu lors de l'envoi de données à MailChimp. "
+"Veuillez contacter l'administrateur."
+
+#: ../modules/subscribe/models/subscribe.php:282
+msgid ""
+"No API key entered in admin area - contact site owner to resolve this issue."
+msgstr ""
+"Pas de clé API entrée dans la zone administrateur. Contactez le propriétaire "
+"du site pour résouddre cela."
+
+#: ../modules/subscribe/models/subscribe.php:284
+msgid ""
+"No lists to add selected in admin area - contact site owner to resolve this "
+"issue."
+msgstr ""
+"Pas de listes à ajouter choisies dans la zone administrateur. Contactez le "
+"propriétaire du site pour résouddre cela."
+
+#: ../modules/supsystic_promo/controller.php:7
+msgid "Information was saved. Thank you!"
+msgstr "L'information a été sauvegardée. Nous vous remercions."
+
+#: ../modules/supsystic_promo/mod.php:35
+msgid "Welcome to Supsystic Secure"
+msgstr "Bienvenue à Supsystic Secure"
+
+#: ../modules/supsystic_promo/mod.php:88
+msgid "Testing"
+msgstr "Essai en cours"
+
+#: ../modules/supsystic_promo/mod.php:95
+msgid "Layered Style"
+msgstr "Style avec calques"
+
+#: ../modules/supsystic_promo/views/tpl/additionalmainAdminShowOnOptions.php:1
+#, php-format
+msgid ""
+"Show when user tries to exit from your site. <a target=\"_blank\" href=\"%s"
+"\">Check example.</a>"
+msgstr ""
+"Afficher quad l'utilisateur essaye de quitter le site. <a target=\"_blank\" "
+"href=\"%s\">Voir un exemple.</a>"
+
+#: ../modules/supsystic_promo/views/tpl/additionalmainAdminShowOnOptions.php:6
+msgid "On Exit from Site"
+msgstr "En sortie du site"
+
+#: ../modules/supsystic_promo/views/tpl/additionalmainAdminShowOnOptions.php:7
+msgid "Available in PRO"
+msgstr "Disponible dans la version PRO"
+
+#: ../modules/supsystic_promo/views/tpl/adminFooter.php:4
+#: ../modules/supsystic_promo/views/tpl/welcomePage.php:78
+msgid "Version"
+msgstr "Version"
+
+#: ../modules/supsystic_promo/views/tpl/adminFooter.php:10
+msgid "Go"
+msgstr "Aller"
+
+#: ../modules/supsystic_promo/views/tpl/adminFooter.php:10
+msgid "PRO"
+msgstr "PRO"
+
+#: ../modules/supsystic_promo/views/tpl/adminFooter.php:15
+msgid "Support"
+msgstr "Support"
+
+#: ../modules/supsystic_promo/views/tpl/welcomePage.php:76
+msgid "Welcome to"
+msgstr "Bienvenue à"
+
+#: ../modules/supsystic_promo/views/tpl/welcomePage.php:84
+#, php-format
+msgid "This is first start up of the %s plugin."
+msgstr "Ceci est la première utilisation de l'extension %s."
+
+#: ../modules/supsystic_promo/views/tpl/welcomePage.php:85
+msgid ""
+"If you are newbie, check all features on that page. If you are guru, "
+"please correct us."
+msgstr ""
+"Si vous êtes un débutant, voyez toutes les fonctionnalités sur cette page, "
+"si vous êtes un maître, aidez-nous à corriger."
+
+#: ../modules/supsystic_promo/views/tpl/welcomePage.php:94
+msgid "Please, post url"
+msgstr "Veuillez envoyer l'URL"
+
+#: ../modules/supsystic_promo/views/tpl/welcomePage.php:102
+msgid "Video tutorial"
+msgstr "Tutoriel vidéo"
+
+#: ../modules/supsystic_promo/views/tpl/welcomePage.php:108
+msgid "What to do next? Check below section"
+msgstr "Que faire ensuite ? Voyez la section ci-dessous"
+
+#: ../modules/supsystic_promo/views/tpl/welcomePage.php:112
+msgid "Boost us"
+msgstr "Boostez nous"
+
+#: ../modules/supsystic_promo/views/tpl/welcomePage.php:113
+#, php-format
+msgid ""
+"It's amazing when you boost development with your feedback and ratings. So "
+"we create special <a target=\"_blank\" href=\"%s\">boost page</a> to help "
+"you to help us."
+msgstr ""
+"C'est super quand vous accélérez le développement par votre feedback et "
+"votre note. Aussi avons nous créé une <a target=\"_blank\" href=\"%s\">page "
+"pour booster</a> pour vous aider à nous faire progresser. "
+
+#: ../modules/supsystic_promo/views/tpl/welcomePage.php:117
+msgid "Documentation"
+msgstr "Documentation"
+
+#: ../modules/supsystic_promo/views/tpl/welcomePage.php:118
+#, php-format
+msgid ""
+"Check <a target=\"_blank\" href=\"%s\">documentation</a> and FAQ section. If "
+"you can't solve your problems - <a target=\"_blank\" href=\"%s\">contact us</"
+"a>."
+msgstr ""
+"Voyez la <a target=\"_blank\" href=\"%s\">documentation</a> ainsi que la "
+"section FAQ.  Si vous ne pouvez résoudre vos problèmes n'hésitez pas à <a "
+"target=\"_blank\" href=\"%s\">nous contacter</a>."
+
+#: ../modules/supsystic_promo/views/tpl/welcomePage.php:122
+msgid "Full Features List"
+msgstr "Liste complètes des fonctionnalités"
+
+#: ../modules/supsystic_promo/views/tpl/welcomePage.php:123
+msgid "There are so many features, so we can't post them here. Like"
+msgstr ""
+"Il y a tant de fonctionnalités que nous ne pouvons pas toutes les lister "
+"ici. Comme"
+
+#: ../modules/supsystic_promo/views/tpl/welcomePage.php:125
+msgid "Capcha for admin login"
+msgstr "Captcha pour connexion administrateur"
+
+#: ../modules/supsystic_promo/views/tpl/welcomePage.php:126
+msgid "htaccess admin protect"
+msgstr "htaccess protection administrateur"
+
+#: ../modules/supsystic_promo/views/tpl/welcomePage.php:127
+msgid "Hide directory files listing"
+msgstr "Masquer le listing des fichiers du répertoire"
+
+#: ../modules/supsystic_promo/views/tpl/welcomePage.php:128
+msgid "Check files and directories write permissions"
+msgstr "Vérifier les permissions d'écriture pour les fichiers et répertoires."
+
+#: ../modules/supsystic_promo/views/tpl/welcomePage.php:130
+#, php-format
+msgid "So check full features list <a target=\"_blank\" href=\"%s\">here</a>."
+msgstr ""
+"Voyez maintenant la liste complète des fonctionnalités <a target=\"_blank\" "
+"href=\"%s\">ici</a>."
+
+#~ msgid ""
+#~ "An Unexpected HTTP Error occurred during the API request.</p> <p><a href="
+#~ "\"?\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+#~ msgstr ""
+#~ "Une erreur HTTP inattendue est apparue lors de la requête API.</p> <p><a "
+#~ "href=\"?\" onclick=\"document.location.reload(); return false;\">Veuillez "
+#~ "ré-essayer</a>"
+
+#~ msgid "An unknown error occurred"
+#~ msgstr "Une erreur inconnue est apparue"
+
+#~ msgid "Empty Base ID"
+#~ msgstr "ID de base vide"
+
+#~ msgid "Back to Main PopUp"
+#~ msgstr "Retour au popup principal"
+
+#~ msgid "Add New Test"
+#~ msgstr "Ajouter un nouvel essai"
+
+#~ msgid "Test PopUp Name"
+#~ msgstr "Tester le nom de PopUp"
+
+#~ msgid ""
+#~ "You have no Test PopUps for now. <a href=\"#\" class=\"ppsAbAddNew\" "
+#~ "style=\"font-style: italic;\">Create</a> your first Test!"
+#~ msgstr ""
+#~ "Vous n'avez actuellement pas d'essais de popup. <a href=\"#\" class="
+#~ "\"ppsAbAddNew\" style=\"font-style: italic;\">Créez</a> votre 1ier essai !"
+
+#~ msgid ""
+#~ "Your license has expired. Once you extend your license - you will be able "
+#~ "to Update PRO version. To extend PRO version license - follow <a href=\"%s"
+#~ "\" target=\"_blank\">this link</a>, then - go to <a href=\"%s\">License</"
+#~ "a> tab anc click on \"Re-activate\" button to re-activate your PRO "
+#~ "version."
+#~ msgstr ""
+#~ "Votre licence a expiré. Etendez votre licence - vous pouvez aussi "
+#~ "upgradez vers la version Pro. Pour étendre à la licence Pro : suivez <a "
+#~ "href=\"%s\" target=\"_blank\">ce lien</a>, puis allez sur l'onglet <a "
+#~ "href=\"%s\">Licence</a> et cliquez surle bouton  \"Ré-activer\" button "
+#~ "pour réactiver votre version Pro."
+
+#~ msgid ""
+#~ "Your license for PRO version of %s plugin has expired. You can <a href=\"%s"
+#~ "\" target=\"_blank\">click here</a> to extend your license, then - go to "
+#~ "<a href=\""
+#~ msgstr ""
+#~ "Votre licence pour la version pro de l'extension %s a expiré. Vous pouvez "
+#~ "<a href=\"%s\" target=\"_blank\">cliquer ici</a> pour étendre votre "
+#~ "licence, puis allez sur <a href=\""
+
+#~ msgid "License"
+#~ msgstr "Licence"
+
+#~ msgid "Please enter your License Key"
+#~ msgstr "Veuillez entrer la clé de licence"
+
+#~ msgid "Please enter your Email address"
+#~ msgstr "Veuillez entrer votre adresse email"
+
+#~ msgid ""
+#~ "There was a problem with sending request to our authentication server. "
+#~ "Please try later."
+#~ msgstr ""
+#~ "Un problème est apparu lors de l'envoi de votre demande à notre serveur "
+#~ "d'authentification. Veuillez réessayer plus tard."
+
+#~ msgid "License for plugin %s will expire today."
+#~ msgstr "La licence pour l'extension %s expire aujourd'hui."
+
+#~ msgid "License for plugin %s will expire tomorrow."
+#~ msgstr "La licence pour l'extension %s expirera demain."
+
+#~ msgid "License for plugin %s will expire in %d days."
+#~ msgstr "La licence pour l'extension %s expirera dans %d jours."
+
+#~ msgid ""
+#~ "Congradulations! PRO version of %s plugin is activated and working fine!"
+#~ msgstr ""
+#~ "Félicitations : la version pro de l'extension %s a été activée et "
+#~ "fonctionne parfaitement !"
+
+#~ msgid ""
+#~ "Your license for PRO version of %s plugin has expired. You can <a href=\"%s"
+#~ "\" target=\"_blank\">click here</a> to extend your license, then - click "
+#~ "on \"Re-activate\" button to re-activate your PRO version."
+#~ msgstr ""
+#~ "Votre licence pour l'extension %s a expiré. Vous puvez <a href=\"%s\" "
+#~ "target=\"_blank\">cliquer ici</a> pour étendre votre licence puis cliquez "
+#~ "sur le bouton \"Ré-activer\" pour réactiver votre version pro."
+
+#~ msgid ""
+#~ "Congradulations! You have successfully installed PRO version of %s "
+#~ "plugin. Final step to finish Your PRO version setup - is to enter your "
+#~ "Email and License Key on this page. This will activate Your copy of "
+#~ "software on this site."
+#~ msgstr ""
+#~ "Félicitations : vous avez bien installé la version pro de l'extension "
+#~ "%s.  Pour terminer la configuration de votre version PRO, il faut entrer "
+#~ "votre adresse email et la clé de licence, sur cette page. Cela activera "
+#~ "votre exemplaire de programme sur ce site."
+
+#~ msgid ""
+#~ "Your email address, used on checkout procedure on <a href=\"%\" target="
+#~ "\"_blank\">%s</a>"
+#~ msgstr ""
+#~ "Votre adresse mail utilisée pour la vérification sur <a href=\"%\" target="
+#~ "\"_blank\">%s</a>"
+
+#~ msgid "License Key"
+#~ msgstr "Clé de licence"
+
+#~ msgid ""
+#~ "Your License Key from your account on <a href=\"%\" target=\"_blank\">%s</"
+#~ "a>"
+#~ msgstr ""
+#~ "Votre clé de licence dans votre compte sur <a href=\"%\" target=\"_blank"
+#~ "\">%s</a>"
+
+#~ msgid "Re-activate"
+#~ msgstr "Ré-activer"
+
+#~ msgid "Activate"
+#~ msgstr "Activer"
+
+#~ msgid "Remove"
+#~ msgstr "Supprimer"
+
+#~ msgid "Thank you for subscription!"
+#~ msgstr "Nous vous remercions d'avoir souscrit !"

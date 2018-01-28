@@ -1,0 +1,262 @@
+ body {
+      position: relative;
+  }
+
+ .affix {
+      top: 55px;
+     
+  }
+
+  video {
+      width: 100%;
+      height: auto;
+  }
+
+  div.col-sm-9 .section {
+    /*margin-top: 30px;*/
+  }
+  .panel-heading{
+    font-size: 22px;
+    font-weight: bolder;
+    text-align: center;
+  }
+  .panel-body div{
+  	padding-right: 5px;
+  	padding-left: 5px;
+  }
+
+.productsName{
+  color: rgb(85, 133, 0);
+}
+
+.productDetail{
+  background-color: #337ab7;
+  color: white;
+  font-weight: bolder;
+  padding-top: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.productDetail p{
+  margin: 0;
+
+}
+.productDetailSub img{
+  /*max-width: 560px;*/
+}
+.productDetailSub p{
+  font-weight: bolder;
+}
+.contact{
+  background-color: #4a90cf;
+  color: #ffffff;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+
+}
+.contact a{
+  color: white;
+}
+  
+ .contactsub {
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 10px;
+ }
+ .contactsub p{
+  margin-bottom: 3px;
+ }
+
+ /*分割最大970*/
+  @media screen and (max-width: 970px) {
+   
+.productsDes p{
+      margin: 1px;
+  
+}
+.contactsub {
+ text-align: left;
+ margin-left: 0;
+ margin-top: 10px;
+}
+
+
+
+  }
+/*分割最大970结束*/
+
+
+/*最小970开始*/
+  @media screen and (min-width: 970px) {
+   
+.productDetailSub img {
+     max-width: 560px; 
+}
+#footerAddress{
+  text-align: left;
+}
+
+
+  }
+
+/*最小970结束*/
+  .panelsub{
+  	text-align: center;
+  	font-size: 16px;
+  	font-weight: bolder;
+  	background-color: lightblue;
+  	margin-bottom: 10px;
+    
+  }
+
+
+li{
+	display: inline;
+	list-style-type:none;
+	margin: 3px;
+	padding: 0px;
+	line-height: 11px;
+}
+
+#itemLeft{
+	/*background-color:lightblue;*/
+	
+}
+#itemLeft a{
+  margin-bottom: 10px;
+
+}
+#mainRight{
+	/*background-color: grey;*/
+}
+/*embed{
+	width: 100%;
+}*/
+#myCarousel{
+	display: table;
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*.center {
+	 width: auto;
+	 display: table;
+	 margin-left: auto;
+	 margin-right: auto;
+}*/
+.itemName{
+	margin-top: 8px;
+
+}
+.newsBG {
+    background: #f7f7f7;
+}
+.kefuzhongxing{
+	max-width: 250px;
+	height: 200px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	
+	background-color: linen;
+	border: 1px solid rgb(128,128,128);
+	display: table;
+
+	background-image: url("../img/homepage/ybg.gif");
+
+}
+.xinwen{
+	display: table;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding-top: 10px;
+  /*  padding-left: 3px;
+    padding-right: 3px;*/
+}
+.line {
+    height: 1px;
+    background: #c8c8c8;
+}
+.padding-top {
+    padding-top: 10px;
+}
+
+#header{
+	padding-top: 60px;
+	display: table;
+    /*width: auto;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+#itemLeft h2{
+	font-family: "黑体","宋体",sans-serif;
+	color: red;
+	text-align: center;
+  font-size: 24px;
+}
+#footerup{
+	color: #337ab7;
+}
+#footerup p{
+	text-align: center;
+}
+
+
+
+.nav li a{
+	padding: 10px 13px;
+}
+#lesspadding li a{
+	padding: 2px 13px;
+}
+#myScrollspy{
+  /*background-color: lightblue;*/
+  /*border: 1px solid blue;*/
+  /*min-width: 140px;*/
+  margin-top: 30px;
+}
+
+#myScrollspy li a{
+ white-space: nowrap;
+ padding: 8px 13px;
+}
+
+.productsName{
+  color: rgb(85, 133, 0);
+  font-size: 18px;
+}
+.paddingless{
+  padding: 15px 8px;
+}
+@media only screen and (max-width: 500px) {
+   #myScrollspy{
+     /*background-color: lightblue;*/
+     /*border: 1px solid blue;*/
+     width: 30%;
+     padding-left: 8px;
+     padding-right: 5px;
+
+   }
+   #myScrollspy li a{
+    padding-left: 2px;
+    padding-right: 1px;
+   }
+   div.panel-body{
+    padding-left: 2px;
+    padding-right: 2px;
+   }
+   .panel-body div{
+
+   }
+   #contentright{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 70%;
+   }
+   #example-navbar-collapse li a{
+     padding: 3px 10px;
+   }
+}
