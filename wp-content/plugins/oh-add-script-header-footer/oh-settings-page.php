@@ -243,7 +243,7 @@ class OHHeaderFooterSetting
             isset($this->options['oh_footer']) ? esc_attr($this->options['oh_footer']) : ''
         );
         if (get_option('sogo_header_footer_lk_status') != 'valid') {
-            echo "<br/><a target='_blank' href='https://pluginsmarket.com/downloads/sogo-header-footer/'><img src='//sogo.co.il/WPADS/720-90.jpg' alt='Sogo Web Development'/></a>";
+            echo "<br/><a target='_blank' href='https://pluginsmarket.com/downloads/sogo-header-footer/'><img src='".plugins_url( 'images/300-250.jpg', __FILE__ )."' alt='Sogo Web Development'/></a>";
 
         }
     }

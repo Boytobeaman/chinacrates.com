@@ -1,14 +1,21 @@
+<?php if ( !empty( $instance['title'] ) ) echo $args['before_title'] . esc_html( $instance['title'] ) . $args['after_title']; ?>
+
 <div class="social-media-button-container">
 	<?php foreach( $networks as $network ) :
 		$classes = array();
 		if( !empty($instance['design']['hover']) ) $classes[] = 'ow-button-hover';
 		$classes[] = "sow-social-media-button-" . sanitize_html_class( $network['name'] );
 		$classes[] = "sow-social-media-button";
+		$title = empty( $network['icon_title'] ) ? sprintf( __( '%s on %s', 'so-widgets-bundle' ), get_bloginfo( 'name' ), ucwords( str_replace( '-', ' ', $network['name'] ) ) ) : $network['icon_title'];
 		$button_attributes = array(
 			'class' => esc_attr( implode(' ', $classes) ),
-			'title' => sprintf( __( '%s on %s', 'so-widgets-bundle' ), get_bloginfo( 'name' ), ucwords( str_replace( '-', ' ', $network['name'] ) ) ),
+			'title' => $title,
+			'aria-label' => $title,
 		);
-		if( !empty( $instance['design']['new_window'] ) ) $button_attributes['target'] = '_blank';
+		if( !empty( $instance['design']['new_window'] ) ) {
+			$button_attributes['target'] = '_blank';
+			$button_attributes['rel'] = 'noopener noreferrer';
+		}
 		if ( ! empty( $network['url'] ) ) $button_attributes['href'] = sow_esc_url( trim( $network['url'] ) );
 		?>
 

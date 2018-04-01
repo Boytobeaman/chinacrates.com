@@ -1,0 +1,534 @@
+0000.000 (0) Opened log file at time: Sun, 01 Apr 2018 06:05:58 +0000 on http://www.chinacrates.com
+0000.000 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.4 WP: 4.9.2 PHP: 5.6.19 (apache2handler, Windows NT iZ62wq6nrpaZ 6.0 build 6002 (Windows Server 2008 Standard Edition Service Pack 2) i586) MySQL: 5.5.5 WPLANG: en_US Server: Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 40.7M | 41.3M) multisite: N openssl: OpenSSL 1.0.1s  1 Mar 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.000 (0) Free space on disk containing Updraft's temporary directory: 15405.6 MB
+0000.016 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: daily)
+0000.031 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.031 (0) Set semaphore last lock (fd) time to 2018-04-01 06:05:59
+0000.047 (0) Semaphore lock (fd) complete
+0000.047 (0) Backup run: resumption=0, nonce=30ca8f126175, begun at=1522562758 (1s ago), job type=backup
+0000.063 (0) Scheduling a resumption (1) after 300 seconds (1522563059) in case this run gets aborted
+0000.078 (0) Checking if we have a zip executable available
+0000.078 (0) Creation of backups of directories: beginning
+0000.094 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0007.594 (0) Total entities for the zip file: 933 directories, 5034 files (0 skipped as non-modified), 62.1 MB
+0007.641 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0007.719 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-plugins.zip.tmp: 100 files added (on-disk size: 154.3 KB)
+0007.797 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-plugins.zip.tmp: 200 files added (on-disk size: 154.3 KB)
+0007.891 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-plugins.zip.tmp: 300 files added (on-disk size: 154.3 KB)
+0008.000 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-plugins.zip.tmp: 400 files added (on-disk size: 154.3 KB)
+0008.094 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-plugins.zip.tmp: 500 files added (on-disk size: 154.3 KB)
+0008.141 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (9.5 MB, 5034 files batched, 501 (502) added so far); re-opening (prior size: 154.3 KB)
+0014.094 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-plugins.zip.tmp: 600 files added (on-disk size: 4436.5 KB)
+0014.219 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-plugins.zip.tmp: 700 files added (on-disk size: 4436.5 KB)
+0014.328 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-plugins.zip.tmp: 800 files added (on-disk size: 4436.5 KB)
+0014.438 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-plugins.zip.tmp: 900 files added (on-disk size: 4436.5 KB)
+0014.547 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-plugins.zip.tmp: 1000 files added (on-disk size: 4436.5 KB)
+0014.547 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.3 MB, 5034 files batched, 501 (1003) added so far); re-opening (prior size: 4436.5 KB)
+0015.016 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-plugins.zip.tmp: 1100 files added (on-disk size: 5677.5 KB)
+0015.125 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-plugins.zip.tmp: 1200 files added (on-disk size: 5677.5 KB)
+0015.234 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-plugins.zip.tmp: 1300 files added (on-disk size: 5677.5 KB)
+0015.344 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-plugins.zip.tmp: 1400 files added (on-disk size: 5677.5 KB)
+0015.563 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-plugins.zip.tmp: 1500 files added (on-disk size: 5677.5 KB)
+0015.578 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6.1 MB, 5034 files batched, 501 (1504) added so far); re-opening (prior size: 5677.5 KB)
+0016.500 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-plugins.zip.tmp: 1600 files added (on-disk size: 7509.5 KB)
+0016.719 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-plugins.zip.tmp: 1700 files added (on-disk size: 7509.5 KB)
+0016.859 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-plugins.zip.tmp: 1800 files added (on-disk size: 7509.5 KB)
+0016.969 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-plugins.zip.tmp: 1900 files added (on-disk size: 7509.5 KB)
+0017.109 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-plugins.zip.tmp: 2000 files added (on-disk size: 7509.5 KB)
+0017.141 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (5.5 MB, 5034 files batched, 501 (2005) added so far); re-opening (prior size: 7509.5 KB)
+0019.797 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-plugins.zip.tmp: 2100 files added (on-disk size: 9853.8 KB)
+0019.922 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-plugins.zip.tmp: 2200 files added (on-disk size: 9853.8 KB)
+0020.031 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-plugins.zip.tmp: 2300 files added (on-disk size: 9853.8 KB)
+0020.156 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-plugins.zip.tmp: 2400 files added (on-disk size: 9853.8 KB)
+0020.313 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-plugins.zip.tmp: 2500 files added (on-disk size: 9853.8 KB)
+0020.344 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (17.2 MB, 5034 files batched, 501 (2506) added so far); re-opening (prior size: 9853.8 KB)
+0025.813 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-plugins.zip.tmp: 2600 files added (on-disk size: 14897.4 KB)
+0025.984 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-plugins.zip.tmp: 2700 files added (on-disk size: 14897.4 KB)
+0026.156 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-plugins.zip.tmp: 2800 files added (on-disk size: 14897.4 KB)
+0026.328 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-plugins.zip.tmp: 2900 files added (on-disk size: 14897.4 KB)
+0026.500 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-plugins.zip.tmp: 3000 files added (on-disk size: 14897.4 KB)
+0026.531 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.9 MB, 5034 files batched, 501 (3007) added so far); re-opening (prior size: 14897.4 KB)
+0028.094 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-plugins.zip.tmp: 3100 files added (on-disk size: 15607.6 KB)
+0028.281 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-plugins.zip.tmp: 3200 files added (on-disk size: 15607.6 KB)
+0028.578 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-plugins.zip.tmp: 3300 files added (on-disk size: 15607.6 KB)
+0028.844 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-plugins.zip.tmp: 3400 files added (on-disk size: 15607.6 KB)
+0028.984 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-plugins.zip.tmp: 3500 files added (on-disk size: 15607.6 KB)
+0029.016 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4.8 MB, 5034 files batched, 501 (3508) added so far); re-opening (prior size: 15607.6 KB)
+0034.766 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-plugins.zip.tmp: 3600 files added (on-disk size: 16872.1 KB)
+0034.891 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-plugins.zip.tmp: 3700 files added (on-disk size: 16872.1 KB)
+0035.063 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-plugins.zip.tmp: 3800 files added (on-disk size: 16872.1 KB)
+0035.188 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-plugins.zip.tmp: 3900 files added (on-disk size: 16872.1 KB)
+0035.313 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-plugins.zip.tmp: 4000 files added (on-disk size: 16872.1 KB)
+0035.328 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4.5 MB, 5034 files batched, 501 (4009) added so far); re-opening (prior size: 16872.1 KB)
+0037.078 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-plugins.zip.tmp: 4100 files added (on-disk size: 18141.5 KB)
+0037.234 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-plugins.zip.tmp: 4200 files added (on-disk size: 18141.5 KB)
+0037.375 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-plugins.zip.tmp: 4300 files added (on-disk size: 18141.5 KB)
+0037.500 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-plugins.zip.tmp: 4400 files added (on-disk size: 18141.5 KB)
+0037.656 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-plugins.zip.tmp: 4500 files added (on-disk size: 18141.5 KB)
+0037.672 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6.7 MB, 5034 files batched, 501 (4510) added so far); re-opening (prior size: 18141.5 KB)
+0041.766 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-plugins.zip.tmp: 4600 files added (on-disk size: 20678.8 KB)
+0041.906 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-plugins.zip.tmp: 4700 files added (on-disk size: 20678.8 KB)
+0042.078 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-plugins.zip.tmp: 4800 files added (on-disk size: 20678.8 KB)
+0042.266 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-plugins.zip.tmp: 4900 files added (on-disk size: 20678.8 KB)
+0042.438 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-plugins.zip.tmp: 5000 files added (on-disk size: 20678.8 KB)
+0042.469 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.8 MB, 5034 files batched, 501 (5011) added so far); re-opening (prior size: 20678.8 KB)
+0043.672 (0) Created plugins zip (0) - 21822 KB in 43.5 s (501.1 KB/s) (sha1: 608a5b0b527261be4bd05c23e60cf4d93aa41d08, sha256: d577826d5d895ef921d35a09742f6fde4dd603c3c6ef86258176b6bc51781a47)
+0043.844 (0) Beginning creation of dump of themes (split every: 400 MB)
+0044.188 (0) Total entities for the zip file: 76 directories, 387 files (0 skipped as non-modified), 7.9 MB
+0044.234 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0044.328 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0044.391 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0046.141 (0) Created themes zip (0) - 5613.8 KB in 2.3 s (2495 KB/s) (sha1: 64a911d2464bc76864ae10404f2935de2bd180ab, sha256: b8192044b2a63c79ef06d5196015b9ca91c6f60bbb3e393a5c9ff324fde4849d)
+0046.156 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0046.156 (0) Looking for candidates to back up in: C:\website\chinacrates/wp-content/uploads
+0046.156 (0) finding files: 2016: adding to list (1)
+0046.172 (0) finding files: 2017: adding to list (2)
+0046.172 (0) finding files: 2018: adding to list (3)
+0046.172 (0) finding files: GeoIP.dat: adding to list (4)
+0046.172 (0) finding files: GeoIPv6.dat: adding to list (5)
+0046.188 (0) finding files: siteorigin-widgets: adding to list (6)
+0046.188 (0) finding files: wc-logs: adding to list (7)
+0046.188 (0) finding files: woocommerce_uploads: adding to list (8)
+0046.188 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0047.156 (0) Total entities for the zip file: 28 directories, 3117 files (0 skipped as non-modified), 177.6 MB
+0047.203 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0047.406 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0047.500 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0047.594 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0047.844 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-uploads.zip.tmp: 500 files added (on-disk size: 0 KB)
+0048.047 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (23 MB, 3117 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0053.234 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-uploads.zip.tmp: 600 files added (on-disk size: 20157.2 KB)
+0053.297 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-uploads.zip.tmp: 700 files added (on-disk size: 20157.2 KB)
+0053.344 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-uploads.zip.tmp: 800 files added (on-disk size: 20157.2 KB)
+0053.406 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-uploads.zip.tmp: 900 files added (on-disk size: 20157.2 KB)
+0053.469 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25 MB, 3117 files batched, 495 (996) added so far); re-opening (prior size: 20157.2 KB)
+0057.844 (0) A useful amount of data was added after this amount of zip processing: 4.8 s (normalised: 4.8 s, rate: 5294.8 KB/s)
+0057.859 (0) Performance is good - will increase the amount of data we attempt to batch (time=4.8413059711456, normalised_time=4.8349104269423, max_time=-1, data points known=0, old_max_bytes=26214400, new_max_bytes=32531398)
+0057.859 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-uploads.zip.tmp: 1000 files added (on-disk size: 42820.6 KB)
+0057.922 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-uploads.zip.tmp: 1100 files added (on-disk size: 42820.6 KB)
+0057.984 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-uploads.zip.tmp: 1200 files added (on-disk size: 42820.6 KB)
+0058.078 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-uploads.zip.tmp: 1300 files added (on-disk size: 42820.6 KB)
+0058.141 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-uploads.zip.tmp: 1400 files added (on-disk size: 42820.6 KB)
+0058.203 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (17.2 MB, 3117 files batched, 501 (1497) added so far); re-opening (prior size: 42820.6 KB)
+0067.188 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-uploads.zip.tmp: 1500 files added (on-disk size: 56902.6 KB)
+0067.250 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-uploads.zip.tmp: 1600 files added (on-disk size: 56902.6 KB)
+0067.328 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-uploads.zip.tmp: 1700 files added (on-disk size: 56902.6 KB)
+0067.406 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-uploads.zip.tmp: 1800 files added (on-disk size: 56902.6 KB)
+0067.469 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-uploads.zip.tmp: 1900 files added (on-disk size: 56902.6 KB)
+0067.563 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (21.2 MB, 3117 files batched, 501 (1998) added so far); re-opening (prior size: 56902.6 KB)
+0069.922 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-uploads.zip.tmp: 2000 files added (on-disk size: 75035.7 KB)
+0069.984 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-uploads.zip.tmp: 2100 files added (on-disk size: 75035.7 KB)
+0070.063 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-uploads.zip.tmp: 2200 files added (on-disk size: 75035.7 KB)
+0070.141 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-uploads.zip.tmp: 2300 files added (on-disk size: 75035.7 KB)
+0070.219 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-uploads.zip.tmp: 2400 files added (on-disk size: 75035.7 KB)
+0070.313 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (19.2 MB, 3117 files batched, 501 (2499) added so far); re-opening (prior size: 75035.7 KB)
+0073.359 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-uploads.zip.tmp: 2500 files added (on-disk size: 91426.4 KB)
+0073.438 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-uploads.zip.tmp: 2600 files added (on-disk size: 91426.4 KB)
+0073.531 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-uploads.zip.tmp: 2700 files added (on-disk size: 91426.4 KB)
+0073.563 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 31 MB added on this batch (39 MB, 3117 files batched, 220 (2719) added so far); re-opening (prior size: 91426.4 KB)
+0081.406 (0) A useful amount of data was added after this amount of zip processing: 9.4 s (normalised: 7.5 s, rate: 4245 KB/s)
+0081.625 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-uploads.zip.tmp: 2800 files added (on-disk size: 130399.1 KB)
+0081.719 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-uploads.zip.tmp: 2900 files added (on-disk size: 130399.1 KB)
+0081.844 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-uploads.zip.tmp: 3000 files added (on-disk size: 130399.1 KB)
+0081.938 (0) Zip: backup_2018-04-01-0605_Chinacrates_30ca8f126175-uploads.zip.tmp: 3100 files added (on-disk size: 130399.1 KB)
+0081.953 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 31 MB added on this batch (32.9 MB, 3117 files batched, 392 (3111) added so far); re-opening (prior size: 130399.1 KB)
+0095.438 (0) A useful amount of data was added after this amount of zip processing: 14.4 s (normalised: 13.6 s, rate: 2337.1 KB/s)
+0104.141 (0) Created uploads zip (0) - 161445.9 KB in 57.9 s (2786.6 KB/s) (sha1: ae6832afa9ec954c08df9d422d16eab78358e615, sha256: 4838f808da28b9ac0a7ac19f0f3c8c5d95a811e40d39ba68bbef7c2cf127b59f)
+0104.141 (0) Beginning backup of other directories found in the content directory (index: 0)
+0104.156 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0104.156 (0) Looking for candidates to back up in: C:\website\chinacrates/wp-content
+0104.156 (0) finding files: gallery-bank: adding to list (1)
+0104.156 (0) finding files: index.php: adding to list (2)
+0104.219 (0) finding files: plugins: skipping: this is the plugins directory
+0104.313 (0) finding files: themes: skipping: this is the themes directory
+0104.328 (0) finding files: updraft: skipping: this is the updraft directory
+0104.328 (0) finding files: upgrade: skipping: excluded by options
+0104.344 (0) finding files: uploads: skipping: this is the uploads directory
+0104.359 (0) Total entities for the zip file: 4 directories, 14 files (0 skipped as non-modified), 0.6 MB
+0104.422 (0) Created others zip (0) - 630 KB in 0.1 s (8064.6 KB/s) (sha1: 00d985bb77c3b039d1b11ceb169d591194b967c8, sha256: b92ae888acb10c01846ba8243e1de0a4f17c49aad184932dcaa9579f5cce7d9c)
+0104.438 (0) Saving backup status to database (elements: 8)
+0104.453 (0) Beginning creation of database dump (WordPress DB)
+0104.484 (0) Table wp_options: Total expected rows (approximate): 876
+0104.563 (0) Table wp_options: Total rows added: 883 in 0.08 seconds
+0104.578 (0) Table wp_options: finishing file (backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_options.table.gz - 148.6 KB)
+0104.594 (0) Table wp_users: Total expected rows (approximate): 3
+0104.594 (0) Table wp_users: Total rows added: 3 in 0.00 seconds
+0104.609 (0) Table wp_users: finishing file (backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_users.table.gz - 0.7 KB)
+0104.625 (0) Table wp_usermeta: Total expected rows (approximate): 135
+0104.625 (0) Table wp_usermeta: Total rows added: 137 in 0.00 seconds
+0104.641 (0) Table wp_usermeta: finishing file (backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_usermeta.table.gz - 3 KB)
+0104.656 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0104.656 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0104.656 (0) Table wp_commentmeta: finishing file (backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0104.672 (0) Table wp_comments: Total expected rows (approximate): 0
+0104.688 (0) Table wp_comments: Total rows added: 0 in 0.00 seconds
+0104.688 (0) Table wp_comments: finishing file (backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_comments.table.gz - 0.5 KB)
+0104.719 (0) Table wp_links: Total expected rows (approximate): 0
+0104.719 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0104.734 (0) Table wp_links: finishing file (backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_links.table.gz - 0.4 KB)
+0104.750 (0) Table wp_postmeta: Total expected rows (approximate): 4341
+0104.984 (0) Table wp_postmeta: Total rows added: 4766 in 0.23 seconds
+0105.000 (0) Table wp_postmeta: finishing file (backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_postmeta.table.gz - 88.5 KB)
+0105.016 (0) Table wp_posts: Total expected rows (approximate): 718
+0105.172 (0) Table wp_posts: Total rows added: 759 in 0.16 seconds
+0105.188 (0) Table wp_posts: finishing file (backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_posts.table.gz - 89.5 KB)
+0105.438 (0) Table wp_term_relationships: Total expected rows (approximate): 192
+0105.453 (0) Table wp_term_relationships: Total rows added: 214 in 0.02 seconds
+0105.453 (0) Table wp_term_relationships: finishing file (backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_term_relationships.table.gz - 0.9 KB)
+0105.469 (0) Table wp_term_taxonomy: Total expected rows (approximate): 51
+0105.484 (0) Table wp_term_taxonomy: Total rows added: 53 in 0.02 seconds
+0105.484 (0) Table wp_term_taxonomy: finishing file (backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_term_taxonomy.table.gz - 3.8 KB)
+0105.500 (0) Table wp_termmeta: Total expected rows (approximate): 76
+0105.516 (0) Table wp_termmeta: Total rows added: 78 in 0.00 seconds
+0105.516 (0) Table wp_termmeta: finishing file (backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_termmeta.table.gz - 0.9 KB)
+0105.547 (0) Table wp_terms: Total expected rows (approximate): 53
+0105.547 (0) Table wp_terms: Total rows added: 53 in 0.00 seconds
+0105.563 (0) Table wp_terms: finishing file (backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_terms.table.gz - 1.2 KB)
+0105.578 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (approximate): 0
+0105.578 (0) Table wp_woocommerce_order_itemmeta: Total rows added: 0 in 0.00 seconds
+0105.594 (0) Table wp_woocommerce_order_itemmeta: finishing file (backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_woocommerce_order_itemmeta.table.gz - 0.4 KB)
+0105.609 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (approximate): 0
+0105.609 (0) Table wp_woocommerce_payment_tokenmeta: Total rows added: 0 in 0.00 seconds
+0105.609 (0) Table wp_woocommerce_payment_tokenmeta: finishing file (backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_woocommerce_payment_tokenmeta.table.gz - 0.4 KB)
+0105.641 (0) Table wp_gallery_albums: Total expected rows (approximate): 0
+0105.641 (0) Table wp_gallery_albums: Total rows added: 1 in 0.00 seconds
+0105.656 (0) Table wp_gallery_albums: finishing file (backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_gallery_albums.table.gz - 0.4 KB)
+0105.672 (0) Table wp_gallery_pics: Total expected rows (approximate): 6
+0105.672 (0) Table wp_gallery_pics: Total rows added: 6 in 0.00 seconds
+0105.672 (0) Table wp_gallery_pics: finishing file (backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_gallery_pics.table.gz - 0.5 KB)
+0105.703 (0) Table wp_gallery_settings: Total expected rows (approximate): 78
+0105.703 (0) Table wp_gallery_settings: Total rows added: 78 in 0.00 seconds
+0105.703 (0) Table wp_gallery_settings: finishing file (backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_gallery_settings.table.gz - 1.1 KB)
+0105.734 (0) Table wp_pps_countries: Total expected rows (approximate): 240
+0105.750 (0) Table wp_pps_countries: Total rows added: 240 in 0.02 seconds
+0105.766 (0) Table wp_pps_countries: finishing file (backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_pps_countries.table.gz - 3.7 KB)
+0105.781 (0) Table wp_pps_popup: Total expected rows (approximate): 22
+0105.859 (0) Table wp_pps_popup: Total rows added: 47 in 0.08 seconds
+0105.875 (0) Table wp_pps_popup: finishing file (backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_pps_popup.table.gz - 85.3 KB)
+0105.891 (0) Table wp_pps_popup_show_categories: Total expected rows (approximate): 0
+0105.891 (0) Table wp_pps_popup_show_categories: Total rows added: 0 in 0.00 seconds
+0105.906 (0) Table wp_pps_popup_show_categories: finishing file (backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_pps_popup_show_categories.table.gz - 0.3 KB)
+0105.922 (0) Table wp_upcp_catalogue_items: Total expected rows (approximate): 0
+0105.922 (0) Table wp_upcp_catalogue_items: Total rows added: 0 in 0.00 seconds
+0105.938 (0) Table wp_upcp_catalogue_items: finishing file (backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_upcp_catalogue_items.table.gz - 0.3 KB)
+0105.953 (0) Table wp_upcp_catalogues: Total expected rows (approximate): 0
+0105.953 (0) Table wp_upcp_catalogues: Total rows added: 1 in 0.00 seconds
+0105.969 (0) Table wp_upcp_catalogues: finishing file (backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_upcp_catalogues.table.gz - 0.4 KB)
+0105.984 (0) Table wp_upcp_categories: Total expected rows (approximate): 0
+0105.984 (0) Table wp_upcp_categories: Total rows added: 1 in 0.00 seconds
+0105.984 (0) Table wp_upcp_categories: finishing file (backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_upcp_categories.table.gz - 0.4 KB)
+0106.000 (0) Table wp_upcp_custom_fields: Total expected rows (approximate): 0
+0106.016 (0) Table wp_upcp_custom_fields: Total rows added: 0 in 0.00 seconds
+0106.016 (0) Table wp_upcp_custom_fields: finishing file (backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_upcp_custom_fields.table.gz - 0.4 KB)
+0106.031 (0) Table wp_upcp_fields_meta: Total expected rows (approximate): 0
+0106.047 (0) Table wp_upcp_fields_meta: Total rows added: 0 in 0.02 seconds
+0106.047 (0) Table wp_upcp_fields_meta: finishing file (backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_upcp_fields_meta.table.gz - 0.3 KB)
+0106.063 (0) Table wp_upcp_item_images: Total expected rows (approximate): 0
+0106.063 (0) Table wp_upcp_item_images: Total rows added: 0 in 0.00 seconds
+0106.063 (0) Table wp_upcp_item_images: finishing file (backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_upcp_item_images.table.gz - 0.3 KB)
+0106.078 (0) Table wp_upcp_items: Total expected rows (approximate): 2
+0106.094 (0) Table wp_upcp_items: Total rows added: 2 in 0.00 seconds
+0106.094 (0) Table wp_upcp_items: finishing file (backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_upcp_items.table.gz - 0.7 KB)
+0106.109 (0) Table wp_upcp_subcategories: Total expected rows (approximate): 0
+0106.125 (0) Table wp_upcp_subcategories: Total rows added: 0 in 0.00 seconds
+0106.125 (0) Table wp_upcp_subcategories: finishing file (backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_upcp_subcategories.table.gz - 0.4 KB)
+0106.141 (0) Table wp_upcp_tag_groups: Total expected rows (approximate): 0
+0106.156 (0) Table wp_upcp_tag_groups: Total rows added: 0 in 0.02 seconds
+0106.156 (0) Table wp_upcp_tag_groups: finishing file (backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_upcp_tag_groups.table.gz - 0.3 KB)
+0106.172 (0) Table wp_upcp_tagged_items: Total expected rows (approximate): 0
+0106.172 (0) Table wp_upcp_tagged_items: Total rows added: 0 in 0.00 seconds
+0106.250 (0) Table wp_upcp_tagged_items: finishing file (backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_upcp_tagged_items.table.gz - 0.3 KB)
+0106.453 (0) Table wp_upcp_tags: Total expected rows (approximate): 0
+0106.469 (0) Table wp_upcp_tags: Total rows added: 0 in 0.02 seconds
+0106.469 (0) Table wp_upcp_tags: finishing file (backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_upcp_tags.table.gz - 0.3 KB)
+0106.484 (0) Table wp_upcp_videos: Total expected rows (approximate): 0
+0106.500 (0) Table wp_upcp_videos: Total rows added: 0 in 0.02 seconds
+0106.500 (0) Table wp_upcp_videos: finishing file (backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_upcp_videos.table.gz - 0.3 KB)
+0106.516 (0) Table wp_woocommerce_api_keys: Total expected rows (approximate): 0
+0106.531 (0) Table wp_woocommerce_api_keys: Total rows added: 0 in 0.02 seconds
+0106.531 (0) Table wp_woocommerce_api_keys: finishing file (backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_woocommerce_api_keys.table.gz - 0.4 KB)
+0106.547 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (approximate): 0
+0106.563 (0) Table wp_woocommerce_attribute_taxonomies: Total rows added: 0 in 0.02 seconds
+0106.563 (0) Table wp_woocommerce_attribute_taxonomies: finishing file (backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_woocommerce_attribute_taxonomies.table.gz - 0.4 KB)
+0106.578 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (approximate): 0
+0106.578 (0) Table wp_woocommerce_downloadable_product_permissions: Total rows added: 0 in 0.00 seconds
+0106.594 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file (backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_woocommerce_downloadable_product_permissions.table.gz - 0.5 KB)
+0106.609 (0) Table wp_woocommerce_order_items: Total expected rows (approximate): 0
+0106.609 (0) Table wp_woocommerce_order_items: Total rows added: 0 in 0.00 seconds
+0106.625 (0) Table wp_woocommerce_order_items: finishing file (backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_woocommerce_order_items.table.gz - 0.3 KB)
+0106.641 (0) Table wp_woocommerce_payment_tokens: Total expected rows (approximate): 0
+0106.641 (0) Table wp_woocommerce_payment_tokens: Total rows added: 0 in 0.00 seconds
+0106.641 (0) Table wp_woocommerce_payment_tokens: finishing file (backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_woocommerce_payment_tokens.table.gz - 0.4 KB)
+0106.656 (0) Table wp_woocommerce_sessions: Total expected rows (approximate): 6
+0106.672 (0) Table wp_woocommerce_sessions: Total rows added: 6 in 0.00 seconds
+0106.672 (0) Table wp_woocommerce_sessions: finishing file (backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_woocommerce_sessions.table.gz - 1.1 KB)
+0106.688 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (approximate): 0
+0106.703 (0) Table wp_woocommerce_shipping_zone_locations: Total rows added: 0 in 0.02 seconds
+0106.703 (0) Table wp_woocommerce_shipping_zone_locations: finishing file (backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_woocommerce_shipping_zone_locations.table.gz - 0.4 KB)
+0106.734 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (approximate): 0
+0106.734 (0) Table wp_woocommerce_shipping_zone_methods: Total rows added: 0 in 0.00 seconds
+0106.734 (0) Table wp_woocommerce_shipping_zone_methods: finishing file (backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_woocommerce_shipping_zone_methods.table.gz - 0.4 KB)
+0106.750 (0) Table wp_woocommerce_shipping_zones: Total expected rows (approximate): 0
+0106.766 (0) Table wp_woocommerce_shipping_zones: Total rows added: 0 in 0.02 seconds
+0106.766 (0) Table wp_woocommerce_shipping_zones: finishing file (backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_woocommerce_shipping_zones.table.gz - 0.3 KB)
+0106.781 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (approximate): 0
+0106.781 (0) Table wp_woocommerce_tax_rate_locations: Total rows added: 0 in 0.00 seconds
+0106.797 (0) Table wp_woocommerce_tax_rate_locations: finishing file (backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_woocommerce_tax_rate_locations.table.gz - 0.4 KB)
+0106.813 (0) Table wp_woocommerce_tax_rates: Total expected rows (approximate): 0
+0106.813 (0) Table wp_woocommerce_tax_rates: Total rows added: 0 in 0.00 seconds
+0106.813 (0) Table wp_woocommerce_tax_rates: finishing file (backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_woocommerce_tax_rates.table.gz - 0.4 KB)
+0106.828 (0) Table wp_yoast_seo_links: Total expected rows (approximate): 0
+0106.859 (0) Table wp_yoast_seo_links: Total rows added: 0 in 0.02 seconds
+0106.859 (0) Table wp_yoast_seo_links: finishing file (backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_yoast_seo_links.table.gz - 0.4 KB)
+0106.875 (0) Table wp_yoast_seo_meta: Total expected rows (approximate): 0
+0106.875 (0) Table wp_yoast_seo_meta: Total rows added: 0 in 0.00 seconds
+0106.891 (0) Table wp_yoast_seo_meta: finishing file (backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_yoast_seo_meta.table.gz - 0.3 KB)
+0106.906 (0) backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_options.table.gz (1/45): adding to final database dump
+0106.953 (0) backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_users.table.gz (2/45): adding to final database dump
+0106.953 (0) backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_usermeta.table.gz (3/45): adding to final database dump
+0106.969 (0) backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_commentmeta.table.gz (4/45): adding to final database dump
+0106.969 (0) backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_comments.table.gz (5/45): adding to final database dump
+0106.969 (0) backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_links.table.gz (6/45): adding to final database dump
+0106.969 (0) backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_postmeta.table.gz (7/45): adding to final database dump
+0107.047 (0) backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_posts.table.gz (8/45): adding to final database dump
+0107.078 (0) backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_term_relationships.table.gz (9/45): adding to final database dump
+0107.125 (0) backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_term_taxonomy.table.gz (10/45): adding to final database dump
+0107.125 (0) backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_termmeta.table.gz (11/45): adding to final database dump
+0107.125 (0) backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_terms.table.gz (12/45): adding to final database dump
+0107.141 (0) backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_woocommerce_order_itemmeta.table.gz (13/45): adding to final database dump
+0107.141 (0) backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_woocommerce_payment_tokenmeta.table.gz (14/45): adding to final database dump
+0107.141 (0) backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_gallery_albums.table.gz (15/45): adding to final database dump
+0107.141 (0) backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_gallery_pics.table.gz (16/45): adding to final database dump
+0107.156 (0) backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_gallery_settings.table.gz (17/45): adding to final database dump
+0107.156 (0) backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_pps_countries.table.gz (18/45): adding to final database dump
+0107.156 (0) backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_pps_popup.table.gz (19/45): adding to final database dump
+0107.188 (0) backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_pps_popup_show_categories.table.gz (20/45): adding to final database dump
+0107.219 (0) backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_upcp_catalogue_items.table.gz (21/45): adding to final database dump
+0107.563 (0) backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_upcp_catalogues.table.gz (22/45): adding to final database dump
+0107.609 (0) backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_upcp_categories.table.gz (23/45): adding to final database dump
+0107.844 (0) backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_upcp_custom_fields.table.gz (24/45): adding to final database dump
+0108.125 (0) backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_upcp_fields_meta.table.gz (25/45): adding to final database dump
+0108.219 (0) backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_upcp_item_images.table.gz (26/45): adding to final database dump
+0108.234 (0) backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_upcp_items.table.gz (27/45): adding to final database dump
+0108.250 (0) backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_upcp_subcategories.table.gz (28/45): adding to final database dump
+0108.266 (0) backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_upcp_tag_groups.table.gz (29/45): adding to final database dump
+0108.281 (0) backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_upcp_tagged_items.table.gz (30/45): adding to final database dump
+0108.516 (0) backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_upcp_tags.table.gz (31/45): adding to final database dump
+0108.766 (0) backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_upcp_videos.table.gz (32/45): adding to final database dump
+0109.000 (0) backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_woocommerce_api_keys.table.gz (33/45): adding to final database dump
+0109.109 (0) backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_woocommerce_attribute_taxonomies.table.gz (34/45): adding to final database dump
+0109.125 (0) backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (35/45): adding to final database dump
+0109.203 (0) backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_woocommerce_order_items.table.gz (36/45): adding to final database dump
+0109.219 (0) backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_woocommerce_payment_tokens.table.gz (37/45): adding to final database dump
+0109.281 (0) backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_woocommerce_sessions.table.gz (38/45): adding to final database dump
+0109.359 (0) backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_woocommerce_shipping_zone_locations.table.gz (39/45): adding to final database dump
+0109.359 (0) backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_woocommerce_shipping_zone_methods.table.gz (40/45): adding to final database dump
+0109.375 (0) backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_woocommerce_shipping_zones.table.gz (41/45): adding to final database dump
+0109.375 (0) backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_woocommerce_tax_rate_locations.table.gz (42/45): adding to final database dump
+0109.375 (0) backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_woocommerce_tax_rates.table.gz (43/45): adding to final database dump
+0109.375 (0) backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_yoast_seo_links.table.gz (44/45): adding to final database dump
+0109.391 (0) backup_2018-04-01-0605_Chinacrates_30ca8f126175-db-table-wp_yoast_seo_meta.table.gz (45/45): adding to final database dump
+0109.391 (0) backup_2018-04-01-0605_Chinacrates_30ca8f126175-db.gz: finished writing out complete database file (400 KB)
+0109.422 (0) Total database tables backed up: 45 (backup_2018-04-01-0605_Chinacrates_30ca8f126175-db.gz, size: 439890, sha256)
+0109.438 (0) backup_2018-04-01-0605_Chinacrates_30ca8f126175-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0109.438 (0) backup_2018-04-01-0605_Chinacrates_30ca8f126175-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0109.438 (0) backup_2018-04-01-0605_Chinacrates_30ca8f126175-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0109.453 (0) backup_2018-04-01-0605_Chinacrates_30ca8f126175-others.zip: others: This file has not yet been successfully uploaded: will queue
+0109.453 (0) backup_2018-04-01-0605_Chinacrates_30ca8f126175-db.gz: db: This file has not yet been successfully uploaded: will queue
+0109.453 (0) Saving backup history. Total backup size: 185.5 MB
+0109.469 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0109.469 (0) Cloud backup selection (1/1): s3 with instance (1/1) (last)
+0109.484 (0) Beginning dispatch of backup to remote (s3) (instance identifier s-798a2a1d3ed05cef961f38f02ad5768c)
+0110.844 (0) Set region: us-west-1
+0110.859 (0) S3 upload (us-west-1): backup_2018-04-01-0605_Chinacrates_30ca8f126175-plugins.zip (chunks: 5) -> s3://website-database-lxc/chinacrates.com/backup_2018-04-01-0605_Chinacrates_30ca8f126175-plugins.zip
+0112.016 (0) S3 chunked upload: got multipart ID: k3eu7NNGwYJ1946_CfN.NvEhu9rl7YvCI7LnTWTPp3Kl5mA7WTwKjmgE5omjEnCNu7sMUZ5wiUa5sRm7iQkxWLVlpKdmpjVHnrDyeFGVjtkHWtVQnsETzA3PW96O01ff
+0165.141 (0) S3 chunked upload: 20 % uploaded (1, "5cd666b605ec0d3cad37b08557c3c405")
+0218.344 (0) S3 chunked upload: 40 % uploaded (2, "d666946cd813df8296630f5b41ac8a33")
+0271.469 (0) The time we have been running (271.5) is approaching the resumption interval (300) - increasing resumption interval to 302
+0271.469 (0) The scheduled resumption is within 45 seconds - will reschedule
+0271.469 (0) Rescheduling resumption 1: moving to 347 seconds from now (1522563377)
+0271.484 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 302 + 45 = 347
+0271.484 (0) S3 chunked upload: 60 % uploaded (3, "a3f1e4f0ebac68be554e0b1fd0c7d889")
+0324.516 (0) The time we have been running (324.5) is approaching the resumption interval (347) - increasing resumption interval to 355
+0324.516 (0) S3 chunked upload: 80 % uploaded (4, "683ef3d7897f21d551f8c01b120653af")
+0338.656 (0) The time we have been running (338.6) is approaching the resumption interval (355) - increasing resumption interval to 369
+0338.672 (0) S3 chunked upload: 100 % uploaded (5, "1ff824bb580ebabf013b730499d5a98e")
+0338.688 (0) S3 upload: all chunks uploaded; will now instruct S3 to re-assemble
+0339.234 (0) S3 upload (plugins0): re-assembly succeeded
+0339.250 (0) Recording as successfully uploaded: backup_2018-04-01-0605_Chinacrates_30ca8f126175-plugins.zip (055418b4e52207b406b5f75f2d4e930b)
+0339.266 (0) Deleting local file: backup_2018-04-01-0605_Chinacrates_30ca8f126175-plugins.zip: OK
+0339.266 (0) S3 upload (us-west-1): backup_2018-04-01-0605_Chinacrates_30ca8f126175-themes.zip (chunks: 2) -> s3://website-database-lxc/chinacrates.com/backup_2018-04-01-0605_Chinacrates_30ca8f126175-themes.zip
+0339.438 (0) S3 chunked upload: got multipart ID: vymqOjy9RyDFPd8_k1qnreowIirH3neJOfDL5im5SEP5pSzGUXaJWUJBZSmXwy8bts8QlvWJuoApEbfJDxDMii7ED29yqOtkNMatkdzbyl6qJLHne4x.o8Nh97QHKpXe
+0392.781 (0) The time we have been running (392.8) is approaching the resumption interval (369) - increasing resumption interval to 423
+0392.797 (0) S3 chunked upload: 50 % uploaded (1, "0a240ac2a323b421ab7fdd23f1d1f24b")
+0399.156 (0) The time we have been running (399.1) is approaching the resumption interval (423) - increasing resumption interval to 430
+0399.156 (0) S3 chunked upload: 100 % uploaded (2, "b65b1937ffb44631bcdc17a2674584d1")
+0399.172 (0) S3 upload: all chunks uploaded; will now instruct S3 to re-assemble
+0399.641 (0) S3 upload (themes0): re-assembly succeeded
+0399.641 (0) Recording as successfully uploaded: backup_2018-04-01-0605_Chinacrates_30ca8f126175-themes.zip (9300deb67fdeb3e501122cd1d7321619)
+0399.656 (0) Deleting local file: backup_2018-04-01-0605_Chinacrates_30ca8f126175-themes.zip: OK
+0399.656 (0) S3 upload (us-west-1): backup_2018-04-01-0605_Chinacrates_30ca8f126175-uploads.zip (chunks: 32) -> s3://website-database-lxc/chinacrates.com/backup_2018-04-01-0605_Chinacrates_30ca8f126175-uploads.zip
+0399.875 (0) S3 chunked upload: got multipart ID: pEKK0yZTeLBexRA576qRuXqKvGB2l20lf1phWbcJRvRe1y51g1YeqdUXRd22e1g3cWLnVJhUT00ByphyPQpYVE08ybzqm2JIl.O1_xoH.agW8Z31kU67K5g7itm8IG82
+0452.219 (0) The time we have been running (452.2) is approaching the resumption interval (430) - increasing resumption interval to 483
+0452.219 (0) S3 chunked upload: 3.1 % uploaded (1, "d38311955d48b7f286233627b1deb338")
+0505.094 (0) The time we have been running (505.1) is approaching the resumption interval (483) - increasing resumption interval to 536
+0505.094 (0) S3 chunked upload: 6.3 % uploaded (2, "f3f3fa6588597ec0208f6c3dc009f99a")
+0557.516 (0) The time we have been running (557.5) is approaching the resumption interval (536) - increasing resumption interval to 588
+0557.516 (0) S3 chunked upload: 9.4 % uploaded (3, "ec94bb05789baa5f097d1ada82561708")
+0610.047 (0) The time we have been running (610) is approaching the resumption interval (588) - increasing resumption interval to 641
+0610.063 (0) The scheduled resumption is within 45 seconds - will reschedule
+0610.063 (0) Rescheduling resumption 1: moving to 686 seconds from now (1522564055)
+0610.078 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 641 + 45 = 686
+0610.094 (0) S3 chunked upload: 12.5 % uploaded (4, "4720744cb1fe3e798e1197a386da37ac")
+0662.531 (0) The time we have been running (662.5) is approaching the resumption interval (686) - increasing resumption interval to 693
+0662.531 (0) S3 chunked upload: 15.6 % uploaded (5, "f59e984c44f0fbc9450dababe7248f69")
+0718.859 (0) The time we have been running (718.8) is approaching the resumption interval (693) - increasing resumption interval to 749
+0718.875 (0) S3 chunked upload: 18.8 % uploaded (6, "6d302e9621185e3ff4d24967ae5c84ae")
+0774.844 (0) The time we have been running (774.8) is approaching the resumption interval (749) - increasing resumption interval to 805
+0774.859 (0) S3 chunked upload: 21.9 % uploaded (7, "9b8c2e565be3a185055a861375992a9b")
+0829.281 (0) The time we have been running (829.3) is approaching the resumption interval (805) - increasing resumption interval to 860
+0829.297 (0) S3 chunked upload: 25 % uploaded (8, "dcd72feaaf463898f18ef3089448570d")
+0883.563 (0) The time we have been running (883.5) is approaching the resumption interval (860) - increasing resumption interval to 914
+0883.578 (0) S3 chunked upload: 28.1 % uploaded (9, "febcf8164f9ee8bab73fb25b9d34a7fd")
+0938.234 (0) The time we have been running (938.2) is approaching the resumption interval (914) - increasing resumption interval to 969
+0938.250 (0) S3 chunked upload: 31.3 % uploaded (10, "0b56cf49ea9cdfa9489be2df2f1455c2")
+0989.844 (0) The time we have been running (989.8) is approaching the resumption interval (969) - increasing resumption interval to 1020
+0989.859 (0) S3 chunked upload: 34.4 % uploaded (11, "a2e98fe37856fc3d269224bd5743a856")
+1296.281 (1) Opened log file at time: Sun, 01 Apr 2018 06:27:35 +0000 on http://www.chinacrates.com
+1296.766 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.4 WP: 4.9.2 PHP: 5.6.19 (apache2handler, Windows NT iZ62wq6nrpaZ 6.0 build 6002 (Windows Server 2008 Standard Edition Service Pack 2) i586) MySQL: 5.5.5 WPLANG: en_US Server: Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 34.1M | 34.5M) multisite: N openssl: OpenSSL 1.0.1s  1 Mar 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+1297.016 (1) Free space on disk containing Updraft's temporary directory: 15246.6 MB
+1297.266 (1) Backup run: resumption=1, nonce=30ca8f126175, begun at=1522562758 (1298s ago), job type=backup, previous check-in=989.8s
+1297.359 (1) Scheduling a resumption (2) after 1020 seconds (1522565076) in case this run gets aborted
+1297.391 (1) Checking if we have a zip executable available
+1297.484 (1) Creation of backups of directories: already finished
+1297.547 (1) Saving backup status to database (elements: 8)
+1297.969 (1) Database dump (WordPress DB): Creation was completed already
+1298.000 (1) backup_2018-04-01-0605_Chinacrates_30ca8f126175-plugins.zip: plugins: This file has already been successfully uploaded
+1298.000 (1) backup_2018-04-01-0605_Chinacrates_30ca8f126175-themes.zip: themes: This file has already been successfully uploaded
+1298.000 (1) backup_2018-04-01-0605_Chinacrates_30ca8f126175-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1298.000 (1) backup_2018-04-01-0605_Chinacrates_30ca8f126175-others.zip: others: This file has not yet been successfully uploaded: will queue
+1298.000 (1) backup_2018-04-01-0605_Chinacrates_30ca8f126175-db.gz: db: This file has not yet been successfully uploaded: will queue
+1298.016 (1) Saving backup history. Total backup size: 185.5 MB
+1298.016 (1) Requesting upload of the files that have not yet been successfully uploaded (3)
+1298.016 (1) Cloud backup selection (1/1): s3 with instance (1/1) (last)
+1298.031 (1) Beginning dispatch of backup to remote (s3) (instance identifier s-798a2a1d3ed05cef961f38f02ad5768c)
+1299.109 (1) Set region: us-west-1
+1299.109 (1) S3 upload (us-west-1): backup_2018-04-01-0605_Chinacrates_30ca8f126175-uploads.zip (chunks: 32) -> s3://website-database-lxc/chinacrates.com/backup_2018-04-01-0605_Chinacrates_30ca8f126175-uploads.zip
+1299.125 (1) S3 chunked upload: retrieved previously obtained multipart ID: pEKK0yZTeLBexRA576qRuXqKvGB2l20lf1phWbcJRvRe1y51g1YeqdUXRd22e1g3cWLnVJhUT00ByphyPQpYVE08ybzqm2JIl.O1_xoH.agW8Z31kU67K5g7itm8IG82
+1299.125 (1) S3 chunk 1: was already completed (etag: "d38311955d48b7f286233627b1deb338")
+1299.125 (1) S3 chunk 2: was already completed (etag: "f3f3fa6588597ec0208f6c3dc009f99a")
+1299.125 (1) S3 chunk 3: was already completed (etag: "ec94bb05789baa5f097d1ada82561708")
+1299.125 (1) S3 chunk 4: was already completed (etag: "4720744cb1fe3e798e1197a386da37ac")
+1299.141 (1) S3 chunk 5: was already completed (etag: "f59e984c44f0fbc9450dababe7248f69")
+1299.141 (1) S3 chunk 6: was already completed (etag: "6d302e9621185e3ff4d24967ae5c84ae")
+1299.141 (1) S3 chunk 7: was already completed (etag: "9b8c2e565be3a185055a861375992a9b")
+1299.141 (1) S3 chunk 8: was already completed (etag: "dcd72feaaf463898f18ef3089448570d")
+1299.141 (1) S3 chunk 9: was already completed (etag: "febcf8164f9ee8bab73fb25b9d34a7fd")
+1299.156 (1) S3 chunk 10: was already completed (etag: "0b56cf49ea9cdfa9489be2df2f1455c2")
+1299.156 (1) S3 chunk 11: was already completed (etag: "a2e98fe37856fc3d269224bd5743a856")
+1349.859 (1) S3 chunked upload: 37.5 % uploaded (12, "90623ad335a1100c4a7d69e68c729b90")
+1399.094 (1) S3 chunked upload: 40.6 % uploaded (13, "d5e16e4d3b06cd1c6fd3e098c2794d3d")
+1448.719 (1) S3 chunked upload: 43.8 % uploaded (14, "a9bd49e57aed21b79657a6fd9ca600be")
+1498.375 (1) S3 chunked upload: 46.9 % uploaded (15, "2f3c80a587fcd35cb3ce6a6ba308c3ce")
+1547.750 (1) S3 chunked upload: 50 % uploaded (16, "82db2f42fdfd19a451fca50dbeae55ee")
+1601.594 (1) S3 chunked upload: 53.1 % uploaded (17, "4a1046c5fe30cf85535c4d6cf66e1806")
+1655.422 (1) S3 chunked upload: 56.3 % uploaded (18, "a1d158b36bd575e391dcee620d802ce3")
+1707.313 (1) S3 chunked upload: 59.4 % uploaded (19, "430b39d43572bb8537fa12fab334ea66")
+1758.766 (1) S3 chunked upload: 62.5 % uploaded (20, "27ab9febc845d579414b45b8b4718991")
+1810.813 (1) S3 chunked upload: 65.6 % uploaded (21, "185b3b596ca506990b3ba5c74aeb5522")
+1864.547 (1) S3 chunked upload: 68.8 % uploaded (22, "578efba87a4f8ea5ed771749216914d4")
+1917.438 (1) S3 chunked upload: 71.9 % uploaded (23, "a80ae2c5d980215aa944d767bfa43149")
+1970.438 (1) S3 chunked upload: 75 % uploaded (24, "4827f6bc0d5564607770f4a992a02910")
+2023.031 (1) S3 chunked upload: 78.1 % uploaded (25, "2e775009de2a67a2358bf56d729f847e")
+2075.891 (1) S3 chunked upload: 81.3 % uploaded (26, "65ff518d89d894b85e985a602d00e0ea")
+2130.516 (1) S3 chunked upload: 84.4 % uploaded (27, "21ac2072c263dcf030bf35f7d17378a3")
+2183.828 (1) S3 chunked upload: 87.5 % uploaded (28, "6901a766b69c9fd82b19e9cad6017513")
+2318.422 (2) Opened log file at time: Sun, 01 Apr 2018 06:44:37 +0000 on http://www.chinacrates.com
+2318.438 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.4 WP: 4.9.2 PHP: 5.6.19 (apache2handler, Windows NT iZ62wq6nrpaZ 6.0 build 6002 (Windows Server 2008 Standard Edition Service Pack 2) i586) MySQL: 5.5.5 WPLANG: en_US Server: Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 34.1M | 34.5M) multisite: N openssl: OpenSSL 1.0.1s  1 Mar 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+2318.438 (2) Free space on disk containing Updraft's temporary directory: 15244.9 MB
+2318.438 (2) Backup run: resumption=2, nonce=30ca8f126175, begun at=1522562758 (2319s ago), job type=backup, previous check-in=887.5s
+2318.453 (2) Scheduling a resumption (3) after 1020 seconds (1522566097) in case this run gets aborted
+2318.469 (2) Checking if we have a zip executable available
+2318.469 (2) Creation of backups of directories: already finished
+2318.484 (2) Saving backup status to database (elements: 8)
+2318.484 (2) Database dump (WordPress DB): Creation was completed already
+2318.500 (2) backup_2018-04-01-0605_Chinacrates_30ca8f126175-plugins.zip: plugins: This file has already been successfully uploaded
+2318.516 (2) backup_2018-04-01-0605_Chinacrates_30ca8f126175-themes.zip: themes: This file has already been successfully uploaded
+2318.516 (2) backup_2018-04-01-0605_Chinacrates_30ca8f126175-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2318.516 (2) backup_2018-04-01-0605_Chinacrates_30ca8f126175-others.zip: others: This file has not yet been successfully uploaded: will queue
+2318.516 (2) backup_2018-04-01-0605_Chinacrates_30ca8f126175-db.gz: db: This file has not yet been successfully uploaded: will queue
+2318.531 (2) Saving backup history. Total backup size: 185.5 MB
+2318.531 (2) Requesting upload of the files that have not yet been successfully uploaded (3)
+2318.531 (2) Cloud backup selection (1/1): s3 with instance (1/1) (last)
+2318.547 (2) Beginning dispatch of backup to remote (s3) (instance identifier s-798a2a1d3ed05cef961f38f02ad5768c)
+2319.625 (2) Set region: us-west-1
+2319.641 (2) S3 upload (us-west-1): backup_2018-04-01-0605_Chinacrates_30ca8f126175-uploads.zip (chunks: 32) -> s3://website-database-lxc/chinacrates.com/backup_2018-04-01-0605_Chinacrates_30ca8f126175-uploads.zip
+2319.672 (2) S3 chunked upload: retrieved previously obtained multipart ID: pEKK0yZTeLBexRA576qRuXqKvGB2l20lf1phWbcJRvRe1y51g1YeqdUXRd22e1g3cWLnVJhUT00ByphyPQpYVE08ybzqm2JIl.O1_xoH.agW8Z31kU67K5g7itm8IG82
+2319.672 (2) S3 chunk 1: was already completed (etag: "d38311955d48b7f286233627b1deb338")
+2319.844 (2) S3 chunk 2: was already completed (etag: "f3f3fa6588597ec0208f6c3dc009f99a")
+2319.844 (2) S3 chunk 3: was already completed (etag: "ec94bb05789baa5f097d1ada82561708")
+2319.844 (2) S3 chunk 4: was already completed (etag: "4720744cb1fe3e798e1197a386da37ac")
+2319.844 (2) S3 chunk 5: was already completed (etag: "f59e984c44f0fbc9450dababe7248f69")
+2319.859 (2) S3 chunk 6: was already completed (etag: "6d302e9621185e3ff4d24967ae5c84ae")
+2319.859 (2) S3 chunk 7: was already completed (etag: "9b8c2e565be3a185055a861375992a9b")
+2319.859 (2) S3 chunk 8: was already completed (etag: "dcd72feaaf463898f18ef3089448570d")
+2319.859 (2) S3 chunk 9: was already completed (etag: "febcf8164f9ee8bab73fb25b9d34a7fd")
+2319.875 (2) S3 chunk 10: was already completed (etag: "0b56cf49ea9cdfa9489be2df2f1455c2")
+2319.875 (2) S3 chunk 11: was already completed (etag: "a2e98fe37856fc3d269224bd5743a856")
+2319.875 (2) S3 chunk 12: was already completed (etag: "90623ad335a1100c4a7d69e68c729b90")
+2319.875 (2) S3 chunk 13: was already completed (etag: "d5e16e4d3b06cd1c6fd3e098c2794d3d")
+2319.891 (2) S3 chunk 14: was already completed (etag: "a9bd49e57aed21b79657a6fd9ca600be")
+2319.891 (2) S3 chunk 15: was already completed (etag: "2f3c80a587fcd35cb3ce6a6ba308c3ce")
+2319.891 (2) S3 chunk 16: was already completed (etag: "82db2f42fdfd19a451fca50dbeae55ee")
+2319.891 (2) S3 chunk 17: was already completed (etag: "4a1046c5fe30cf85535c4d6cf66e1806")
+2319.906 (2) S3 chunk 18: was already completed (etag: "a1d158b36bd575e391dcee620d802ce3")
+2319.906 (2) S3 chunk 19: was already completed (etag: "430b39d43572bb8537fa12fab334ea66")
+2319.906 (2) S3 chunk 20: was already completed (etag: "27ab9febc845d579414b45b8b4718991")
+2319.906 (2) S3 chunk 21: was already completed (etag: "185b3b596ca506990b3ba5c74aeb5522")
+2319.906 (2) S3 chunk 22: was already completed (etag: "578efba87a4f8ea5ed771749216914d4")
+2319.922 (2) S3 chunk 23: was already completed (etag: "a80ae2c5d980215aa944d767bfa43149")
+2319.922 (2) S3 chunk 24: was already completed (etag: "4827f6bc0d5564607770f4a992a02910")
+2319.922 (2) S3 chunk 25: was already completed (etag: "2e775009de2a67a2358bf56d729f847e")
+2319.922 (2) S3 chunk 26: was already completed (etag: "65ff518d89d894b85e985a602d00e0ea")
+2319.922 (2) S3 chunk 27: was already completed (etag: "21ac2072c263dcf030bf35f7d17378a3")
+2319.938 (2) S3 chunk 28: was already completed (etag: "6901a766b69c9fd82b19e9cad6017513")
+2374.234 (2) S3 chunked upload: 90.6 % uploaded (29, "10942229aef3b06de84aa10481c648d3")
+2428.547 (2) S3 chunked upload: 93.8 % uploaded (30, "2d18cf88eee84b3d400190298c952bf8")
+2481.828 (2) S3 chunked upload: 96.9 % uploaded (31, "36a16870e3f2cc735c44e4d1dd5cdcb4")
+2510.031 (2) S3 chunked upload: 100 % uploaded (32, "e80abd55e2e36a2f3dcb2aae5a49771e")
+2510.047 (2) S3 upload: all chunks uploaded; will now instruct S3 to re-assemble
+2510.359 (2) S3 upload (uploads0): re-assembly succeeded
+2510.359 (2) Recording as successfully uploaded: backup_2018-04-01-0605_Chinacrates_30ca8f126175-uploads.zip (d434e7cb306268d34804bdf69303f532)
+2510.391 (2) Deleting local file: backup_2018-04-01-0605_Chinacrates_30ca8f126175-uploads.zip: OK
+2510.391 (2) S3 upload (us-west-1): backup_2018-04-01-0605_Chinacrates_30ca8f126175-others.zip (chunks: 1) -> s3://website-database-lxc/chinacrates.com/backup_2018-04-01-0605_Chinacrates_30ca8f126175-others.zip
+2517.141 (2) S3 regular upload: success
+2517.156 (2) Recording as successfully uploaded: backup_2018-04-01-0605_Chinacrates_30ca8f126175-others.zip (4397889279fc588e6a878e3244807421)
+2517.172 (2) Deleting local file: backup_2018-04-01-0605_Chinacrates_30ca8f126175-others.zip: OK
+2517.172 (2) S3 upload (us-west-1): backup_2018-04-01-0605_Chinacrates_30ca8f126175-db.gz (chunks: 1) -> s3://website-database-lxc/chinacrates.com/backup_2018-04-01-0605_Chinacrates_30ca8f126175-db.gz
+2521.578 (2) S3 regular upload: success
+2521.578 (2) Recording as successfully uploaded: backup_2018-04-01-0605_Chinacrates_30ca8f126175-db.gz (d0dd675421144a01e826e31b1fa1cf6f)
+2521.609 (2) Deleting local file: backup_2018-04-01-0605_Chinacrates_30ca8f126175-db.gz: OK
+2521.609 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=10, retain_db=120
+2521.625 (2) Number of backup sets in history: 3; groups (db): 1
+2521.625 (2) Examining (for databases) backup set with group_id=0, nonce=30ca8f126175, datestamp=1522562758 (Apr 01 2018 06:05:58)
+2521.625 (2) This backup set is the backup set just made, so will not be deleted.
+2521.625 (2) Examining (for databases) backup set with group_id=0, nonce=929a2d572f81, datestamp=1522562178 (Apr 01 2018 05:56:18)
+2521.625 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+2521.625 (2) Examining (for databases) backup set with group_id=0, nonce=58926473d03b, datestamp=1522561578 (Apr 01 2018 05:46:18)
+2521.625 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+2521.641 (2) Number of backup sets in history: 3; groups (files): 1
+2521.641 (2) Examining (for files) backup set with nonce=30ca8f126175, datestamp=1522562758 (Apr 01 2018 06:05:58)
+2521.641 (2) This backup set is the backup set just made, so will not be deleted.
+2521.641 (2) This backup set is the backup set just made, so will not be deleted.
+2521.641 (2) This backup set is the backup set just made, so will not be deleted.
+2521.641 (2) This backup set is the backup set just made, so will not be deleted.
+2521.641 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+2521.641 (2) Examining (for files) backup set with nonce=929a2d572f81, datestamp=1522562178 (Apr 01 2018 05:56:18)
+2521.641 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+2521.656 (2) Examining (for files) backup set with nonce=58926473d03b, datestamp=1522561578 (Apr 01 2018 05:46:18)
+2521.656 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+2521.656 (2) Retain: saving new backup history (sets now: 3) and finishing retain operation
+2521.672 (2) Resume backup (30ca8f126175, 2): finish run
+2521.688 (2) There were no errors in the uploads, so the 'resume' event (3) is being unscheduled
+2521.688 (2) No email will/can be sent - the user has not configured an email address.
+2521.703 (2) The backup apparently succeeded and is now complete

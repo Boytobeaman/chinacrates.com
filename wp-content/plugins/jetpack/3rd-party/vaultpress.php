@@ -1,13 +1,26 @@
 <?php
 
-/**
- * For backward compatibility with VaultPress 1.8.3 to play nicely with Jetpack 4.1
- */
-add_action( 'init', 'jetpack_vaultpress_sync_options' );
-function jetpack_vaultpress_sync_options() {
-	if ( ! class_exists( 'VaultPress' ) ) {
-		return;
-	}
-	$vaultpress = VaultPress::init();
-	Jetpack_Sync::sync_options( __FILE__, $vaultpress->auto_register_option, $vaultpress->option_name );
+function jetpack_vaultpress_rewind_enabled_notice() {
+	$plugin_file = 'vaultpress/vaultpress.php';
+
+	deactivate_plugins( $plugin_file );
+	?>
+	<div class="notice notice-success vp-deactivated">
+		<h2 style="margin-bottom: 0.25em;"><?php _e( 'Jetpack is now handling your backups.', 'jetpack' ); ?></h2>
+		<p><?php _e( 'VaultPress is no longer needed and has been deactivated.', 'jetpack' ); ?></p>
+	</div>
+	<?php
 }
+
+// If Rewind is enabled, then show a notification to disable VaultPress.
+function jetpack_vaultpress_rewind_check() {
+	if ( Jetpack::is_active() &&
+		 Jetpack::is_plugin_active( 'vaultpress/vaultpress.php' ) &&
+		 Jetpack::is_rewind_enabled()
+		) {
+		add_action( 'admin_notices', 'jetpack_vaultpress_rewind_enabled_notice' );
+	}
+}
+
+
+add_action( 'admin_init', 'jetpack_vaultpress_rewind_check', 11 );

@@ -1,10 +1,10 @@
-=== OH Add Script to Individual Pages Header Footer  ===
+=== SOGO Add Script to Individual Pages Header Footer  ===
 Contributors: orenhav
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=Z5H7VVZLSPYUE
 Tags: javascript,js, re-marketing code, header, footer
 Requires at least: 3.5
-Tested up to: 4.5.3
-Stable tag: 2.1
+Tested up to: 4.9.1
+Stable tag: 3.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -22,7 +22,14 @@ added in version 1.3 the option to add script  \ style to all pages not only ind
  this will allow you to add Google re-marketing code to the entire site or Google Analytics
  to use it goto "settings" - "Header Footer Settings"
 
- New Features (version 1.4):
+ New Features (version 3.0):
+Added option for terms  / category pages
+
+
+ New Features (version 2.3):
+ Added support for WooCommerce shop page.
+
+
 
 1. we support now exclude individual pages form printing the header and footer scripts, this is supported by 2 checkboxes in each page\post
  buy check it the script will not be display on this page
@@ -81,6 +88,15 @@ which enable you to exclude the script from this individual page
 
 = 1.6 =
 change labels
+
+= 2.2 =
+fix bug :When I paste the script into an individual post from a category then the same script is appearing in category listing page as well.
+(thanks to Shane (@ugrasen1989))
+
+= 2.3 =
+fix bug : Added support for WooCommerce shop page .
+(thanks to Birdie‏  )
+
 
 == Upgrade Notice ==
 

@@ -83,6 +83,11 @@ class SiteOrigin_Widget_Field_Media extends SiteOrigin_Widget_Field_Base {
 		else{
 			$src = array( '', 0, 0 );
 		}
+		
+		// If library is set to all, convert it to a wildcard as all isn't valid
+		if( $this->library == 'all' ){
+			$this->library = '*';
+		}
 		?>
 		<div class="media-field-wrapper">
 			<div class="current">
@@ -187,7 +192,7 @@ class SiteOrigin_Widget_Field_Media extends SiteOrigin_Widget_Field_Base {
 							<?php
 							printf(
 								__( 'Powered by %s', 'so-widgets-bundle' ),
-								'<a href="https://pixabay.com/" target="_blank">Pixabay</a>'
+								'<a href="https://pixabay.com/" target="_blank" rel="noopener noreferrer">Pixabay</a>'
 							);
 							?>
 						</div>

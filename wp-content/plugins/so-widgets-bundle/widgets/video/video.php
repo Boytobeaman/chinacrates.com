@@ -108,14 +108,24 @@ class SiteOrigin_Widget_Video_Widget extends SiteOrigin_Widget {
 							'video_type[external]' => array( 'show' ),
 							'video_type[self]'     => array( 'hide' ),
 						)
-					)
+					),
+					'related_videos' => array(
+						'type'          => 'checkbox',
+						'default'       => true,
+						'label'         => __( 'Show related videos.', 'so-widgets-bundle' ),
+						'description'   => __( 'If the external host supports it.', 'so-widgets-bundle' ),
+						'state_handler' => array(
+							'video_type[external]' => array( 'show' ),
+							'video_type[self]'     => array( 'hide' ),
+						)
+					),
 				),
 			),
 		);
 	}
 
 	function enqueue_frontend_scripts( $instance ) {
-		$video_host = $instance['host_type'];
+		$video_host = empty( $instance['host_type'] ) ? '' : $instance['host_type'];
 		if ( $video_host == 'external' ) {
 			$video_host = ! empty( $instance['video']['external_video'] ) ? $this->get_host_from_url( $instance['video']['external_video'] ) : '';
 		}
@@ -160,21 +170,23 @@ class SiteOrigin_Widget_Video_Widget extends SiteOrigin_Widget {
 		$video_host          = $instance['host_type'];
 		if ( $video_host == 'self' ) {
 
-			foreach ( $instance['video']['self_sources'] as $source ) {
-				$src        = '';
-				$video_type = '';
-				if ( ! empty( $source['self_video'] ) ) {
-					// Handle an attachment video
-					$src        = wp_get_attachment_url( $source['self_video'] );
-					$video_type = get_post_mime_type( $source['self_video'] );
-				} else if ( ! empty( $source['self_video_fallback'] ) ) {
-					// Handle an external URL video
-					$src        = $source['self_video_fallback'];
-					$vid_info   = wp_check_filetype( basename( $source['self_video_fallback'] ) );
-					$video_type = $vid_info['type'];
-				}
-				if ( ! empty( $src ) ) {
-					$self_sources[] = array( 'src' => $src, 'video_type' => $video_type );
+			if ( isset( $instance['video']['self_sources'] ) ) {
+				foreach ( $instance['video']['self_sources'] as $source ) {
+					$src        = '';
+					$video_type = '';
+					if ( ! empty( $source['self_video'] ) ) {
+						// Handle an attachment video
+						$src        = wp_get_attachment_url( $source['self_video'] );
+						$video_type = get_post_mime_type( $source['self_video'] );
+					} else if ( ! empty( $source['self_video_fallback'] ) ) {
+						// Handle an external URL video
+						$src        = $source['self_video_fallback'];
+						$vid_info   = wp_check_filetype( basename( $source['self_video_fallback'] ) );
+						$video_type = $vid_info['type'];
+					}
+					if ( ! empty( $src ) ) {
+						$self_sources[] = array( 'src' => $src, 'video_type' => $video_type );
+					}
 				}
 			}
 			$poster = ! empty( $instance['video']['self_poster'] ) ? wp_get_attachment_url( $instance['video']['self_poster'] ) : '';
@@ -193,6 +205,7 @@ class SiteOrigin_Widget_Video_Widget extends SiteOrigin_Widget {
 			'is_skinnable_video_host' => $this->is_skinnable_video_host( $video_host ),
 			'poster'                  => $poster,
 			'autoplay'                => ! empty( $instance['playback']['autoplay'] ),
+			'related_videos'          => ! empty( $instance['playback']['related_videos'] ),
 			'skin_class'              => 'default'
 		);
 
@@ -212,7 +225,7 @@ class SiteOrigin_Widget_Video_Widget extends SiteOrigin_Widget {
 	/**
 	 * Gets a video source embed
 	 */
-	function get_video_oembed( $src, $autoplay = false ) {
+	function get_video_oembed( $src, $autoplay = false, $related_videos = true ) {
 		if ( empty( $src ) ) {
 			return '';
 		}
@@ -237,6 +250,13 @@ class SiteOrigin_Widget_Video_Widget extends SiteOrigin_Widget {
 					'autoplay_callback'
 				), $html );
 			}
+			
+			if ( empty( $related_videos ) ) {
+				$html = preg_replace_callback( '/src=["\'](http[^"\']*)["\']/', array(
+					$this,
+					'remove_related_videos'
+				), $html );
+			}
 
 			if ( ! empty( $html ) ) {
 				set_transient( 'sow-vid-embed[' . $hash . ']', $html, 30 * 86400 );
@@ -255,6 +275,17 @@ class SiteOrigin_Widget_Video_Widget extends SiteOrigin_Widget {
 	 */
 	function autoplay_callback( $match ) {
 		return str_replace( $match[1], add_query_arg( 'autoplay', 1, $match[1] ), $match[0] );
+	}
+
+	/**
+	 * The preg_replace callback that adds the rel param for YouTube videos.
+	 *
+	 * @param $match
+	 *
+	 * @return mixed
+	 */
+	function remove_related_videos( $match ) {
+		return str_replace( $match[1], add_query_arg( 'rel', 0, $match[1] ), $match[0] );
 	}
 
 	/**
