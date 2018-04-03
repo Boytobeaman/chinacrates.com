@@ -19,8 +19,8 @@ changeImage("tochange7",siteUrl + "/wp-content/uploads/2016/08/pallet-box-3628.p
 changeImage("tochange8",siteUrl + "/wp-content/uploads/2016/08/plastic-pallet-a.png",siteUrl + "/wp-content/uploads/2016/07/pallet3627.jpg")
 changeImage("tochange9",siteUrl + "/wp-content/uploads/2016/08/plastic-coaming-box3627.png",siteUrl + "/wp-content/uploads/2016/08/plastic-boarding-crate3627.png")
 changeImage("tochange10",siteUrl + "/wp-content/uploads/2017/02/household-storage-box-3627.jpg",siteUrl + "/wp-content/uploads/2017/02/household-plastic-box.jpg")
-// �ı䱳��ͼƬ end
-$(".product .summary").append('<div class="insertContact"><a href="mailto:seller006@joinplastic.com?subject=Inquiry about your plastic crate"><img src="http://www.joinplastic.com/img/homepage/message.gif">Contact Us&nbsp:seller006@joinplastic.com</a></div> ');
+// �ı䱳��ͼƬ end
+$(".product .summary").append('<div class="insertContact"><a href="mailto:seller006@joinplastic.com?subject=Inquiry about your plastic crate"><img src="' + siteUrl+'/img/homepage/message.gif">Contact Us&nbsp:seller006@joinplastic.com</a></div> ');
 $(function () {
 
 	$("#myCarouselHome p").hide();
