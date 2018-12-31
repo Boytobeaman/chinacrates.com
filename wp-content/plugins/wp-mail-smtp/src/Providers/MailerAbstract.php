@@ -105,12 +105,16 @@ abstract class MailerAbstract implements MailerInterface {
 			)
 		);
 		$this->set_subject( $this->phpmailer->Subject );
-		$this->set_content(
-			array(
-				'html' => $this->phpmailer->Body,
-				'text' => $this->phpmailer->AltBody,
-			)
-		);
+		if ( $this->phpmailer->ContentType === 'text/plain' ) {
+			$this->set_content( $this->phpmailer->Body );
+		} else {
+			$this->set_content(
+				array(
+					'text' => $this->phpmailer->AltBody,
+					'html' => $this->phpmailer->Body,
+				)
+			);
+		}
 		$this->set_return_path( $this->phpmailer->From );
 		$this->set_reply_to( $this->phpmailer->getReplyToAddresses() );
 
@@ -221,10 +225,13 @@ abstract class MailerAbstract implements MailerInterface {
 	 */
 	public function send() {
 
-		$params = Options::array_merge_recursive( $this->get_default_params(), array(
-			'headers' => $this->get_headers(),
-			'body'    => $this->get_body(),
-		) );
+		$params = Options::array_merge_recursive(
+			$this->get_default_params(),
+			array(
+				'headers' => $this->get_headers(),
+				'body'    => $this->get_body(),
+			)
+		);
 
 		$response = wp_safe_remote_post( $this->url, $params );
 
@@ -267,11 +274,14 @@ abstract class MailerAbstract implements MailerInterface {
 	 */
 	protected function get_default_params() {
 
-		return apply_filters( 'wp_mail_smtp_providers_mailer_get_default_params', array(
-			'timeout'     => 15,
-			'httpversion' => '1.1',
-			'blocking'    => true,
-		) );
+		return apply_filters(
+			'wp_mail_smtp_providers_mailer_get_default_params',
+			array(
+				'timeout'     => 15,
+				'httpversion' => '1.1',
+				'blocking'    => true,
+			)
+		);
 	}
 
 	/**
@@ -287,8 +297,17 @@ abstract class MailerAbstract implements MailerInterface {
 			$error = $this->get_response_error();
 
 			if ( ! empty( $error ) ) {
-				Debug::set( $error );
+				// Add mailer to the beginning and save to display later.
+				Debug::set(
+					'Mailer: ' . esc_html( wp_mail_smtp()->get_providers()->get_options( $this->mailer )->get_title() ) . "\r\n" .
+					$error
+				);
 			}
+		}
+
+		// Clear debug messages if email is successfully sent.
+		if ( $is_sent ) {
+			Debug::clear();
 		}
 
 		return apply_filters( 'wp_mail_smtp_providers_mailer_is_email_sent', $is_sent );
@@ -355,7 +374,7 @@ abstract class MailerAbstract implements MailerInterface {
 		}
 
 		$smtp_text[] = '<br><strong>Server:</strong>';
-		$smtp_text[] = '<strong>OpenSSL:</strong> ' . ( extension_loaded( 'openssl' ) ? 'Yes' : 'No' );
+		$smtp_text[] = '<strong>OpenSSL:</strong> ' . ( extension_loaded( 'openssl' ) && defined( 'OPENSSL_VERSION_TEXT' ) ? OPENSSL_VERSION_TEXT : 'No' );
 		if ( function_exists( 'apache_get_modules' ) ) {
 			$modules     = apache_get_modules();
 			$smtp_text[] = '<strong>Apache.mod_security:</strong> ' . ( in_array( 'mod_security', $modules, true ) || in_array( 'mod_security2', $modules, true ) ? 'Yes' : 'No' );

@@ -3,8 +3,8 @@ Contributors: orenhav
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=Z5H7VVZLSPYUE
 Tags: javascript,js, re-marketing code, header, footer
 Requires at least: 3.5
-Tested up to: 4.9.1
-Stable tag: 3.0
+Tested up to: 4.9.8
+Stable tag: 3.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -13,6 +13,8 @@ Simple plugin to add script to header and footer for individual pages & posts
 
 
 == Description ==
+
+Tested with Gutenberg
 
 Create a simple way to add javascript code to individual page post or custom post type header and footer,
 for example: add conversion code to thank you pages

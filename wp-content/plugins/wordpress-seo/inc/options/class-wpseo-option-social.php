@@ -1,5 +1,7 @@
 <?php
 /**
+ * WPSEO plugin file.
+ *
  * @package WPSEO\Internals\Options
  */
 
@@ -19,24 +21,27 @@ class WPSEO_Option_Social extends WPSEO_Option {
 	 */
 	protected $defaults = array(
 		// Form fields.
-		'facebook_site'      => '', // Text field.
-		'instagram_url'      => '',
-		'linkedin_url'       => '',
-		'myspace_url'        => '',
-		'og_default_image'   => '', // Text field.
-		'og_frontpage_title' => '', // Text field.
-		'og_frontpage_desc'  => '', // Text field.
-		'og_frontpage_image' => '', // Text field.
-		'opengraph'          => true,
-		'pinterest_url'      => '',
-		'pinterestverify'    => '',
-		'plus-publisher'     => '', // Text field.
-		'twitter'            => true,
-		'twitter_site'       => '', // Text field.
-		'twitter_card_type'  => 'summary_large_image',
-		'youtube_url'        => '',
-		'google_plus_url'    => '',
+		'facebook_site'         => '', // Text field.
+		'instagram_url'         => '',
+		'linkedin_url'          => '',
+		'myspace_url'           => '',
+		'og_default_image'      => '', // Text field.
+		'og_default_image_id'   => '',
+		'og_frontpage_title'    => '', // Text field.
+		'og_frontpage_desc'     => '', // Text field.
+		'og_frontpage_image'    => '', // Text field.
+		'og_frontpage_image_id' => '',
+		'opengraph'             => true,
+		'pinterest_url'         => '',
+		'pinterestverify'       => '',
+		'plus-publisher'        => '', // Text field.
+		'twitter'               => true,
+		'twitter_site'          => '', // Text field.
+		'twitter_card_type'     => 'summary_large_image',
+		'youtube_url'           => '',
+		'google_plus_url'       => '',
 		// Form field, but not always available.
+		'fbadminapp'            => '', // Facebook app ID.
 	);
 
 	/**
@@ -45,6 +50,7 @@ class WPSEO_Option_Social extends WPSEO_Option {
 	public $ms_exclude = array(
 		/* Privacy. */
 		'pinterestverify',
+		'fbadminapp',
 	);
 
 
@@ -65,7 +71,6 @@ class WPSEO_Option_Social extends WPSEO_Option {
 		// 'player'              => '',
 		// 'product'             => '',
 	);
-
 
 	/**
 	 * Get the singleton instance of this class.
@@ -108,6 +113,15 @@ class WPSEO_Option_Social extends WPSEO_Option {
 				case 'og_frontpage_title':
 					if ( isset( $dirty[ $key ] ) && $dirty[ $key ] !== '' ) {
 						$clean[ $key ] = WPSEO_Utils::sanitize_text_field( $dirty[ $key ] );
+					}
+					break;
+
+				case 'og_default_image_id':
+				case 'og_frontpage_image_id':
+					$clean[ $key ] = intval( $dirty[ $key ] );
+
+					if ( $dirty[ $key ] === '' ) {
+						$clean[ $key ] = $dirty[ $key ];
 					}
 					break;
 
@@ -185,12 +199,17 @@ class WPSEO_Option_Social extends WPSEO_Option {
 				case 'twitter':
 					$clean[ $key ] = ( isset( $dirty[ $key ] ) ? WPSEO_Utils::validate_bool( $dirty[ $key ] ) : false );
 					break;
+
+				case 'fbadminapp':
+					if ( isset( $dirty[ $key ] ) && ! empty( $dirty[ $key ] ) ) {
+						$clean[ $key ] = $dirty[ $key ];
+					}
+					break;
 			}
 		}
 
 		return $clean;
 	}
-
 
 	/**
 	 * Clean a given option value.

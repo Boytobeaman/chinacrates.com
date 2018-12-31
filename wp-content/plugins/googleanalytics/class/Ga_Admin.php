@@ -109,10 +109,10 @@ class Ga_Admin {
 	 * Update hook fires when plugin is being loaded.
 	 */
 	public static function update_googleanalytics() {
+		$version            = get_option( self::GA_VERSION_OPTION_NAME );
+		$installed_version  = get_option( self::GA_VERSION_OPTION_NAME, '1.0.7' );
+		$old_property_value = Ga_Helper::get_option( 'web_property_id' );
 
-		$version			 = get_option( self::GA_VERSION_OPTION_NAME );
-		$installed_version	 = get_option( self::GA_VERSION_OPTION_NAME, '1.0.7' );
-		$old_property_value	 = Ga_Helper::get_option( 'web_property_id' );
 		if ( version_compare( $installed_version, GOOGLEANALYTICS_VERSION, 'eq' ) ) {
 			return;
 		}
@@ -122,7 +122,7 @@ class Ga_Admin {
 
 		if ( version_compare( $installed_version, GOOGLEANALYTICS_VERSION, 'lt' ) ) {
 
-			if ( !empty( $old_property_value ) ) {
+			if ( ! empty( $old_property_value ) ) {
 				Ga_Helper::update_option( self::GA_WEB_PROPERTY_ID_MANUALLY_VALUE_OPTION_NAME, $old_property_value );
 				Ga_Helper::update_option( self::GA_WEB_PROPERTY_ID_MANUALLY_OPTION_NAME, 1 );
 				delete_option( 'web_property_id' );
@@ -133,7 +133,7 @@ class Ga_Admin {
 	}
 
 	public static function preupdate_exclude_roles( $new_value, $old_value ) {
-		if ( !Ga_Helper::are_features_enabled() ) {
+		if ( ! Ga_Helper::are_features_enabled() ) {
 			return '';
 		}
 
@@ -169,6 +169,18 @@ class Ga_Admin {
 		return $new_value;
 	}
 
+	public static function preupdate_optimize_code( $new_value, $old_value ) {
+		if ( ! empty( $new_value ) ) {
+			$new_value = sanitize_text_field( wp_unslash( $new_value ) );
+		}
+
+		return $new_value;
+	}
+
+	public static function preupdate_ip_anonymization( $new_value, $old_value ) {
+		return $new_value;
+	}
+
 	/**
 	 * Registers plugin's settings.
 	 */
@@ -180,8 +192,12 @@ class Ga_Admin {
 		register_setting( GA_NAME, self::GA_WEB_PROPERTY_ID_MANUALLY_OPTION_NAME );
 		register_setting( GA_NAME, self::GA_WEB_PROPERTY_ID_MANUALLY_VALUE_OPTION_NAME );
 		register_setting( GA_NAME, self::GA_DISABLE_ALL_FEATURES );
+		register_setting( GA_NAME, 'googleanalytics_optimize_code' );
+		register_setting( GA_NAME, 'googleanalytics_ip_anonymization' );
 		add_filter( 'pre_update_option_' . Ga_Admin::GA_EXCLUDE_ROLES_OPTION_NAME, 'Ga_Admin::preupdate_exclude_roles', 1, 2 );
 		add_filter( 'pre_update_option_' . Ga_Admin::GA_SELECTED_ACCOUNT, 'Ga_Admin::preupdate_selected_account', 1, 2 );
+		add_filter( 'pre_update_option_googleanalytics_optimize_code', 'Ga_Admin::preupdate_optimize_code', 1, 2 );
+		add_filter( 'pre_update_option_googleanalytics_ip_anonymization', 'Ga_Admin::preupdate_ip_anonymization', 1, 2 );
 //		add_filter( 'pre_update_option_' . Ga_Admin::GA_DISABLE_ALL_FEATURES, 'Ga_Admin::preupdate_disable_all_features', 1, 2 );
 	}
 
@@ -255,9 +271,9 @@ class Ga_Admin {
 		if ( !Ga_Helper::is_wp_version_valid() || !Ga_Helper::is_php_version_valid() ) {
 			return false;
 		}
-                if ( Ga_Helper::are_features_enabled() && Ga_Helper::is_curl_disabled() ) {
-                    echo Ga_Helper::ga_wp_notice( _( 'Looks like cURL is not configured on your server. In order to authenticate your Google Analytics account and display statistics, cURL is required. Please contact your server administrator to enable it, or manually enter your Tracking ID.' ), self::NOTICE_WARNING );
-                }
+				if ( Ga_Helper::are_features_enabled() && Ga_Helper::is_curl_disabled() ) {
+					echo Ga_Helper::ga_wp_notice( _( 'Looks like cURL is not configured on your server. In order to authenticate your Google Analytics account and display statistics, cURL is required. Please contact your server administrator to enable it, or manually enter your Tracking ID.' ), self::NOTICE_WARNING );
+				}
 		/**
 		 * Keeps data to be extracted as variables in the view.
 		 *
@@ -297,7 +313,7 @@ class Ga_Admin {
 		if ( !empty( $_GET[ 'err' ] ) ) {
 			switch ( $_GET[ 'err' ] ) {
 				case 1:
-					$data[ 'error_message' ] = Ga_Helper::ga_oauth_notice( 'There was a problem with Google Oauth2 authentication process.' );
+					$data[ 'error_message' ] = Ga_Helper::ga_oauth_notice( 'There was a problem with Google Oauth2 authentication process. Please verify your site has a valid SSL Certificate in place and is using the HTTPS protocol.' );
 					break;
 				case 2:
 					$data[ 'error_message' ] = Ga_Helper::ga_wp_notice( 'Authentication code is incorrect.', 'error', true );
@@ -329,10 +345,10 @@ class Ga_Admin {
 	 */
 	public static function get_accounts_selector() {
 		$selected = Ga_Helper::get_selected_account_data();
-                $selector = json_decode( get_option( self::GA_ACCOUNT_DATA_OPTION_NAME ), true );
-                if ( !Ga_Helper::is_code_manually_enabled() && empty( $selector ) )  {
-                    echo Ga_Helper::ga_wp_notice( "Hi there! It seems like we weren't able to locate a Google Analytics account attached to your email account. Can you please register for Google Analytics and then deactivate and reactivate the plugin?", self::NOTICE_WARNING );
-                }
+				$selector = json_decode( get_option( self::GA_ACCOUNT_DATA_OPTION_NAME ), true );
+				if ( !Ga_Helper::is_code_manually_enabled() && empty( $selector ) )  {
+					echo Ga_Helper::ga_wp_notice( "Hi there! It seems like we weren't able to locate a Google Analytics account attached to your email account. Can you please register for Google Analytics and then deactivate and reactivate the plugin?", self::NOTICE_WARNING );
+				}
 		return Ga_View_Core::load( 'ga_accounts_selector', array(
 			'selector'				 => $selector,
 			'selected'				 => $selected ? implode( "_", $selected ) : null,

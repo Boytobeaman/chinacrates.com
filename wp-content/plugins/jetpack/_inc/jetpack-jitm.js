@@ -9,12 +9,44 @@ jQuery( document ).ready( function( $ ) {
 			html += '<div class="jitm-banner__info">';
 			html += '<div class="jitm-banner__title">' + envelope.content.message + '</div>';
 			if ( envelope.content.description && envelope.content.description !== '' ) {
-				html += '<div class="jitm-banner__description">' + envelope.content.description + '</div>';
+				html += '<div class="jitm-banner__description">' + envelope.content.description;
+				if ( envelope.content.list.length > 0 ) {
+					html += '<ul class="banner__list">';
+					for ( var i = 0; i < envelope.content.list.length; i++ ) {
+
+						var text = envelope.content.list[ i ].item;
+
+						if ( envelope.content.list[ i ].url ) {
+							text = '<a href="' + envelope.content.list[ i ].url + '" target="_blank" rel="noopener noreferrer" data-module="' + envelope.feature_class + '" data-jptracks-name="nudge_item_click" data-jptracks-prop="jitm-' + envelope.id + '">' +
+								text + '</a>';
+						}
+
+						html += '<li>' +
+							'<svg class="gridicon gridicons-checkmark" height="16" width="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g>' +
+							'<path d="M9 19.414l-6.707-6.707 1.414-1.414L9 16.586 20.293 5.293l1.414 1.414" /></g></svg>' +
+							text +
+							'</li>';
+					}
+				}
+				html += '</div>';
 			}
 			html += '</div>';
+			if ( envelope.activate_module ) {
+				html += '<div class="jitm-banner__action" id="jitm-banner__activate">';
+				html += '<a href="#" data-module="' + envelope.activate_module + '" type="button" class="jitm-button is-compact is-primary jptracks" data-jptracks-name="nudge_click" data-jptracks-prop="jitm-' + envelope.id + '-activate_module">' + window.jitm_config.activate_module_text + '</a>';
+				html += '</div>';
+			}
 			if ( envelope.CTA.message ) {
+				var ctaClasses = 'jitm-button is-compact jptracks';
+				if (
+					envelope.CTA.primary &&
+					null === envelope.activate_module
+				) {
+					ctaClasses += ' is-primary';
+				}
+
 				html += '<div class="jitm-banner__action">';
-				html += '<a href="' + envelope.url + '" target="_blank" rel="noopener noreferrer" title="' + envelope.CTA.message + '" data-module="' + envelope.feature_class + '" type="button" class="jitm-button is-compact ' + ( envelope.CTA.primary ? 'is-primary' : '' ) + ' jptracks" data-jptracks-name="nudge_click" data-jptracks-prop="jitm-' + envelope.id + '">' + envelope.CTA.message + '</a>';
+				html += '<a href="' + envelope.url + '" target="' + ( envelope.CTA.newWindow === false ? '_self' : '_blank' ) + '" rel="noopener noreferrer" title="' + envelope.CTA.message + '" data-module="' + envelope.feature_class + '" type="button" class="' + ctaClasses + '" data-jptracks-name="nudge_click" data-jptracks-prop="jitm-' + envelope.id + '">' + envelope.CTA.message + '</a>';
 				html += '</div>';
 			}
 			html += '<a href="#" data-module="' + envelope.feature_class + '" class="jitm-banner__dismiss"></a>';
@@ -61,6 +93,32 @@ jQuery( document ).ready( function( $ ) {
 
 		// Add to Jetpack notices within the Jetpack settings app.
 		$template.prependTo( $( '#jp-admin-notices' ) );
+
+		// Handle Module activation button if it exists.
+		$template.find( '#jitm-banner__activate a' ).click( function() {
+			var $activate_button = $( this );
+
+			// Do not allow any requests if the button is disabled.
+			if ( $activate_button.attr( 'disabled' ) ) {
+				return false;
+			}
+
+			// Make request to activate module.
+			$.ajax( {
+				url: window.jitm_config.api_root + 'jetpack/v4/module/' + $activate_button.data( 'module' ) + '/active',
+				method: 'POST',
+				beforeSend: function( xhr ) {
+					xhr.setRequestHeader( 'X-WP-Nonce', $el.data( 'nonce' ) );
+
+					// Change the button status to disabled as the change is in progress.
+					$( '#jitm-banner__activate a' ).text( window.jitm_config.activating_module_text );
+					$( '#jitm-banner__activate a' ).attr( 'disabled', true );
+				}
+			} ).done( function() {
+				$( '#jitm-banner__activate a' ).text( window.jitm_config.activated_module_text );
+				$( '#jitm-banner__activate a' ).attr( 'disabled', true );
+			} );
+		} );
 	};
 
 	$( '.jetpack-jitm-message' ).each( function() {

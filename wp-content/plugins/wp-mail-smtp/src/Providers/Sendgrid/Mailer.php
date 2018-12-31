@@ -52,7 +52,7 @@ class Mailer extends MailerAbstract {
 
 		$body = parent::get_body();
 
-		return wp_json_encode( $body );
+		return function_exists( 'wp_json_encode' ) ? wp_json_encode( $body ) : json_encode( $body ); // phpcs:ignore
 	}
 
 	/**
@@ -171,11 +171,11 @@ class Mailer extends MailerAbstract {
 				)
 			);
 		} else {
-			$data['type']  = 'text/plain';
+			$data['type']  = 'text/html';
 			$data['value'] = $content;
 
-			if ( $this->phpmailer->ContentType === 'text/html' ) {
-				$data['type'] = 'text/html';
+			if ( $this->phpmailer->ContentType === 'text/plain' ) {
+				$data['type'] = 'text/plain';
 			}
 
 			$this->set_body_param(
@@ -225,7 +225,7 @@ class Mailer extends MailerAbstract {
 			$data[] = array(
 				'content'     => base64_encode( $file ),
 				'type'        => $attachment[4],
-				'filename'    => $attachment[1],
+				'filename'    => $attachment[2],
 				'disposition' => $attachment[6],
 			);
 		}
@@ -340,5 +340,20 @@ class Mailer extends MailerAbstract {
 		$mg_text[] = '<strong>Api Key:</strong> ' . ( ! empty( $mailgun['api_key'] ) ? 'Yes' : 'No' );
 
 		return implode( '<br>', $mg_text );
+	}
+
+	/**
+	 * @inheritdoc
+	 */
+	public function is_mailer_complete() {
+
+		$options = $this->options->get_group( $this->mailer );
+
+		// API key is the only required option.
+		if ( ! empty( $options['api_key'] ) ) {
+			return true;
+		}
+
+		return false;
 	}
 }

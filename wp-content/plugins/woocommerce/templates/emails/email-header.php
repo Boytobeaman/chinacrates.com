@@ -22,21 +22,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 ?>
 <!DOCTYPE html>
-<html dir="<?php echo is_rtl() ? 'rtl' : 'ltr'?>">
+<html <?php language_attributes(); ?>>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=<?php bloginfo( 'charset' ); ?>" />
 		<title><?php echo get_bloginfo( 'name', 'display' ); ?></title>
-	<!-- q-shine.net.cn Baidu tongji analytics -->
-<script>
-var _hmt = _hmt || [];
-(function() {
-var hm = document.createElement("script");
-hm.src = "https://hm.baidu.com/hm.js?fbb248e05f28d765b52b43006420f164";
-var s = document.getElementsByTagName("script")[0];
-s.parentNode.insertBefore(hm, s);
-})();
-</script>
-</head>
+	</head>
 	<body <?php echo is_rtl() ? 'rightmargin' : 'leftmargin'; ?>="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
 		<div id="wrapper" dir="<?php echo is_rtl() ? 'rtl' : 'ltr'?>">
 			<table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">

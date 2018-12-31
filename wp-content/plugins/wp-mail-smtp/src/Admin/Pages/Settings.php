@@ -38,11 +38,12 @@ class Settings extends PageAbstract {
 	 */
 	public function display() {
 
-		$options = new Options();
-		$mailer  = $options->get( 'mail', 'mailer' );
+		$options  = new Options();
+		$mailer   = $options->get( 'mail', 'mailer' );
+		$disabled = 'gmail' === $mailer ? 'disabled' : '';
 		?>
 
-		<form method="POST" action="">
+		<form method="POST" action="" autocomplete="off">
 			<?php $this->wp_nonce_field(); ?>
 
 			<!-- Mail Section Title -->
@@ -60,22 +61,45 @@ class Settings extends PageAbstract {
 				<div class="wp-mail-smtp-setting-field">
 					<input name="wp-mail-smtp[mail][from_email]" type="email"
 						value="<?php echo esc_attr( $options->get( 'mail', 'from_email' ) ); ?>"
-						<?php echo $options->is_const_defined( 'mail', 'from_email' ) ? 'disabled' : ''; ?>
+						<?php echo $options->is_const_defined( 'mail', 'from_email' ) || ! empty( $disabled ) ? 'disabled' : ''; ?>
 						id="wp-mail-smtp-setting-from_email" spellcheck="false"
-					/>
-					<p class="desc">
-						<?php esc_html_e( 'You can specify the email address that emails should be sent from.', 'wp-mail-smtp' ); ?><br/>
-						<?php
-						printf(
-							/* translators: %s - default email address. */
-							esc_html__( 'If you leave this blank, the default one will be used: %s.', 'wp-mail-smtp' ),
-							'<code>' . wp_mail_smtp()->get_processor()->get_default_email() . '</code>'
-						);
-						?>
-					</p>
-					<p class="desc">
-						<?php esc_html_e( 'Please note if you are sending using an email provider (Gmail, Yahoo, Hotmail, Outlook.com, etc) this setting should be your email address for that account.', 'wp-mail-smtp' ); ?>
-					</p>
+						placeholder="<?php echo esc_attr( wp_mail_smtp()->get_processor()->get_default_email() ); ?>">
+
+					<?php if ( ! empty( $disabled ) ) : ?>
+						<p class="desc">
+							<?php esc_html_e( 'Gmail doesn\'t allow to override From Email. Emails will be sent using the email address you used to setup the connection.', 'wp-mail-smtp' ); ?>
+						</p>
+					<?php else : ?>
+						<p class="desc">
+							<?php esc_html_e( 'The email address which emails are sent from.', 'wp-mail-smtp' ); ?><br/>
+							<?php esc_html_e( 'If you using an email provider (Gmail, Yahoo, Outlook.com, etc) this should be your email address for that account.', 'wp-mail-smtp' ); ?>
+						</p>
+						<p class="desc">
+							<?php esc_html_e( 'Please note that other plugins can change this, to prevent this use the setting below.', 'wp-mail-smtp' ); ?>
+						</p>
+					<?php endif; ?>
+
+					<hr class="wp-mail-smtp-setting-mid-row-sep">
+
+					<input name="wp-mail-smtp[mail][from_email_force]" type="checkbox"
+						value="true" <?php checked( true, (bool) $options->get( 'mail', 'from_email_force' ) ); ?>
+						<?php echo $options->is_const_defined( 'mail', 'from_email_force' ) || ! empty( $disabled ) ? 'disabled' : ''; ?>
+						id="wp-mail-smtp-setting-from_email_force">
+
+					<label for="wp-mail-smtp-setting-from_email_force">
+						<?php esc_html_e( 'Force From Email', 'wp-mail-smtp' ); ?>
+					</label>
+
+					<?php if ( ! empty( $disabled ) ) : ?>
+						<p class="desc">
+							<?php esc_html_e( 'Gmail doesn\'t allow to override From Email. Emails will be sent using the email address you used to setup the connection.', 'wp-mail-smtp' ); ?>
+						</p>
+					<?php else : ?>
+						<p class="desc">
+							<?php esc_html_e( 'If checked, the From Email setting above will be used for all emails, ignoring values set by other plugins.', 'wp-mail-smtp' ); ?>
+						</p>
+					<?php endif; ?>
+
 				</div>
 			</div>
 
@@ -87,19 +111,40 @@ class Settings extends PageAbstract {
 				<div class="wp-mail-smtp-setting-field">
 					<input name="wp-mail-smtp[mail][from_name]" type="text"
 						value="<?php echo esc_attr( $options->get( 'mail', 'from_name' ) ); ?>"
-						<?php echo $options->is_const_defined( 'mail', 'from_name' ) ? 'disabled' : ''; ?>
+						<?php echo $options->is_const_defined( 'mail', 'from_name' ) || ! empty( $disabled ) ? 'disabled' : ''; ?>
 						id="wp-mail-smtp-setting-from_name" spellcheck="false"
-					/>
-					<p class="desc">
-						<?php esc_html_e( 'You can specify the name that emails should be sent from.', 'wp-mail-smtp' ); ?><br/>
-						<?php
-						printf(
-							/* translators: %s - WordPress. */
-							esc_html__( 'If you leave this blank, the emails will be sent from %s.', 'wp-mail-smtp' ),
-							'<code>WordPress</code>'
-						);
-						?>
-					</p>
+						placeholder="<?php echo esc_attr( wp_mail_smtp()->get_processor()->get_default_name() ); ?>">
+
+					<?php if ( ! empty( $disabled ) ) : ?>
+						<p class="desc">
+							<?php esc_html_e( 'Gmail doesn\'t allow to override From Name. Emails will not have From Name defined at all.', 'wp-mail-smtp' ); ?>
+						</p>
+					<?php else : ?>
+						<p class="desc">
+							<?php esc_html_e( 'The name which emails are sent from.', 'wp-mail-smtp' ); ?>
+						</p>
+					<?php endif; ?>
+
+					<hr class="wp-mail-smtp-setting-mid-row-sep">
+
+					<input name="wp-mail-smtp[mail][from_name_force]" type="checkbox"
+						value="true" <?php checked( true, (bool) $options->get( 'mail', 'from_name_force' ) ); ?>
+						<?php echo $options->is_const_defined( 'mail', 'from_name_force' ) || ! empty( $disabled ) ? 'disabled' : ''; ?>
+						id="wp-mail-smtp-setting-from_name_force">
+
+					<label for="wp-mail-smtp-setting-from_name_force">
+						<?php esc_html_e( 'Force From Name', 'wp-mail-smtp' ); ?>
+					</label>
+
+					<?php if ( ! empty( $disabled ) ) : ?>
+						<p class="desc">
+							<?php esc_html_e( 'Gmail doesn\'t allow to override From Name. Emails will not have From Name defined at all.', 'wp-mail-smtp' ); ?>
+						</p>
+					<?php else : ?>
+						<p class="desc">
+							<?php esc_html_e( 'If checked, the From Name setting above will be used for all emails, ignoring values set by other plugins.', 'wp-mail-smtp' ); ?>
+						</p>
+					<?php endif; ?>
 				</div>
 			</div>
 
@@ -126,7 +171,9 @@ class Settings extends PageAbstract {
 										<?php checked( $provider->get_slug(), $mailer ); ?>
 										<?php echo $options->is_const_defined( 'mail', 'mailer' ) ? 'disabled' : ''; ?>
 									/>
-									<label for="wp-mail-smtp-setting-mailer-<?php echo esc_attr( $provider->get_slug() ); ?>"><?php echo $provider->get_title(); ?></label>
+									<label for="wp-mail-smtp-setting-mailer-<?php echo esc_attr( $provider->get_slug() ); ?>">
+										<?php echo esc_html( $provider->get_title() ); ?>
+									</label>
 								</div>
 							</div>
 
@@ -144,16 +191,23 @@ class Settings extends PageAbstract {
 				<div class="wp-mail-smtp-setting-field">
 					<input name="wp-mail-smtp[mail][return_path]" type="checkbox"
 						value="true" <?php checked( true, (bool) $options->get( 'mail', 'return_path' ) ); ?>
-						<?php echo $options->is_const_defined( 'mail', 'return_path' ) ? 'disabled' : ''; ?>
-						id="wp-mail-smtp-setting-return_path"
-					/>
+						<?php echo $options->is_const_defined( 'mail', 'return_path' ) || ! empty( $disabled ) ? 'disabled' : ''; ?>
+						id="wp-mail-smtp-setting-return_path">
+
 					<label for="wp-mail-smtp-setting-return_path">
 						<?php esc_html_e( 'Set the return-path to match the From Email', 'wp-mail-smtp' ); ?>
 					</label>
-					<p class="desc">
-						<?php esc_html_e( 'Return Path indicates where non-delivery receipts - or bounce messages - are to be sent.', 'wp-mail-smtp' ); ?><br/>
-						<?php esc_html_e( 'If unchecked bounce messages may be lost.', 'wp-mail-smtp' ); ?>
-					</p>
+
+					<?php if ( ! empty( $disabled ) ) : ?>
+						<p class="desc">
+							<?php esc_html_e( 'Gmail doesn\'t allow to override Return Path. Emails will be bounced to the same email addresee they were sent from.', 'wp-mail-smtp' ); ?>
+						</p>
+					<?php else : ?>
+						<p class="desc">
+							<?php esc_html_e( 'Return Path indicates where non-delivery receipts - or bounce messages - are to be sent.', 'wp-mail-smtp' ); ?><br/>
+							<?php esc_html_e( 'If unchecked bounce messages may be lost.', 'wp-mail-smtp' ); ?>
+						</p>
+					<?php endif; ?>
 				</div>
 			</div>
 
@@ -188,6 +242,121 @@ class Settings extends PageAbstract {
 		</form>
 
 		<?php
+		$this->display_wpforms();
+	}
+
+	/**
+	 * Display a WPForms-related message.
+	 *
+	 * @since 1.3.0
+	 * @since 1.4.0 Display only to site admins.
+	 */
+	protected function display_wpforms() {
+
+		// Display only to site admins. Only site admins can install plugins.
+		if ( ! is_super_admin() ) {
+			return;
+		}
+
+		// Do not display if WPForms Pro already installed.
+		if ( class_exists( 'WPForms_Pro', false ) ) {
+			return;
+		}
+
+		$is_dismissed = get_user_meta( get_current_user_id(), 'wp_mail_smtp_wpforms_dismissed', true );
+
+		// Do not display if user dismissed.
+		if ( (bool) $is_dismissed === true ) {
+			return;
+		}
+		?>
+
+		<div id="wp-mail-smtp-wpforms">
+
+			<span class="wp-mail-smtp-wpforms-dismiss">
+				<button id="wp-mail-smtp-wpforms-dismiss">
+					<span class="dashicons dashicons-dismiss"></span>
+				</button>
+			</span>
+
+			<h2>
+				<?php esc_html_e( 'Get WPForms Pro and Support WP Mail SMTP', 'wp-mail-smtp' ); ?>
+			</h2>
+
+			<p>
+				<?php esc_html_e( 'WP Mail SMTP is a free plugin, and the team behind WPForms maintains it to give back to the WordPress community.', 'wp-mail-smtp' ); ?>
+			</p>
+
+			<p>
+				<?php
+				printf(
+					wp_kses(
+						/* translators: %s - WPForms.com URL. */
+						__( 'Please consider supporting us by <a href="%s" target="_blank" rel="noopener noreferrer">purchasing a WPForms Pro license</a>. Aside from getting access to the best drag & drop WordPress form builder plugin, your purchase will help us continue to maintain and add new features to the WP Mail SMTP plugin while keeping this SMTP plugin free for the larger WordPress community.', 'wp-mail-smtp' ),
+						array(
+							'a' => array(
+								'href'   => array(),
+								'target' => array(),
+								'rel'    => array(),
+							),
+						)
+					),
+					'https://wpforms.com/?discount=THANKYOU&utm_source=WordPress&utm_medium=settings-cta&utm_campaign=smtpplugin'
+				);
+				?>
+			</p>
+
+			<p>
+				<?php
+				printf(
+					/* translators: %s - link to WP.org repo and 5 HTML encoded stars as a label. */
+					esc_html__( 'We know that you will truly love WPForms. It has over 2000+ five star ratings (%s) and is active on over 1 million websites.', 'wp-mail-smtp' ),
+					'<a href="https://wordpress.org/support/plugin/wpforms-lite/reviews/?filter=5" target="_blank" rel="noopener noreferrer" class="stars"><span class="dashicons dashicons-star-filled"></span><span class="dashicons dashicons-star-filled"></span><span class="dashicons dashicons-star-filled"></span><span class="dashicons dashicons-star-filled"></span><span class="dashicons dashicons-star-filled"></span></a>'
+				);
+				?>
+			</p>
+
+			<p><strong><?php esc_html_e( 'Other Benefits:', 'wp-mail-smtp' ); ?></strong></p>
+
+			<div class="benefits">
+				<ul>
+					<li><?php esc_html_e( 'Access to premium support for WP Mail SMTP', 'wp-mail-smtp' ); ?></li>
+					<li><?php esc_html_e( 'Get the best drag & drop form builder', 'wp-mail-smtp' ); ?></li>
+					<li><?php esc_html_e( 'All form features like file upload, pagination, etc', 'wp-mail-smtp' ); ?></li>
+					<li><?php esc_html_e( 'Create surveys & polls with the surveys addon', 'wp-mail-smtp' ); ?></li>
+				</ul>
+				<ul>
+					<li><?php esc_html_e( 'No future ads inside WP Mail SMTP admin', 'wp-mail-smtp' ); ?></li>
+					<li><?php esc_html_e( 'Pre-made form templates and smart conditional logic', 'wp-mail-smtp' ); ?></li>
+					<li><?php esc_html_e( '500+ integrations with different marketing & payment services', 'wp-mail-smtp' ); ?></li>
+					<li><?php esc_html_e( 'Collect signatures, geo-location data, and more', 'wp-mail-smtp' ); ?></li>
+				</ul>
+			</div>
+
+			<p>
+				<?php
+				printf(
+					wp_kses(
+						/* translators: %1$s - WPForms.com URL, %2$s - percents off. */
+						__( '<a href="%1$s" target="_blank" rel="noopener noreferrer">Get WPForms Pro and support WP Mail SMTP</a> - use coupon "<strong>thankyou</strong>" to save %2$s off your purchase.', 'wp-mail-smtp' ),
+						array(
+							'a'      => array(
+								'href'   => array(),
+								'target' => array(),
+								'rel'    => array(),
+							),
+							'strong' => array(),
+						)
+					),
+					'https://wpforms.com/?discount=THANKYOU&utm_source=WordPress&utm_medium=settings-cta&utm_campaign=smtpplugin',
+					'20%'
+				);
+				?>
+			</p>
+
+		</div>
+
+		<?php
 	}
 
 	/**
@@ -201,6 +370,12 @@ class Settings extends PageAbstract {
 		$old_opt = $options->get_all();
 
 		// When checkbox is unchecked - it's not submitted at all, so we need to define its default false value.
+		if ( ! isset( $data['mail']['from_email_force'] ) ) {
+			$data['mail']['from_email_force'] = false;
+		}
+		if ( ! isset( $data['mail']['from_name_force'] ) ) {
+			$data['mail']['from_name_force'] = false;
+		}
 		if ( ! isset( $data['mail']['return_path'] ) ) {
 			$data['mail']['return_path'] = false;
 		}
@@ -212,7 +387,11 @@ class Settings extends PageAbstract {
 		}
 
 		// Remove all debug messages when switching mailers.
-		if ( $old_opt['mail']['mailer'] !== $data['mail']['mailer'] ) {
+		if (
+			! empty( $old_opt['mail']['mailer'] ) &&
+			! empty( $data['mail']['mailer'] ) &&
+			$old_opt['mail']['mailer'] !== $data['mail']['mailer']
+		) {
 			Debug::clear();
 		}
 
@@ -221,6 +400,8 @@ class Settings extends PageAbstract {
 		// Old and new Gmail client id/secret values are different - we need to invalidate tokens and scroll to Auth button.
 		if (
 			$options->get( 'mail', 'mailer' ) === 'gmail' &&
+			! empty( $data['gmail']['client_id'] ) &&
+			! empty( $data['gmail']['client_secret'] ) &&
 			(
 				$options->get( 'gmail', 'client_id' ) !== $data['gmail']['client_id'] ||
 				$options->get( 'gmail', 'client_secret' ) !== $data['gmail']['client_secret']

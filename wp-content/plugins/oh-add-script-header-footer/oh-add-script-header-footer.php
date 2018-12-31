@@ -4,7 +4,7 @@
  * Plugin URI: http://sogo.co.il
  * Description:  create a simple way to add js code to individual page post or custom post type header
  * and footer, in this way it enable you to add google re-marketing code to individual pages
- * Version: 3.0
+ * Version: 3.2
  * Author: orenhav (SOGO)
  * Author URI: http://sogo.co.il
  *

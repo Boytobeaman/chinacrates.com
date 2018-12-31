@@ -103,6 +103,14 @@ const GA_AUTHENTICATION_CODE_ERROR = 'That looks like your Google Analytics Trac
             $('#' + GA_MODAL_CLOSE_ID + ', #' + GA_MODAL_BTN_CLOSE_ID + ', #' + GA_DEBUG_MODAL_ID ).on('click', function () {
                 ga_modal.hide();
             });
+
+            $( '#copy-debug' ).on( 'click', function() {
+                var copiedText = $( '#ga_debug_info' );
+
+	            copiedText.select();
+	            document.execCommand( 'copy' );
+            } );
+
             $('#' + GA_DEBUG_MODAL_CONTENT_ID ).click(function(event){
                 event.stopPropagation();
             });
@@ -123,7 +131,7 @@ const GA_AUTHENTICATION_CODE_ERROR = 'That looks like your Google Analytics Trac
                 checkbox.removeProp('checked');
             }
 
-            $("#ga-slider").on("click", function (e) {
+            $(".ga-slider-disable").on("click", function (e) {
                 var manually_enter_not_checked = $('#ga_enter_code_manually').not(':checked');
                 if (checkbox.not(':checked').length > 0) {
                     if (confirm('This will disable Dashboards, Viral Alerts and Google API')) {

@@ -4,15 +4,11 @@
  *
  * Returns an array of countries and codes.
  *
- * @author      WooThemes
- * @category    i18n
- * @package     WooCommerce/i18n
- * @version     2.5.0
+ * @package WooCommerce/i18n
+ * @version 2.5.0
  */
 
-if ( ! defined( 'ABSPATH' ) ) {
-	exit;
-}
+defined( 'ABSPATH' ) || exit;
 
 return array(
 	'AF' => __( 'Afghanistan', 'woocommerce' ),
@@ -121,7 +117,7 @@ return array(
 	'ID' => __( 'Indonesia', 'woocommerce' ),
 	'IR' => __( 'Iran', 'woocommerce' ),
 	'IQ' => __( 'Iraq', 'woocommerce' ),
-	'IE' => __( 'Republic of Ireland', 'woocommerce' ),
+	'IE' => __( 'Ireland', 'woocommerce' ),
 	'IM' => __( 'Isle of Man', 'woocommerce' ),
 	'IL' => __( 'Israel', 'woocommerce' ),
 	'IT' => __( 'Italy', 'woocommerce' ),

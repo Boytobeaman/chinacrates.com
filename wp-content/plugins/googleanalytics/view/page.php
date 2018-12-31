@@ -1,3 +1,8 @@
+<?php
+$optimize_code = get_option( 'googleanalytics_optimize_code' );
+$universal     = get_option( 'googleanalytics_enable_universal_analytics', true );
+$anonymization = get_option( 'googleanalytics_ip_anonymization', true );
+?>
 <div id="ga_access_code_modal" class="ga-modal" tabindex="-1">
     <div class="ga-modal-dialog">
         <div class="ga-modal-content">
@@ -142,28 +147,35 @@
 
                     </td>
                 </tr>
-                <tr valign="top">
-                  <td colspan="2">
-                    <p>If you experience an issue with this plugin, we are here to help! You can visit our <a href="https://googleanalytics.zendesk.com/hc/en-us">support portal</a> to find answers to the most frequently asked questions and to submit a support request. We aim to respond to everyone within one business day.</p>
-              			<p>If your issue is difficult to debug, click the button below to automatically send us your error logs and debugging info.</p>
-                    <p>
-                        <button id="ga_debug_button" class="button button-secondary" onclick="ga_debug.open_modal( event )" >Send Debugging Info</button>
-	                    <?php if ( ! empty( $data['ga_accounts_selector'] ) ): ?>
-			                <?php echo $data[ 'auth_button' ] ?>
-	                    <?php endif; ?>
-                    </p>
-                  </td>
-                </tr>
-                <tr valign="top">
-                    <th scope="row"><?php _e( 'Disable all features' ) ?>:</th>
-                    <td>
-						<label class="ga-switch">
-                            <input id="ga-disable" name="<?php echo Ga_Admin::GA_DISABLE_ALL_FEATURES; ?>"
-                                   type="checkbox">
-							<div id="ga-slider" class="ga-slider round"></div>
-						</label
-					</td>
-				</tr>
+	            <tr valign="top">
+		            <th scope="row"><?php _e( 'Enable IP Anonymization' ) ?>:</th>
+		            <td>
+			            <label class="ga-switch">
+				            <input id="ga-anonymization" name="googleanalytics_ip_anonymization"
+				                   type="checkbox" <?php echo checked( $anonymization, 'on' ); ?>>
+				            <div id="ga-slider" class="ga-slider round"></div>
+			            </label
+		            </td>
+	            </tr>
+	            <tr valign="top">
+		            <th scope="row"><?php _e( 'If using Google Optimize, enter optimize code here' ) ?>:</th>
+		            <td>
+			            <label class="ga-text">
+				            <input id="ga-optimize" name="googleanalytics_optimize_code"
+				                   type="text" placeholder="GTM-XXXXXX" value="<?php echo esc_attr( $optimize_code ); ?>">
+			            </label
+		            </td>
+	            </tr>
+	            <tr valign="top">
+		            <th scope="row"><?php _e( 'Disable all features' ) ?>:</th>
+		            <td>
+			            <label class="ga-switch">
+				            <input id="ga-disable" name="<?php echo Ga_Admin::GA_DISABLE_ALL_FEATURES; ?>"
+				                   type="checkbox">
+				            <div id="ga-slider" class="ga-slider-disable ga-slider round"></div>
+			            </label
+		            </td>
+	            </tr>
             </table>
 
             <p class="submit">
@@ -172,9 +184,25 @@
             </p>
         </form>
     </div>
-    <p class="ga-love-text"><?php _e( 'Love this plugin?' ); ?> <a
-                href="https://wordpress.org/support/plugin/googleanalytics/reviews/#new-post"><?php _e( ' Please help spread the word by leaving a 5-star review!' ); ?> </a>
-    </p>
+	<tr valign="top">
+		<td colspan="2">
+			<p>If you are still experiencing an issue, we are here to help! We recommend clickingthe "Send Debugging Info" button below and pasting the information within an email to support@sharethis.com.</p>
+			<p>
+				<button id="ga_debug_button" class="button button-secondary" onclick="ga_debug.open_modal( event )" >Send Debugging Info</button>
+				<?php if ( ! empty( $data['ga_accounts_selector'] ) ): ?>
+					<?php echo $data[ 'auth_button' ] ?>
+					<br>
+					<small class="notice">
+						*If you reset your google password you MUST re-authenticate to continue viewing your analytics dashboard.
+					</small>
+				<?php endif; ?>
+			</p>
+		</td>
+	</tr>
+
+	<p class="ga-love-text"><?php _e( 'Love this plugin?' ); ?> <a
+			href="https://wordpress.org/support/plugin/googleanalytics/reviews/#new-post"><?php _e( ' Please help spread the word by leaving a 5-star review!' ); ?> </a>
+	</p>
 </div>
 <script type="text/javascript">
     const GA_DISABLE_FEATURE_URL = '<?php echo Ga_Helper::create_url(admin_url(Ga_Helper::GA_SETTINGS_PAGE_URL), array(Ga_Controller_Core::ACTION_PARAM_NAME => 'ga_action_disable_all_features')); ?>';
